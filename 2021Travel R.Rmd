@@ -1,0 +1,19 @@
+---
+title: "2021 Travel"
+author: "Paul Kiefer"
+date: "2023-09-11"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library("tidyverse")
+```
+
+```{r}
+setwd("C:/Users/paulf/JOUR772")
+house_2021=read_delim("2021Travel.txt")
+```
