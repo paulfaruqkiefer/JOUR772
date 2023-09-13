@@ -1,0 +1,112 @@
+---
+title: "lab_01"
+author: "Derek Willis"
+date: "2023-01-05"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# Turn off scientific notation
+options(scipen=999)
+```
+
+## About this lab
+
+To complete this lab, you need to: \* run existing code as directed (look for **Task**). \* modify existing code as directed (look for **Task**). \* write code in empty codeblocks provided to answer questions included (look for **Q**). \* write out the answer in the form of a complete sentence in the space given (look for **A**). When you are finished, commit changes and push to your personal GitHub repo, then submit the URL to this document on ELMS.
+
+Remember to add any new verbs or concepts to your class reference notebook!
+
+## Load libraries and establish settings
+
+**Task** Run the codeblock below to load the Tidyverse. To run the codeblock, hit the little green play button in the upper right corner of the gray area (the codeblock) below.
+
+```{r}
+# Load the tidyverse. If you have not installed the tidyverse already, remove the # from the next line and run it first.  
+# install.packages('tidyverse')
+library(tidyverse)
+```
+
+## Load Data
+
+We're going to load the UMD courses data.
+
+**Task** Run the codeblock below to load the data, which is contained in an RDS file.
+
+```{r}
+umd_courses <- read_rds("lab_01.rds")
+```
+
+## Answer questions
+
+**Q1** Which department has the highest mean (average) number of seats for its classes? You need to show the department with the highest average first. Which one is the most surprising/interesting to you?
+**A1**
+
+While I understand that business degrees are exceedingly popular, I do not understand how a student could learn "entrepreneurship" skills -- which I imagine are very personality-specific -- in a class with 86 students.
+
+It may be a sign of the times that the average class size for Arabic courses has been eclipsed by that of Korean courses, but I incorrectly assumed that a University adjacent to Washington, DC would have more than 13 seats in the average Russian language course.
+
+Also, I could easily search the department mid-lab, but for the sake of focus, I will wait to figure out what the "air science" department studies - is it aerospace engineering? 
+
+
+
+```{r}
+umd_courses |>
+  group_by(department) |>
+  summarise(
+    mean_seats = mean(seats),
+  ) |>
+  arrange(desc(mean_seats))
+
+```
+
+**Q2** Find out the greatest number of times any individual class has been offered in our dataset. Your code must show the greatest number of classes first. 
+**A2** A class can be offered a maximum of 22 times within our dataset.
+
+How would I associate a course name with a course ID?
+
+```{r}
+umd_courses |>
+  group_by(id) |>
+  summarise(
+    count_classes = n(),
+  ) |>
+  arrange(desc(count_classes))
+```
+
+**Q3** Count the number of courses for each instructor and department. Which instructor has taught the most? **A3**
+
+Of the professors named in the dataset, Keith Yearwood of the geographical sciences department has taught the most classes (61), followed by Tim Keimel in the kinesiology (60).
+
+```{r}
+umd_courses |>
+  group_by(instructors, department) |>
+  summarise(
+    count_classes = n()
+  ) |>
+  arrange(desc(count_classes))
+```
+
+**Q4** Given the results for Q3, what would have made it easier to find the answer? You don't have to know *how* to accomplish this; I want you to describe in words what would make the answer easier to see. How confident are you that the answer you got is the right one, and why? **A4**
+
+Given how many courses do not list an instructor (possibly because they have multiple instructors), I could make the search easier by filtering out any courses in which the "instructors" field has no value (i.e. NA). 
+
+I am not confident that I have the correct answer because, as I mentioned previously, a single course can conceivably have multiple instructors. If a given professor taught 64 courses within our dataset but was always one of several instructors assigned to a course, they would not appear in our dataset.
+
+**Q5** Take one of the questions you listed in the final question of the pre_lab and try to answer it here in code. If you don't know how to fully answer it, write what code you can and describe in words what else you would need to do. If you got an answer, is it interesting? **A5**
+
+1. Which department's courses have the highest mean and median number of seats?
+
+```{r}
+umd_courses |>
+  group_by(department) |>
+  summarise(
+    mean_seats=mean(seats),
+    median_seats=median(seats),
+  ) |>
+  arrange(desc(mean_seats), desc(median_seats))
+```
+
+These results suggest that determining which department has the highest average number of seats per class somewhat misrepresents what a student would encounter when stepping into a random classroom within that department. Many departments -- including Engineering Science, Chemistry, Air Science, Computer Science and Mathematics -- have one or several very large classes that inflate their average seat count. 
+
+If I knew how, I would identify those outlier classes by filtering for all classes with a seat count 50+ percent higher than its department's median seat count. I could then count the number of outlier classes per department.
