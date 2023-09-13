@@ -63,7 +63,7 @@ umd_courses |>
 **Q2** Find out the greatest number of times any individual class has been offered in our dataset. Your code must show the greatest number of classes first. 
 **A2** A class can be offered a maximum of 22 times within our dataset.
 
-How would I associate a course name with a course ID?
+How would I associate a course name with a course ID if the course name changed from semester to semester? Could I associate a name fragment, assuming there are any common words/word fragments between names?
 
 ```{r}
 umd_courses |>
@@ -105,6 +105,7 @@ umd_courses |>
     median_seats=median(seats),
   ) |>
   arrange(desc(mean_seats), desc(median_seats))
+#is this where I would put the additional code to identify outlier courses? for context, see below table.#
 ```
 
 These results suggest that determining which department has the highest average number of seats per class somewhat misrepresents what a student would encounter when stepping into a random classroom within that department. Many departments -- including Engineering Science, Chemistry, Air Science, Computer Science and Mathematics -- have one or several very large classes that inflate their average seat count. 
