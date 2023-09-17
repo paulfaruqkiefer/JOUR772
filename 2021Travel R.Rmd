@@ -1,7 +1,7 @@
 ---
-title: "2021 Travel"
+title: "house_kiefer_2021.rmd"
 author: "Paul Kiefer"
-date: "2023-09-11"
+date: "r Sys.Date()"
 output: html_document
 ---
 
@@ -17,3 +17,105 @@ library("tidyverse")
 setwd("C:/Users/paulf/JOUR772")
 house_2021=read_delim("2021Travel.txt")
 ```
+
+```{r}
+resolve_parsing_issue = function(df) {
+
+pattern = "^\\d{9}$"
+
+# Add a sequential column to our df where the values are just the index number
+
+df$"index_number" = 1:nrow(df)
+
+
+# Initialize a variable to keep track of the indexes to remove
+indexes_to_remove <- c()
+
+# Initialize a variable to keep track of the last index where df$DocID matched the pattern
+
+last_matched_index = 0
+
+# Iterate through the rows of the df frame
+for (i in 1:nrow(df)) {
+  # If the pattern matches, store the index number in last_matched_index
+  if (grepl(pattern, df$DocID[i])) {
+    last_matched_index = i
+  } else {
+    # If the DocID doesn't match the pattern, append it to TravelSponsor[last_matched]
+    df$TravelSponsor[last_matched_index] <- paste(df$TravelSponsor[last_matched_index], df$DocID[i], sep = "")
+    # Add the index to the list of indexes to remove
+    indexes_to_remove <- c(indexes_to_remove, i)
+  }
+}
+
+# Remove rows with unmatched strings
+df <- df[-indexes_to_remove, ]
+
+}
+```
+
+```{r}
+
+house_2021 = resolve_parsing_issue(house_2021)
+
+house_2021
+
+```
+
+
+
+# Questions:
+
+How many filings?
+How many amendments vs. original filings?
+How many members vs. staff travelers?
+Who are the top sponsors?
+Who are the top travelers?
+What are the top destinations?
+
+```{r}
+# Number of filings
+
+cat("In 2021, there were", nrow(house_2021), "total filings")
+
+```
+# Number of amendments vs original filings
+```{r}
+amendments_2021 = house_2021 %>%
+  filter(FilingType == "Amendment")
+
+originals_2021 = house_2021 %>%
+  filter(FilingType == "Original")
+
+cat("In 2021, there were", nrow(amendments_2021),"amendments vs", nrow(originals_2021), "original filings")
+```
+```{r}
+install.packages("humaniformat")
+```
+
+
+# How many members vs staff travelers?
+
+```{r}
+library("humaniformat")
+```
+
+```{r}
+member_parsed_names_2021 = parse_names()
+```
+```{r}
+n = 0
+for (ID in member_parsed_names_2021)
+  if ("ID" != "Membername")
+    member_traveler = (n+1)
+  else 
+    staff_traveler = (n+1)
+```
+```
+
+```{r}
+install.packages("ppcong")
+# install.packages("remotes")
+remotes::install_github("mkearney/ppcong")
+```
+
