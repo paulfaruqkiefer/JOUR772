@@ -1,0 +1,191 @@
+---
+title: "lab_02"
+author: "derek willis"
+date: "2023-09-15"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load libraries and establish settings
+
+```{r}
+# Turn off scientific notation
+options(scipen=999)
+
+# Load the tidyverse. If you have not installed the tidyverse already, remove the # from the next line and run it first.  
+install.packages('tidyverse')
+library(tidyverse)
+library(lubridate)
+```
+
+## Load Data
+
+Let's keep working with the UMD courses and Maryland campaign expense data we used in the pre_lab.
+
+```{r}
+umd_courses <- read_rds("data/umd_courses.rds")
+maryland_expenses <- read_csv("data/maryland_expenses.csv")
+```
+
+## Answer questions
+
+**Q1.** How many departments have offered the courses with "Climate" in the title and at least one seat? Which department has offered the most?
+**A1.**
+
+There are 223 courses with the word "Climate" in the title and at least one seat. The Department of Atmospheric and Oceanic Science offers the largest share of those courses (68).
+
+```{r}
+and_climate_title_seats_1 <- umd_courses |> filter((str_detect(title, "Climate")) & seats >= 1)
+
+nrow(and_climate_title_seats_1)
+
+and_climate_title_seats_1
+```
+```{r}
+and_climate_title_seats_1 |>
+  group_by(department) |>
+  summarise(
+    count_classes = n()
+  ) |>
+  arrange(desc(count_classes))
+```
+
+
+**Q2.** Of the departments listed in A2, which one is the most interesting to you, and why?
+**A2.**
+
+The Department of Mechanical Engineering is one of a few outliers among departments offering courses with the word "Climate" in the title. It offers two courses on climate control systems and building design, which -- unlike most courses with the word "Climate" in the title -- is not directly related to climate change. In some education-related courses, the word "climate" refers to classroom environments.
+
+```{r}
+dept_mech_engineering_climate_courses <- and_climate_title_seats_1 |> filter(department == "Engineering, Mechanical")
+
+dept_mech_engineering_climate_courses
+```
+
+
+
+**Q3** Which departments have the most courses in the Fall 2023 term? And which departments in that term have at least one syllabus posted? How are the top five departments different in each result?
+
+**A3.**
+
+The Department of Business and Management, the School of Music, the English Department, the Department of Teaching and Learning's Policy and Leadership program and the Department of Information Studies offer the most courses in the Fall 2023 term. 
+
+Of the five departments offering the most courses in the Fall 2023 term, only the Department of Business and Management is also among the five departments with the highest number of posted syllabi. The other four are the Department of Economics, the Department of Philosophy, the Biological Sciences Program and the First-Year Innovation and Research Program. 
+
+
+```{r}
+umd_courses_fall <- umd_courses |> filter(term == 202308)
+
+umd_courses_fall |>
+  group_by(department) |>
+  summarise(
+    count_classes = n(),
+  ) |>
+  arrange(desc(count_classes))
+```
+```{r}
+umd_courses_fall <- umd_courses |> filter(term == 202308)
+  
+umd_courses_fall_syllabus_over_1  <- umd_courses_fall |> filter(syllabus_count >= 1)
+
+umd_courses_fall_syllabus_over_1
+
+umd_courses_fall_syllabus_over_1 |>
+  group_by(department) |>
+  summarise(
+    total_syllabus = sum(syllabus_count),
+  ) |>
+  arrange(desc(total_syllabus))
+```
+
+**Q4.** Using the Maryland campaign expenses data, change the datatype of the expenditure_date column so that it is a date and not a chr, saving the result as the same dataframe. Then create a new column for the month based on expenditure_date. Then write code that shows total amount spent each month by Wes Moore's committee (you'll need to search the data to find the exact name). Write a sentence describing the pattern of spending over time.
+**A4.**
+
+Moore's campaign spent the most in October (immediately before the general election) and in June/July (ahead of the Democratic primary in mid-July, hence the lower spending in July relative to June). The fourth-highest month of spending, November 2022, points to a burst of spending in the week of the general election. 
+
+```{r}
+maryland_expenses <- maryland_expenses |> mutate(expenditure_date=mdy(expenditure_date))
+
+head(maryland_expenses)
+```
+```{r}
+
+maryland_expenses_moore  <- maryland_expenses |> filter(committee_name == "Moore  Wes For Maryland")
+
+maryland_expenses_moore |>
+  mutate(month = floor_date(expenditure_date, "month")) |>
+  group_by(month) |>
+  summarise(total_amount = sum(amount)) |>
+  arrange(desc(total_amount))
+```
+
+**Q5.** Using case_when(), create a column in the Maryland expenses data called `spending_location` indicating whether each record spent money in Maryland or outside Maryland. For records that are in Maryland, make the new column's value "In-state" and for the others, make it "Out of state". Then write code that shows the total amount of money spent in each category and describe the results. You can do this in one statement or break it up into two statements (saving the new column to your dataframe).
+**A5**
+
+
+```{r}
+maryland_expenses <- maryland_expenses |>
+  mutate(
+    spending_location = case_when(
+        str_detect(address, " Maryland ") ~ "In-state",
+        .default = "Out-of-state"
+      )
+  )
+
+maryland_expenses 
+```
+```{r}
+maryland_expenses |>
+  group_by(spending_location) |>
+  summarise(
+    spending_total = sum(amount),
+  ) |>
+  arrange(desc(spending_total))
+```
+**What happened here? As far as I can tell, this result suggests that there is a null value (NA) somewhere in the "amount" column. If R treats the null value as its own data type instead of converting it to 0, then I can imagine it would cause problems when trying to add the values in a column -- is that more or less what happened?**
+
+**Q6.** Choose your own adventure: using either the UMD courses or campaign expenses data, ask and answer a question that is different than the previous ones. You can use one of the ones you provided in the pre_lab.
+**A6.**
+
+How much did each committee spend on Amazon purchases?
+
+Wes Moore spent by far the most on Amazon purchases -- more than 8 times more than his opponent, Dan Cox. The only candidate whose Amazon spending approached Moore's was 
+Mongtomery County Executive candidate David Blair. 
+
+```{r}
+maryland_expenses_amazon <- maryland_expenses |> filter(payee_name == "Amazon")
+
+maryland_expenses_amazon |>
+  group_by(committee_name) |>
+  summarise(
+      amazon_spending = sum(amount),
+  ) |>
+  arrange(desc(amazon_spending))
+
+```
+In which Maryland zip codes did campaign committees spend the most?
+
+```{r}
+install.packages("stringr")
+library(stringr)
+```
+```{r}
+zip_pattern <- "\\b\\d{5}?\\b"
+```
+
+```{r}
+maryland_expenses <- maryland_expenses |>
+  mutate( 
+    zip_code = case_when(
+        str_detect(address, (str_extract_all(text, zip_pattern)[[1]])) ~ zip_pattern,
+        .default = "NA"
+      )
+  )
+
+maryland_expenses
+```
+
+**This code isn't working at the moment, but I'll return to it once I've turned in the lab to figure out how to get it running. Ultimately, I want to create a new column called zip_code. I could then group spending by zip code and calculate the median expense by group.**
