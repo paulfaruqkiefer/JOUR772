@@ -140,9 +140,10 @@ maryland_expenses <- maryland_expenses |>
         .default = "Out-of-state"
       )
   )
-
+  
 maryland_expenses 
 ```
+
 ```{r}
 maryland_expenses |>
   group_by(spending_location) |>
