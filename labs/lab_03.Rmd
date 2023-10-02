@@ -93,7 +93,7 @@ pg_schools_no_boe
 
 
 ```{r}
-pg_schools <- cleaned_md_agency_payments |> filter((str_detect(vendor_name, "BOARD OF EDUCATION OF PRINCE GEORGE'S COUNTY") | str_detect(vendor_name, "PRINCE GEORGES COUNTY PUBLIC SCHOOL") | str_detect(vendor_name, "PG COUNTY PUBLIC SCHOOL") | str_detect(vendor_name, "PRINCE GEORGES PUBLIC SCHOOLS") | str_detect(vendor_name, "BD OF EDUCATION OF PG CO") | str_detect(vendor_name, "BOARD OF EDUCATION OF PRINCE GEORGES COUNTY MD") | str_detect(vendor_name, "PRINCE GEORGES COUNTY SCHOOL")))
+pg_schools <- cleaned_md_agency_payments |> filter((str_detect(vendor_name, "PRINCE GEORGES PUBLIC") |str_detect(vendor_name, "BOARD OF EDUCATION OF PRINCE GEORGE'S COUNTY") | str_detect(vendor_name, "PRINCE GEORGES COUNTY PUBLIC SCHOOL") | str_detect(vendor_name, "PG COUNTY PUBLIC SCHOOL") | str_detect(vendor_name, "PRINCE GEORGES PUBLIC SCHOOLS") | str_detect(vendor_name, "BD OF EDUCATION OF PG CO") | str_detect(vendor_name, "BOARD OF EDUCATION OF PRINCE GEORGES COUNTY MD") | str_detect(vendor_name, "PRINCE GEORGES COUNTY SCHOOL")))
 
 nrow(pg_schools)
 
