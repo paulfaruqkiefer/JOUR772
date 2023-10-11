@@ -47,6 +47,9 @@ maryland_expenses <- read_csv("data/maryland_expenses.csv", guess_max=130078)
 
 cleaned_maryland_expenses <- maryland_expenses |>
   clean_names()
+  mutate()
+  
+cleaned_maryland_expenses <- cleaned_maryland_expenses |> mutate(expenditure_date = mdy(expenditure_date))
 
 cleaned_maryland_expenses
 

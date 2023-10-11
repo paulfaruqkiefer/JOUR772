@@ -1,0 +1,216 @@
+---
+title: "week7_recap"
+author: "Paul Kiefer"
+date: "2023-10-11"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# Turn off scientific notation
+options(scipen=999)
+```
+
+## Loading the packages
+
+Run the codeblock below to load the packages we will need for this recap
+
+```{r}
+library(tidyverse)
+library(lubridate)
+library(janitor)
+```
+
+## Load Data
+
+Run the codeblock below to load the data.
+
+```{r}
+earthquakes <- read_csv('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.csv')
+
+#Setting time column as datetime
+earthquakes <- earthquakes |> mutate(time = as_datetime(time))
+```
+
+#### Answer the questions below
+
+Most questions have a code block and a space for an answer below. Write the code you think is necessary and, in the answer space, write out what you did and what was the result.
+
+------------------------------------------------------------------------
+
+#### **Q1** Look at the earthquakes dataset. Finish the sentence below as if you were explaining the data to someone who had not seen it before but needs to know about it.
+
+**A1:** This dataset contains a record for every earthquake recorded anywhere in the world, including the time of the earthquake in Universal Coordinated Time (UTC), which is four hours ahead of EST. It also includes the latitude, longitude, depth and magnitude type of the center of the earthquake, the gap and dmin (used to measure the accuracy of the location estimate), the NST (the number of observation stations used to calculate the location of the earthquake), and a rough approximation of the earthquake's location relative to named geographic locations. 
+
+#### **Q2** How many records there are there in this dataset? What do they mean and what useful information we can gather from it, looking at the columns?
+
+**A2:**
+
+There are 9774 observations in this dataset, each of which represents a unique recorded earthquake. The data includes information on the estimated location of the earthquake, multiple measures of the accuracy of the location estimate (including gap, dmin, depthError), the name of the nearest populated location in a Geonames dataset, and information about the magnitude of the earthquake and the formula used to calculate that magnitude (magType).
+
+
+#### **Q3** How do I reorganize this data to see the ones that are the deepest first? What is the depth that shows up for the deepest one, and its magnitude?
+
+The deepest earthquake in the dataset - recorded on September 18, 2023 in Vanuatu - has a listed depth of 669.986 km (the unit of measurement for depth in the dataset) and a magnitude of 4.2.
+
+```{r}
+earthquakes <- earthquakes |>
+  arrange(desc(depth))
+
+head(earthquakes)
+```
+
+
+#### **Q4** I just want to see the earthquakes with a magnitude larger than 6. How do I do that? And how many are there that fit this criteria?
+
+There are 13 earthquakes with listed magnitudes over 6.
+
+```{r}
+earthquakes_mag_6 <- earthquakes |>
+  filter(mag > 6) |> 
+  arrange(desc(mag))
+
+earthquakes_mag_6
+```
+
+
+
+#### **Q5** What about if I want to see earthquakes that have both a magnitude larger than 6 and a depth smaller than 20? How many are there in the data set that fit [both]{.underline} these criteria?
+
+The datasets includes six earthquaes with magnitudes over 6 and depths under 20 km. 
+
+```{r}
+earthquakes_mag_6_depth_20 <- earthquakes |>
+  filter(mag > 6 & depth < 20) |> 
+  arrange(desc(mag))
+
+earthquakes_mag_6_depth_20
+
+```
+
+
+#### **Q6** What about if I want to see earthquakes that either have a magnitude larger than 6 OR a depth smaller than 20? How many are there in the data set that fit [either]{.underline} these criteria?
+
+7446 earthquakes in the dataset have a magnitude of 6 or a depth under 20 kilometers - the majority of the earthquakes recorded in the dataset.
+
+```{r}
+earthquakes_mag_6_or_depth_20 <- earthquakes |>
+  filter(mag > 6 | depth < 20) |> 
+  summarize(count= n()) |>
+  arrange(desc(count))
+
+earthquakes_mag_6_or_depth_20
+
+```
+
+#### **Q7** I'm interested in finding earthquakes that took place in Alaska. Which column should I look at? How do I use it to find all the earthquakes in Alaska? How many earthquakes took place there?
+
+Presumably because of Alaska's size, there are multiple earthquake observation stations/location sources providing data on earthquakes in Alaska. That renders the locationSource column less useful, because some earthquakes in Alaska are recorded with 'us' listed in the locationSource column; filtering for the 'us' locationSource turns up earthquakes as far away as Chile. 
+
+The dataset does, however, seemingly uses the full word "Alaska" in the "place" column for all earthquakes recorded in Alaska; the abbreviation "AK" does not appear in any entries. That means that searching for "Alaska" in the "place" column is the most effective way to identify all earthquakes recorded in Alaska. 
+
+This dataset includes 3446 earthquakes recorded in Alaska. 
+
+```{r}
+earthquakes_alaska_locsource <- earthquakes |>
+  filter(str_detect(locationSource, 'ak') | str_detect(locationSource,'av') | str_detect(locationSource, 'us')) |> 
+  summarise(count =  n()) |> 
+  arrange(desc(count))
+
+earthquakes_alaska_locsource
+
+```
+
+```{r}
+earthquakes_alaska_place <- earthquakes |>
+  filter(str_detect(place, 'Alaska')) |> 
+  summarise(count =  n()) |> 
+  arrange(desc(count))
+
+earthquakes_alaska_place
+```
+
+#### **Q8** I notice that there is a column called 'type', that seems to have different kinds of tremors. What is the best way to find what are all the possible types of tremors, and counting how many of each there are in this data set? What are the first two most common types of tremors in this data set?
+
+The best way to generate a list of tremor types (and the count of all records associated with each type) is a group_by() function. 
+
+The most common types of tremors are earthquakes and quarry blasts. 
+
+```{r}
+earthquakes |> 
+  group_by(type) |> 
+  summarise(count = n()) |> 
+  arrange(desc(count))
+
+```
+
+
+#### **Q9** What is the average depth of the earthquake type in this data set? Is there anything that seems unusual or surprising in this finding?
+
+The average depth of the earthquake type is 25 km, which is suprisingly shallow -- the tectonic plates, which I (mistakenly) believed were the source of most earthquakes, are more than 100 km below the earth's surface. The range of the depth data 
+
+```{r}
+earthquakes |> 
+  group_by(type) |> 
+  summarize(mean_depth = mean(depth)) |> 
+  arrange(desc(mean_depth))
+```
+```{r}
+range(earthquakes$depth)
+```
+
+**A9:**
+
+------------------------------------------------------------------------
+
+#### **Q10** I'm interested, in the future, to see the hours in which earthquakes happen. How can I extract the hour from the time column?
+
+The lubridate library includes an hour() function akin to the mdy() function used to change date formats.
+
+```{r}
+earthquakes <- earthquakes |> mutate(hour = hour(time))
+
+earthquakes
+
+```
+
+
+#### **Q11** I want to make a note of all the records in this data set that I consider serious. For my purposes, I'm thinking that all tremors that have a magnitude that is larger than 3 are serious. How do I automatically create a new column showing whether an earthquake is serious or not?
+
+Using the mutate() function and a case_when() function, it is possible to add a new column classifying each earthquake as serious or not serious.
+
+```{r}
+earthquakes_severity <- earthquakes|>
+  mutate(severity = case_when(
+    mag > 3 ~ 'Serious',
+    .default = 'Not Serious'
+  ))
+
+earthquakes_severity
+```
+
+
+#### **Q12** I have no idea how earthquakes work and I'm interested in seeing if there is a particular time of day in which serious earthquakes happen. How can I see that condensed in a table with all the hours in a day and all the serious earthquakes in each hour? What is the hour with fewer serious earthquakes and the one with the most serious earthquakes?
+
+Creating that table requires filtering by severity, grouping by hour and summarizing by the count of observations in each group.
+
+Based on this data, serious earthquakes are least common at noon and most common at 2:00 AM. 
+
+```{r}
+earthquakes_severity |> 
+  filter(severity == 'Serious') |> 
+  group_by(hour) |> 
+  summarize(count = n()) |> 
+  arrange(desc(count))
+```
+
+#### **Q13** What's another question you are interested in and how would you ask it in R?
+
+I'm a proud Washingtonian, and I constantly worry about an earthquake demolishing a significant chunk of my hometown. The USGS reported a magnitude 4.3 earthquake near Seattle on Sunday, October 8 (local time). I can geolocate earthquakes using a filter in the latitude/longitude columns, a filter in the severity column and a filter on the magnitude to identify the specific earthquake in the USGS dataset. 
+
+```{r}
+earthquakes_western_WA <- earthquakes_severity |>
+  filter(latitude >= 46 & latitude <= 49 & longitude <= -120 & longitude >= -125 & severity == "Serious" & mag > 4.2)
+
+earthquakes_western_WA
+```
