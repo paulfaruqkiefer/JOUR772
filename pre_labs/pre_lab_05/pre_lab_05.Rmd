@@ -123,7 +123,7 @@ Ok, now we have all the data. But we need actual headers. Let's add those using 
 
 ### Task 7: Change the headers to real names
 
-**Task** Run the codeblock below. What else do we need to do? **Answer**
+**Task** Run the codeblock below. What else do we need to do? **Answer** We also need to get rid of the line of periods following each jurisdiction name.
 
 ```{r}
 fentanyl_deaths <- read_csv("tabula-Annual_2020_Drug_Intox_Report.csv", col_names = FALSE) |> 
