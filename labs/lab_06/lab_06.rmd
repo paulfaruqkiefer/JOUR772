@@ -154,15 +154,6 @@ baltimore_911_w_demographics |>
   arrange(desc(count))
 ```
 
-```{r}
-baltimore_911_w_demographics |>
-  filter(zip_code == i) |>
-  group_by(neighborhood) |>
-  summarise(count = n()) |>
-  arrange(desc(count))
-```
-
-
 
 Q4. Choose your own adventure: I want you to come up with a question you could ask of the Baltimore City data that combines both the calls and the demographic information. You must use both demographics and the overdose call data in your work.
 
