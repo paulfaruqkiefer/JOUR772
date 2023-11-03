@@ -86,6 +86,9 @@ md_medage |>
 1. Load the Montgomery County 911 overdose calls data.
 2. Create a new dataframe with the total number of calls for each zip code.
 3. Find the ACS variable pertaining to the total 18 and up population (there are several choices here; you want the simplest one).
+
+B09021_001 - Living arrangements for population 18+. 
+
 4. Get from the ACS data from all Maryland zip codes using that variable.
 5. Join the ACS data to the Montgomery County zip code totals dataframe and rename the estimate column to a meaningful name you've given the ACS variable.
 6. Add a column to the joined dataframe that calculates a rate of calls per 1,000 population.
