@@ -103,6 +103,7 @@ Zip code 20877 in Gaithersburg has the highest number of calls per capita (only 
 Zip code 20707 has the lowest number of calls per capita in the dataset, though most of the zip code is in Prince George's County. The next-lowest number of calls per capita come from zip code 20832 in Olney, which is wealthier than the Montgomery County average. 
 
 
+
 ```{r}
 moco_2022_od <- read_csv("data/montgomery_2022_overdoses.csv")
 
