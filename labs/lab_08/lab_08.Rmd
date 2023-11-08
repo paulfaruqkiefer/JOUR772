@@ -220,7 +220,7 @@ p +geom_text_repel(aes(label=zipcode), nudge_x = 0.1, nudge_y = 0.1, size = 2.5)
     title="Lower-Income Zip Codes See Higher Overdose-Related 911 Call Volumes",
     x = "Overdose-related 911 calls in 2022",
     y = "Median Household Income",
-    caption = "Source: Prince George's County"
+    caption = "Source: Prince George's County/US Census Bureau"
   )
 ```
 
