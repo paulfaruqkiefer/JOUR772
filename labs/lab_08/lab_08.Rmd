@@ -214,7 +214,7 @@ pg_911_calls_with_medhouseholdincome
 p <- ggplot(pg_911_calls_with_medhouseholdincome, aes(x=total_calls, y=estimate)) + geom_point() +
   geom_point(shape = 19, color = 'blue', size=1) 
 
-p +geom_text_repel(aes(label=zipcode), nudge_x = 0.1, nudge_y = 0.1, size = 2.5) +
+p + geom_text_repel(aes(label=zipcode), nudge_x = 0.1, nudge_y = 0.1, size = 2.5) +
   ggtitle("Higher Income Zip Codes see fewer overdose-related 911 calls") +
     labs(
     title="Lower-Income Zip Codes See Higher Overdose-Related 911 Call Volumes",
