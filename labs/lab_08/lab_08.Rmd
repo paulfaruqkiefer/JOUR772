@@ -15,6 +15,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r}
 install.packages("ggrepel")
+install.packages('ggthemes')
+library(ggthemes)
 library(tidyverse)
 library(lubridate)
 library(tidycensus)
