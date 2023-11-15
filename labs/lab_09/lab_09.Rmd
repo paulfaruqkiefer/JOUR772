@@ -1,0 +1,148 @@
+---
+title: "lab_09.Rmd"
+author: "derek willis"
+date: "2023-04-12"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## You will need
+
+-   A Datawrapper account
+-   Data in CSV files in the `data` folder
+
+## Load libraries and establish settings
+
+**Task** Create a codeblock and load appropriate packages and settings for this lab.
+
+```{r}
+library(tidyverse)
+library(janitor)
+library(tidycensus)
+```
+
+## Questions
+
+**Q1.** You want to explore the differences between the electoral performances of Dan Cox in 2022 and Larry Hogan in 2018. Except a map is probably not the best way to show that. Let's make a chart instead, and the type is up to you, but the goal is to clearly show the differences between the two.
+
+You MUST do the following things when answering this question: \* Load the md_gov_county.csv and md_gov_county_18.csv files from the data folder \* Join those dataframes, specifying the join column. \* Add columns to generate percentages for Cox and Hogan. \* Export that joined dataframe to a CSV file using `write_csv`. \* Using that exported CSV, make a chart with Datawrapper. What kind of chart is up to you, so experiment with a few kinds of charts to see what answers the question above in the clearest way. Your chart MUST: \* Have a title, description and source that tells readers about the data. The title and description should highlight the most newsworthy or important aspect. \* Easily readable labels and values \* Publish your chart \* Describe your thought process below - why you chose to make the chart you did - and add the URL of your chart.
+
+**A1.**
+
+I opted to use a grouped bar chart for simplicity's sake. There is relatively little variance in the percentage decline from Hogan's vote share to Cox's vote share -- a maximum of around 30 percent in Talbot County -- so it was less important (I thought) to give readers a precise sense of the decline in vote share and more important to underscore that the vote share declined in every county. Since we're focused on Republican candidates, I ordered the chart from highest Hogan voteshare to lowest Hogan voteshare. 
+
+https://datawrapper.dwcdn.net/PxNtU/1/
+
+An extra chart (because I initially misunderstood the question):
+
+https://datawrapper.dwcdn.net/HfRX3/1/
+
+```{r}
+md_gov_county <- read_csv("data/md_gov_county.csv") |>
+  clean_names() |>
+  rename(write_in22=write_ins)
+
+md_gov_county_18 <- read_csv("data/md_gov_county_18.csv")|>
+  clean_names()|>
+  rename(write_in18=write_ins)
+```
+```{r}
+md_gov_county_18and22 <- md_gov_county |> left_join(md_gov_county_18, by=c('geoid', 'county'))
+
+
+md_gov_county_18and22
+```
+```{r}
+md_gov_county_18and22 <- md_gov_county_18and22 |>
+  mutate(total_22 = cox + moore + lashar + wallace + harding + write_in22) |>
+  mutate(cox_voteshare = cox/total_22*100) |> 
+  mutate(total_18 = hogan + jealous + quinn + schlakman + write_in18) |>
+  mutate(hogan_voteshare = hogan/total_18 * 100) |>
+  select(geoid, county, hogan, jealous, quinn, schlakman, write_in18, total_18, hogan_voteshare, cox, moore, lashar, wallace, harding, sefcik, write_in22, total_22, cox_voteshare)
+
+write_csv(md_gov_county_18and22, "data/md_gov_county_18and22.csv")
+```
+
+**Q2.** You're interested in seeing how the methods of voting have changed in Maryland since 2018. Using the `md_votes_by_type.csv` that has data from the top of the ticket (governor in 2018 and 2022, president in 2020), make a chart showing the percentage of votes cast in each category - early voting, election day and mail - over the three years. You'll need to make those percentages in R and then export the CSV using `write_csv`, then make the chart in Datawrapper. Have a title, description and source that tells readers about the data. The title and description should highlight the most newsworthy or important aspect.
+
+HINT: In Datawrapper's "Check and Describe" tab, you can click on a column to get the option of "hiding" it in any visualization.
+
+What do you think the story here is? Put the answer below along with the URL of your chart.
+
+I can see two connected stories: 
+
+First, early voting has not recovered to pre-pandemic levels -- I could imagine that the increasing popularity of mail-in voting drew away early voters.
+
+That angle can be reversed: Mail-in voting was more common in 2022 than in 2018, setting aside the obvious surge during the 2022 election. 
+
+I do not know why the 2020 percentages do not add up to 100, but given the possibility that there was a fourth undefined voting method in 2020, I didn't feel comfortable creating a new "total" value for that year to calculate new percentages. 
+
+https://datawrapper.dwcdn.net/EXyD7/1/
+
+**A2.**
+
+```{r}
+md_votes_by_type <- read_csv("data/md_votes_by_type.csv") |>
+  clean_names() |>
+  mutate(early_pct = early/total*100)|>
+  mutate(election_day_pct = election_day/total*100) |>
+  mutate(mail_pct = mail/total*100)
+
+write_csv(md_votes_by_type, "data/md_votes_by_type_pct.csv")
+```
+
+**Q3.** You want to know more about the geography of 911 overdose calls in Montgomery County, Maryland, in 2022. To do that, you'll make a choropleth map in Datawrapper. You will need to:
+
+-   Read the file into R and create columns for the number of calls in each zip code and the percentage of all calls that number represents and then export that CSV to use in your map.
+-   Search for Maryland zip codes (use the 2020 data) as the base map.
+-   Upload the CSV file.
+-   Change the tooltip to show both the number and the percentage (you can put them side by side or put one under the other). Make sure to properly format both numbers to make them readable.
+-   Add labels to your map that locate prominent places in the county.
+-   Have a title, description and source that tells readers about the data. The title and description should highlight the most newsworthy or important aspect.
+-   Make any other changes to data that helps you make a more accurate map.
+
+What do you think the story here is, and what would you want to know more about? Put the answer below along with the URL of your map.
+
+**A3.**
+
+I do not include zip code 20707 or zip code 21794; the former includes only a sliver of Montgomery County, while the latter is entirely outside of Montgomery County. I also opted to display the number of overdose calls per capita by zip code (using the total population of each zip code) instead of the percentage of all overdose calls in Montgomery County to avoid creating something akin to a population density map.
+
+If the county has tracked overdose-related 911 calls for over a decade, I would want to track the changes in concentrations of overdose calls over time as Montgomery County has grown -- and especially as rising costs of housing in DC drove some lower-income residents into the suburbs, and as the size of Montgomery County's Latin American immigrant community has grown. 
+
+The map itself suggests two stories: One about what intervention, harm reduction and recovery services Montgomery County has made available in Gaithersburg, and to a lesser extent Rockville and Germantown, and one about why the wealthiest zip codes in the county -- in Potomac and Chevy Chase -- did not see the lowest number of overdose calls per capita. What were the sources of overdose calls in those zip codes?
+
+https://datawrapper.dwcdn.net/3y0rD/1/
+
+```{r}
+acs5 <- load_variables(2021, "acs5", cache = TRUE)
+
+View(acs5)
+```
+
+```{r}
+moco_od_911 <- read_csv("data/montgomery_2022_overdoses.csv") |>
+  clean_names() |>
+  group_by(zip) |>
+  summarize(zip_total = n()) |>
+  mutate(zip_pct = zip_total/sum(zip_total)*100)
+
+moco_od_911$zip <- as.character(moco_od_911$zip)
+
+md_zip_pop <- get_acs(geography = "zcta",
+              variables = c(md_over_18 = "B01003_001"),
+              state = "MD",
+              year = 2019)
+
+moco_2022_od_zip_pc <- inner_join(moco_od_911, md_zip_pop, by=c("zip" = "GEOID")) |>
+  rename(zip_pop = estimate)
+
+moco_2022_od_zip_pc <- moco_2022_od_zip_pc |>
+  mutate(od_calls_pc = (zip_total/zip_pop)*1000)
+
+
+write_csv(moco_2022_od_zip_pc, "data/moco_2022_od_zip_pc.csv")
+
+```
