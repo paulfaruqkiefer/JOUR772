@@ -132,7 +132,7 @@ moco_od_911 <- read_csv("data/montgomery_2022_overdoses.csv") |>
 moco_od_911$zip <- as.character(moco_od_911$zip)
 
 md_zip_pop <- get_acs(geography = "zcta",
-              variables = c(md_over_18 = "B01003_001"),
+              variables = c(zip_pop = "B01003_001"),
               state = "MD",
               year = 2019)
 
