@@ -118,6 +118,8 @@ Then load it:
 
 **Task** Run the following code. Describe the output in the space below. **Answer**
 
+This code loads the tigris library, which enables us to load shapefiles directly from the US Census Bureau.
+
 ```{r}
 # install.packages('tigris')
 library(tigris)
