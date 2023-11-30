@@ -1,0 +1,204 @@
+---
+title: "lab_10"
+author: "Derek Willis"
+date: "2023-04-19"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## You will need
+
+-   Our usual libraries, plus some of the map-specific ones from the pre_lab. You'll also be fetching Census data in Q3. Read the questions carefully!
+
+## Load libraries and establish settings
+
+**Task** Create a codeblock and load appropriate packages and settings for this lab.
+
+```{r}
+# Load libraries
+library(tidyverse)
+library(sf)
+library(janitor)
+library(tigris)
+library(tidycensus)
+```
+
+Let's explore Maryland elections, power outages and electric vehicle data and make some maps!
+
+## Questions
+
+**Q1.** Maryland voters made history last November by electing the state's first two African-American statewide office holders: Wes Moore as governor and Anthony Brown as attorney general. You want to compare the two's electoral performances. Using the `md_statewide_county.csv` file in the data folder, calculate the total number of votes for both the governor's race and the attorney general's race, then percentages for both Moore and Brown *based on the total of their respective contests*. Then calculate the difference between their percentages.
+
+Get the geometry for Maryland's counties using tigris and, joining that dataframe to your results dataframe, make a county-level map of the differences between Moore and Brown's percentages. What is the story here, and what is the county with the most interesting results?
+
+**A1.**
+
+Brown outperformed Moore in only two jurisdictions: Baltimore City and Prince George's County. I would argue that the most interesting counties are Carroll, Kent and Queen Anne's Counties, where Moore picked up his most significant leads relative to Brown -- upwards of a 7% difference. 
+
+```{r}
+md_statewide_county <- read_csv("data/md_statewide_county.csv") |> 
+  clean_names() |>
+  mutate(geoid = as.character(geoid))
+```
+Here are the statewide numbers:
+
+```{r}
+md_statewide_county |>
+  summarize(total_moore = sum(moore),
+            total_brown = sum(brown),
+            total_gov = sum(moore)+sum(cox)+sum(harding)+sum(wallace)+sum(sefcik)+sum(lashar)+sum(gov_writein),
+            total_ag = sum(brown)+sum(peroutka)+sum(ag_writein),
+            moore_pct = (total_moore/total_gov)*100,
+            brown_pct = (total_brown/total_ag)*100,
+            moore_brown_dif = moore_pct-brown_pct
+            )
+```
+```{r}
+md_statewide_county_compare <- md_statewide_county |>
+  mutate(moore_pct = (moore/(moore+cox+harding+wallace+sefcik+lashar+gov_writein))*100,
+         brown_pct = (brown/(brown+peroutka+ag_writein))*100,
+         moore_brown_dif = moore_pct-brown_pct
+  )
+
+md_statewide_county_compare
+```
+```{r}
+md_counties <- counties () |>
+  filter(STATEFP == "24")
+
+# Find the index of the first occurrence of "Baltimore" in the "NAME" column
+index_to_replace <- which(md_counties$NAME == 'Baltimore')[1]
+
+# Replace the value at the identified index with "Baltimore City"
+md_counties[index_to_replace, 'NAME'] <- 'Baltimore City'
+
+```
+```{r}
+md_statewide_county_elections_2022 <- md_counties |> left_join(md_statewide_county_compare, join_by(GEOID==geoid))
+```
+
+
+```{r}
+county_centroids <- st_centroid(md_counties)
+county_centroids_df <- as.data.frame(st_coordinates(county_centroids))
+county_centroids_df$NAME <- county_centroids$NAME
+
+ggplot() +
+  geom_sf(data=md_statewide_county_elections_2022, aes(fill=moore_brown_dif)) +
+  geom_text(aes(x = X, y = Y, label = NAME), data = county_centroids_df, size = 3, check_overlap = TRUE) +
+  scale_fill_distiller(palette = "BuPu")+
+  theme_minimal()
+```
+
+**Q2.** Make a county-level map to explore the number of customers impacted by power outages in Maryland from last March. Load the `county_outages_march2023.csv` file in the data folder and calculate a rate of customers with outages per 10,000 total customers for each county. Then join that dataframe to your Maryland counties dataframe you made in Q1 and create a county-level map of the results; you may need to tweak the fill scale to make the distinctions clearer. What's the potential story here? Given access to other months' outage data, what would your next steps be in reporting a story?
+
+**A2.**
+
+Why was Talbot County so disproprtionately affected by power outages in March 2023? That month brought some severe weather to the Chesapeake region, but only in Talbot County did nearly 20% of customers lose power. What went wrong?
+
+Given access to other months' outage data, I would check whether Talbot County is consistently hardest-hit by outages. If so, I would reach out to the State Department of Emergency Management and to Delmarva Power to ask whether the county consistently receives the brunt of severe weather in the region -- be it tornadoes, flooding, heavy raints, etc. -- and/or whether the county has recently undergone infrastructure upgrades to repair a faulty grid. 
+
+```{r}
+md_county_outages_march2023 <- read_csv("data/county_outages_march2023.csv") |> 
+  clean_names() 
+```
+```{r}
+md_county_outages_march2023 <- md_county_outages_march2023 |>
+  mutate(outage_pc = (outage_customers/total_customers)*10000)
+```
+
+```{r}
+md_county_outages_march2023_geography <- md_counties |> left_join(md_county_outages_march2023, join_by(NAME==county))
+```
+
+```{r}
+county_centroids <- st_centroid(md_counties)
+county_centroids_df <- as.data.frame(st_coordinates(county_centroids))
+county_centroids_df$NAME <- county_centroids$NAME
+
+ggplot() +
+  geom_sf(data=md_county_outages_march2023_geography, aes(fill=outage_pc)) +
+  geom_text(aes(x = X, y = Y, label = NAME), data = county_centroids_df, size = 3, check_overlap = TRUE) +
+  scale_fill_viridis_b(option="magma",trans = "log")+
+  theme_minimal()
+```
+
+**Q3.** You've been assigned a story about the use of electric vehicles in Maryland and you want to make a map of the prevalence of electric vehicles in each county. Load the `ev_2020_2023.csv` file, which has the number of electric and hybrid vehicles per county from July 2020 and March 2023 and calculate a percentage change for each county (remember, that's `new-old/old`). Using the Maryland counties dataframe you made for Q1, make a county map showing the percentage change. What counties stand out to you? What questions do you have about the changes you're seeing?
+
+Next, use tidycensus to retrieve county population data for Maryland from 2021 (you did this in the pre_lab) and join it to your vehicles dataframe. HINT: you may not need to join it on the county name, and you should already have the geometry!
+
+Then, calculate a per capita rate of electric & hybrid vehicles using the March 2023 figure and the population estimate. You will need to choose the "per capita" value.
+
+Finally, make a second county map showing the per capita rate. What counties stand out on this map? How is it different from the first one you made?
+
+**A3.**
+
+Caroline County is the obvious standout in the first map, considering that -- according to our data -- the number of EVs and hybrid vehicles in the county quadrupled between July 2020 and March 2023. I'm curious whether that change was accompanied by an increase in the mean household income in the county or a notable shift in voting patterns, and I wonder whether the charging infrastructure exists in Caroline County to make EV use practical for renters. 
+
+That said, the second graph illustrates that Caroline County is not close to becoming the Maryland jurisdiction with the highest number of EVs per capita. Howard and Montgomery Counties have by far the highest number of EVs and hybrid vehicles per capita, but even those figures -- just over 20 EVs or hybrid vehicles per 10,000 residents -- are low. Can Maryland count on EV/hybrid ownership to grow exponentially across the state, or should the state's climate action plan prioritize getting people out of their cars and into public transportation/onto bicycles and sidewalks?
+
+Maryland has a map of charging stations on its open data portal, but I would also like to know how many of those stations are in working order/regularly recieve maintenance.
+
+```{r}
+md_ev_2020_2023 <- read_csv("data/ev_2020_2023.csv") |> 
+  clean_names() |>
+  mutate(pct_change = ((march_2023-july_2020)/july_2020)*100)
+```
+```{r}
+md_ev_2020_2023_counties <- md_counties |> left_join(md_ev_2020_2023, join_by(NAME==county)) |>
+  mutate(NAMELSAD = ifelse(NAMELSAD == "Baltimore city", "Baltimore City", NAMELSAD))
+```
+
+```{r}
+county_centroids <- st_centroid(md_counties)
+county_centroids_df <- as.data.frame(st_coordinates(county_centroids))
+county_centroids_df$NAME <- county_centroids$NAME
+
+ggplot() +
+  geom_sf(data=md_ev_2020_2023_counties, aes(fill=pct_change)) +
+  geom_text(aes(x = X, y = Y, label = NAME), data = county_centroids_df, size = 3, check_overlap = TRUE) +
+  scale_fill_distiller(palette = "BuPu")+
+  theme_minimal()
+```
+
+```{r}
+md_county_population <- get_acs(geography = "county",
+              variables = c(population = "B01001_001"),
+              year = 2021,
+              state = "MD")
+```
+```{r}
+md_county_population <- md_county_population |>
+  rename(county = NAME) |>
+  mutate(county = str_to_title(str_remove_all(county,", Maryland"))) |>
+  mutate(county = str_trim(county,side="both")) |>
+  rename(population = estimate) |>
+  select(county, population, GEOID)
+
+md_county_population
+```
+
+```{r}
+md_ev_pop <- md_county_population |>
+  left_join(md_ev_2020_2023_counties, join_by(GEOID)) |>
+  mutate(ev_hybrid_pc = (march_2023/population)*1000)
+
+md_ev_pop
+```
+```{r}
+county_centroids <- st_centroid(md_counties)
+county_centroids_df <- as.data.frame(st_coordinates(county_centroids))
+county_centroids_df$NAME <- county_centroids$NAME
+
+ggplot() +
+  geom_sf(data=md_ev_pop, aes(geometry = geometry, fill=ev_hybrid_pc)) +
+  geom_text(aes(x = X, y = Y, label = NAME), data = county_centroids_df, size = 3, check_overlap = TRUE) +
+  scale_fill_viridis_b(option="magma",trans = "log")+
+  theme_minimal()
+
+```
+```
+
