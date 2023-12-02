@@ -1,0 +1,51 @@
+---
+title: "WA DOC Late Release Analysis"
+author: "Paul Kiefer"
+date: "2023-12-01"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r cars}
+options(scipen=999)
+#install.packages("ggrepel")
+#install.packages('ggthemes')
+library(tidyverse)
+library(lubridate)
+library(janitor)
+library(ggthemes)
+library(tidycensus)
+library(ggplot2)
+library(ggrepel)
+library(tigris)
+library(sf)
+```
+
+I first read in my core dataset: A spreadsheet of every Washington DOC inmate released more than two weeks after their earned release date (ERD) from January 2021 to August 2023.
+
+```{r}
+wadoc_late_release <- read_csv("data/wadoc_late_release.csv", guess_max = 1683) |>
+  clean_names()
+
+# Change date fields to date type and change docnum (an inmate's ID number) to a character type.
+
+wadoc_late_release$admitdate <- mdy(wadoc_late_release$admitdate)
+wadoc_late_release$erd <- mdy(wadoc_late_release$erd)
+wadoc_late_release$release_date <- mdy(wadoc_late_release$release_date)
+wadoc_late_release$docnum <- as.character(wadoc_late_release$docnum)
+```
+
+```{r}
+# Confirm the data type changes worked.
+glimpse(wadoc_late_release)
+```
+After a few hours of tabula-wrangling, I also managed to put together a .csv-format dataset of average populations for every Washington DOC facility (with work release/rented in-state beds lumped toether) for each month from July 2012 to June 2022. To make it useable, I need to A) eliminate about 200 blank rows and B) use the pivot_longer function to reverse the x and y axes. 
+```{r}
+wadoc_average_daily_prison_pop <- read_csv("data/wadoc_average_daily_prison_pop.csv", n_max = 17) 
+```
+
+
