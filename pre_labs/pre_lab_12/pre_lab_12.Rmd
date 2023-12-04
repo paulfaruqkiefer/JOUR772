@@ -244,7 +244,7 @@ tags. What does the output suggest about how many
 
 tags there are in the HTML source? **Answer**
 
-The output suggests there are far more tags in the HTML source than we need; we will need to filter for <li> tags to drop the extraneous tags.
+The output suggests there are far more <ul> tags in the HTML source than we need; we will need to filter for <li> tags within the <ul> tags to drop the extraneous tags.
 
 ```{r}
 osp_results |> html_elements('li')
