@@ -23,6 +23,7 @@ library(ggplot2)
 library(ggrepel)
 library(tigris)
 library(sf)
+library(tibble)
 ```
 
 I first read in my core dataset: A spreadsheet of every Washington DOC inmate released more than two weeks after their earned release date (ERD) from January 2021 to August 2023.
@@ -43,9 +44,148 @@ wadoc_late_release$docnum <- as.character(wadoc_late_release$docnum)
 # Confirm the data type changes worked.
 glimpse(wadoc_late_release)
 ```
-After a few hours of tabula-wrangling, I also managed to put together a .csv-format dataset of average populations for every Washington DOC facility (with work release/rented in-state beds lumped toether) for each month from July 2012 to June 2022. To make it useable, I need to A) eliminate about 200 blank rows and B) use the pivot_longer function to reverse the x and y axes. 
+After a few hours of tabula-wrangling, I also managed to put together a .csv-format dataset of average populations for every Washington DOC facility (with work release/rented in-state beds lumped toether) for each month from July 2012 to June 2022. I use the select function to avoid reaing in more than a hundred blank columns in the .csv file. 
+
 ```{r}
-wadoc_average_daily_prison_pop <- read_csv("data/wadoc_average_daily_prison_pop.csv", n_max = 17) 
+wadoc_average_prison_pop <- read_csv("data/wadoc_prison_pop_monthly.csv") |>
+  clean_names() |>
+  rename(count_year = facility) |>
+  select(count_year, airway_heights_corrections_center, cedar_creek_corrections_center, clallam_bay_corrections_center, coyote_ridge_corrections_center, larch_corrections_center, mission_creek_corrections_center_for_women, monroe_correctional_complex, olympic_corrections_center, stafford_creek_corrections_center, washington_correction_center, washington_correction_center_for_women, washington_state_penitentiary, prison_facility_totals, statewide_emergency_beds, prison_facility_totals_statewide_emergency_beds_prison_total_confinement, work_release, total_and_partial_confinement_totals)
+    
 ```
+```{r}
+glimpse(wadoc_average_prison_pop)
+```
+
+The last dataset contains admission and release data for WA DOC facilities from FY 2006 to FY 2023. 
+
+```{r}
+wadoc_release_admission <- read_csv("data/wadoc_release_admission.csv") |>
+  clean_names()
+```
+
+I may also want a transposed version of this dataset. With mismatched datatypes and both row and column headers, the pivot_long function wasn't a good fit for this task, though the code below isn't as concise as I would like it to be. 
+
+```{r}
+#Transpose the dataframe, making sure to explicitly keep it a dataframe. Because it contains multiple data types, the transpose function creates a matrix if I don't specify that I want a dataframe. 
+
+wadoc_release_admission_transposed <- data.frame(t(wadoc_release_admission))
+
+# I set the first row of the wadoc_release_admission_transposed as the column names. 
+colnames(wadoc_release_admission_transposed) <- wadoc_release_admission_transposed[1, ]
+
+# I remove the first row to avoid duplication.
+wadoc_release_admission_transposed <- wadoc_release_admission_transposed[-1, ]
+
+# I make the row headers into a column.
+wadoc_release_admission_transposed <- rownames_to_column(wadoc_release_admission_transposed, var = "fiscal_year")
+
+#I clean the column names.
+wadoc_release_admission_transposed <- clean_names(wadoc_release_admission_transposed)
+```
+
+For some basic initial analysis, I want some basic summary statistics on late releases.
+
+```{r}
+summary_late_release <- summary(wadoc_late_release$rel_past_erd_days)
+
+summary_late_release
+```
+There are clearly some results that will skew the facility-level means, so I want to create a smaller dataframe that only includes inmates for whom the number of days that passed between their ERD and their release date fell above the 3rd quartile. 
+
+```{r}
+wadoc_above_3q_releases <- wadoc_late_release |>
+  filter(rel_past_erd_days > 93.5)
+
+wadoc_above_3q_releases
+```
+
+I will also make a dataframe for inmates released fewer than 93.5 days before their ERD. I realize that the dataset doesn't measure partial days, but I'll stick to the 3rd quartile limit anyway.
+
+```{r}
+wadoc_below_3q_releases <- wadoc_late_release |>
+  filter(rel_past_erd_days < 93.5)
+
+wadoc_below_3q_releases
+```
+
+```{r}
+wadoc_below_3q_releases|>
+  group_by(facility_released_from)|>
+  summarize(mean_late_release = mean(rel_past_erd_days)) |>
+  arrange(desc(mean_late_release))
+```
+There are a few notable takeaways from this chart:
+
+1. Inmates released after their ERDs after taking part in Community Parenting Alternative program -- a partial confinement program that allows parents to live in their communities under electronic monitoring surveillance -- spent more time in custody past their ERDs on average than inmates in any full custody facility.
+
+2. Three "violator facilities" -- county jails in which the DOC rents beds -- appear in the top ten.
+
+3. "Interstate compact inmates" -- meaning probationers and parolees from outside Washington under the supervision of the WA DOC -- released after their ERD waited an average of 76 extra days in custody. 
+
+4. Inmates released late from Coyote Ridge Corrections Center spent the fewest extra days in custody. 
+
+
+I will now add year and year/month columns to the late release dataset based on the erd and the release date columns.
+
+```{r}
+wadoc_late_release <- wadoc_late_release |>
+  mutate(
+    erd_year = year(erd),
+    release_year = year(release_date),
+    erd_year_month = format(erd, "%Y-%m"),
+    release_year_month = format(release_date, "%Y-%m"))
+
+```
+
+I also want a new dataframe that counts the total number of inmates released after their ERDs from each facility.
+
+```{r}
+wadoc_late_release_facility_counts <- wadoc_late_release |>
+  group_by(facility_released_from) |>
+  summarize(late_release_count = n()) |>
+  arrange(desc(late_release_count))
+
+wadoc_late_release_facility_counts
+```
+
+I can do the same for release counties. This will allow me to join with a subset of the release and admission dataset. 
+
+```{r}
+wadoc_late_release_county_counts <- wadoc_late_release |>
+  group_by(released_to_county_or_state) |>
+  summarize(late_release_count = n()) |>
+  arrange(desc(late_release_count))
+
+wadoc_late_release_county_counts
+```
+It's not a surprise that the most populous counties appear at the top of the list. 
+
+Spokane County is slightly over-represented, as are Yakima and Benton Counties. Gray's Harbor County is by far the most over-represented. I will do this analysis more formally using US Census data, but none of these results are unexpected -- Grey's Harbor County also has the highest incarceration rate in Washington State. 
+
+
+I will also eventually want to use the monthly prison population dataset for comparison, but I first need to check that the DOC's calculations of total full custody and total full + partial custody populations are accurate. I will also add a column to count any non-work release partial custody facilities not listed explicitly in the dataset; programs like CPA fall into that category.
+
+```{r}
+wadoc_average_prison_pop <- wadoc_average_prison_pop |>
+  mutate(confirm_prison_facility_totals = airway_heights_corrections_center + cedar_creek_corrections_center + clallam_bay_corrections_center + coyote_ridge_corrections_center + larch_corrections_center + mission_creek_corrections_center_for_women + monroe_correctional_complex + olympic_corrections_center + stafford_creek_corrections_center + washington_correction_center + washington_correction_center_for_women + washington_state_penitentiary)
+
+wadoc_average_prison_pop <- wadoc_average_prison_pop |>
+        mutate(doc_count_vs_confirm = confirm_prison_facility_totals - prison_facility_totals,        
+               other_partial_confinement = total_and_partial_confinement_totals - (prison_facility_totals_statewide_emergency_beds_prison_total_confinement + work_release))
+```
+
+After May 2014, the prison_facility_total appears to be an accurate sum the population of all full custody facilities. There are some minor discrepancies from 2012 through May 2014 (and, for better or for worse, I did hand-check to make sure the errors were on the part of the DOC), but they appear to have resolved those challenges. It also appears that the DOC significantly ramped up its use of non-work release partial detention between May 2014 and March 2020, with numbers petering out as the pandemic took hold. 
+
+
+I should put together a new dataset that shows the number of late releases as a percentage of all releases by facility by year and as a percentage of all inmates by facility by year. I don't have a complete year for 2023, but I'll make the calculation anyway and add a note about the inconsistency.
+
+First, however, I need to find a way to make the names of facilities match between the late release dataset and the monthly population dataset. For the sake of simplicity, I'll do this in OpenRefine, but I'll describe the changes below:
+
+```{r}
+write_csv(wadoc_average_prison_pop,"data/datasets_generated/wadoc_average_prison_pop_standardized")
+```
+
+
 
 
