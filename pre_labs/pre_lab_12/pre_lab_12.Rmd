@@ -149,6 +149,8 @@ Let's say we are interested in 2023, so all we need to do now is to store that f
 
 **Task** Run the following code in the gray-colored codeblock below to extract all tables in the HTML and save it as a dataframe. What do you notice about the columns? **Answer**
 
+The date column is a character, and the "Press Release" column does not have an ideal column name.
+
 ```{r}
 # Read in all html from table, store all tables on page as nested list of dataframes.
 results <- mde_url |>
@@ -171,6 +173,10 @@ From here, we can do a little cleaning. First we'll use clean_names() to lower t
 ### Task 6: Clean up the data
 
 **Task** Run the following code to extract the table we want, clean up the names and change the date column to an actual date. Look at the dataframe; what other information about these releases might you want to add? **Answer**
+
+What time of day were the press releases issued?
+
+Would it be possible to extract a subject matter (categorical) from the web page?
 
 ```{r}
 # Read in all html from table, get the HTML table.
@@ -238,6 +244,8 @@ tags. What does the output suggest about how many
 
 tags there are in the HTML source? **Answer**
 
+The output suggests there are far more tags in the HTML source than we need; we will need to filter for <li> tags to drop the extraneous tags.
+
 ```{r}
 osp_results |> html_elements('li')
 ```
@@ -260,6 +268,8 @@ tags. To do that, we add `html_text()` to the end of the last code block:
 
 tags. Describe the output: **Answer**
 
+The output lists the tags themselves without the HTML text, which gives us a clearer sense of which tags we are after.
+
 ```{r}
 osp_results |> html_elements('li') |> html_text()
 ```
@@ -269,6 +279,8 @@ Ok, so now we can see the press releases. But they are surrounded by a bunch of 
 ### Task 11: Turn the contents of the <li> tags into a dataframe 
 
 **Task** Run the following code in the gray-colored codeblock below to make a dataframe. Describe the output: **Answer**
+
+The output is a single column containing all the tags; for press releases, the tags contain both the date of the release and the title of the release separated by a colon. 
 
 ```{r}
 releases <- osp_results |> html_elements('li') |> html_text() |> as_tibble()
