@@ -15,6 +15,7 @@ options(scipen=999)
 #install.packages("ggrepel")
 #install.packages('ggthemes')
 library(tidyverse)
+library(tidyr)
 library(lubridate)
 library(janitor)
 library(ggthemes)
@@ -30,14 +31,12 @@ I first read in my core dataset: A spreadsheet of every Washington DOC inmate re
 
 ```{r}
 wadoc_late_release <- read_csv("data/wadoc_late_release.csv", guess_max = 1683) |>
-  clean_names()
-
-# Change date fields to date type and change docnum (an inmate's ID number) to a character type.
-
-wadoc_late_release$admitdate <- mdy(wadoc_late_release$admitdate)
-wadoc_late_release$erd <- mdy(wadoc_late_release$erd)
-wadoc_late_release$release_date <- mdy(wadoc_late_release$release_date)
-wadoc_late_release$docnum <- as.character(wadoc_late_release$docnum)
+  clean_names() |>
+  ## make the release_date, erd and admitdate columns into mdy date formats and the docnum column into a character column.
+  mutate(admitdate = mdy(admitdate),
+         erd = mdy(erd),
+         release_date = mdy(release_date),
+         docnum = as.character(docnum))
 ```
 
 ```{r}
@@ -99,6 +98,7 @@ wadoc_above_3q_releases <- wadoc_late_release |>
 
 wadoc_above_3q_releases
 ```
+Who was held in custody 36 years past their ERD?
 
 I will also make a dataframe for inmates released fewer than 93.5 days before their ERD. I realize that the dataset doesn't measure partial days, but I'll stick to the 3rd quartile limit anyway.
 
@@ -126,38 +126,23 @@ There are a few notable takeaways from this chart:
 4. Inmates released late from Coyote Ridge Corrections Center spent the fewest extra days in custody. 
 
 
-I will now add year and year/month columns to the late release dataset based on the erd and the release date columns.
-
-```{r}
-wadoc_late_release <- wadoc_late_release |>
-  mutate(
-    erd_year = year(erd),
-    release_year = year(release_date),
-    erd_year_month = format(erd, "%Y-%m"),
-    release_year_month = format(release_date, "%Y-%m"))
-
-```
 
 I also want a new dataframe that counts the total number of inmates released after their ERDs from each facility.
 
 ```{r}
-wadoc_late_release_facility_counts <- wadoc_late_release |>
+wadoc_late_release |>
   group_by(facility_released_from) |>
   summarize(late_release_count = n()) |>
   arrange(desc(late_release_count))
-
-wadoc_late_release_facility_counts
 ```
 
 I can do the same for release counties. This will allow me to join with a subset of the release and admission dataset. 
 
 ```{r}
-wadoc_late_release_county_counts <- wadoc_late_release |>
+wadoc_late_release |>
   group_by(released_to_county_or_state) |>
   summarize(late_release_count = n()) |>
   arrange(desc(late_release_count))
-
-wadoc_late_release_county_counts
 ```
 It's not a surprise that the most populous counties appear at the top of the list. 
 
@@ -177,15 +162,273 @@ wadoc_average_prison_pop <- wadoc_average_prison_pop |>
 
 After May 2014, the prison_facility_total appears to be an accurate sum the population of all full custody facilities. There are some minor discrepancies from 2012 through May 2014 (and, for better or for worse, I did hand-check to make sure the errors were on the part of the DOC), but they appear to have resolved those challenges. It also appears that the DOC significantly ramped up its use of non-work release partial detention between May 2014 and March 2020, with numbers petering out as the pandemic took hold. 
 
-
 I should put together a new dataset that shows the number of late releases as a percentage of all releases by facility by year and as a percentage of all inmates by facility by year. I don't have a complete year for 2023, but I'll make the calculation anyway and add a note about the inconsistency.
 
 First, however, I need to find a way to make the names of facilities match between the late release dataset and the monthly population dataset. For the sake of simplicity, I'll do this in OpenRefine, but I'll describe the changes below:
 
+1. I created a new column for standardized release facility names.
+2. Using the facility names/column names in the monthly prison population dataset, I turned all abbreviated prison names -- including the abbreviated names of units, like the MCC IMU -- into the lowercase full name of the prison.
+3. I assigned all work release facilities the value "work_release."
+4. I assigned all "violator facilities" and other county-level facilities the value "county_jail".
+5. I assigned all juvenile detention facilities or community transition facilities the value "juvenile_detention."
+6. I assigned programs like graduated reentry (GRE) and CPA the value "other_partial_confinement."
+7. I assigned the interstate compact inmates the value "interstate_compact_inmates."
+
+I'll now read in that standardized dataset.
+
 ```{r}
-write_csv(wadoc_average_prison_pop,"data/datasets_generated/wadoc_average_prison_pop_standardized")
+wadoc_late_release_standardized <- read_csv("data/wadoc_late_release_facility_standardized.csv") |>
+  clean_names() |>
+  mutate(admitdate = mdy(admitdate),
+         erd = mdy(erd),
+         release_date = mdy(release_date),
+         docnum = as.character(docnum))
+  
+
+```
+
+I intended to join the late release by county dataset and a subset of the release/admission dataset. Unfortunatelty, the release/admission dataset is broken into fiscal years, and I only have records to cover the 2023 fiscal year (WA DOC's fiscal year begins in July and ends in June).
+
+To do that, I needed to break my late release dataset down into separate datsets for each year and group by county in each of the resulting datasets.
+
+Here is the 2023 fiscal year:
+
+```{r}
+wadoc_late_release_fy23 <- wadoc_late_release |>
+  filter(release_date >= as.Date("2022-07-01") & release_date <= as.Date("2023-06-30")) |>
+  group_by(released_to_county_or_state) |>
+  summarize(late_release_count = n()) |>
+  arrange(desc(late_release_count))
+           
+
+wadoc_late_release_fy23
+```
+
+I also need to write code to replace any state abbreviations with "OUT OF STATE" and merge the "OUT OF STATE" rows into one. 
+
+```{r}
+
+# Replace all of the state abbreviations with "OUT OF STATE" to match the DOC release/admission dataset. 
+
+wadoc_late_release_fy23 <- wadoc_late_release_fy23 |>
+  mutate(released_to_county_or_state = if_else(
+    released_to_county_or_state %in% c("OR", "ID", "CA", "NV", "OK", "AZ", "CO", "HI", "IN", "MN", "NJ", "OH"),
+    "OUT OF STATE",
+    released_to_county_or_state 
+  )) 
+
+# Use group_by and summarize to combine the "OUT OF STATE" rows.
+
+wadoc_late_release_fy23_grouped <- wadoc_late_release_fy23 |>
+  group_by(released_to_county_or_state) |>
+  summarize(total_late_release = sum(late_release_count)) |>
+  arrange(desc(total_late_release))
+
+# Convert released_to_county_or_state to title case.
+
+wadoc_late_release_fy23_grouped$released_to_county_or_state <- str_to_title(wadoc_late_release_fy23_grouped$released_to_county_or_state)
+
+wadoc_late_release_fy23_grouped
+```
+
+I also need to subset the release/admission dataset to single out releases for FY 2023 alone.
+
+```{r}
+#Subset for releases in FY 2022:
+wadoc_fy23_releases <- wadoc_release_admission |>
+  select(county, release_fy23) |>
+  mutate(county = str_to_title(county))
+
+wadoc_fy23_releases
+```
+
+Now I can use a left join to match late release numbers to total release numbers and calculate the percentage of all releases to each county that were two or more weeks past the released inmate's ERD.
+
+```{r}
+wadoc_all_release_late_release_fy23 <- left_join(wadoc_fy23_releases, wadoc_late_release_fy23_grouped, by=c("county" = "released_to_county_or_state")) |>
+  # I want to get rid of the "Total" row for now, so I'll filter it out. I can recalculate it again by calculating the sum of the  
+  filter(county != "Total") |>
+  # I replace null values in the total_late_release column with 0. 
+  mutate(total_late_release = ifelse(is.na(total_late_release), 0, total_late_release)) |>
+  # I calculate the percentage of all releases that were two weeks or more past an inmate's ERD.
+  mutate(late_release_pct = (total_late_release/release_fy23)*100) |>
+  arrange(desc(late_release_pct)) 
+
+
+wadoc_all_release_late_release_fy23
+
+```
+
+For good measure, I should also calculate the percentage of all releases in the state that were two or more weeks past the released inmate's ERD.
+
+```{r}
+total_release_fy23 = (sum(wadoc_all_release_late_release_fy23$total_late_release)/sum(wadoc_all_release_late_release_fy23$release_fy23)) * 100
+
+total_release_fy23
+```
+20 percent of all people released from Washington DOC custody in FY 2023 were released more than two weeks after their earned release date. That is a thread to pursue in and of itself.
+
+Now that we have a corresponding percentage for each county, we can make a map.
+
+As a starting point, I need a dataset with the geometry for each Washington county.
+
+```{r}
+wa_counties <- counties () |>
+  filter(STATEFP == "53")
+```
+
+I can now join the late release by county dataframe to my Washington counties dataframe. This step filters out non-county rows in the release dataframe, including releases to immigration authorities.
+
+```{r}
+wa_late_release_county <- wa_counties |> left_join(wadoc_all_release_late_release_fy23, join_by(NAME==county))
+  
+## I want this as a dataframe, not a simple feature object. 
+wa_late_release_county <- as.data.frame(wa_late_release_county) 
+
+head(wa_late_release_county)
+```
+Now I have the geometry I need to make a basic map of late release percentages by county.
+
+```{r}
+county_centroids <- st_centroid(wa_counties)
+county_centroids_df <- as.data.frame(st_coordinates(county_centroids))
+county_centroids_df$NAME <- county_centroids$NAME
+
+ggplot() +
+  geom_sf(data=wa_late_release_county, aes(fill=late_release_pct, geometry = geometry)) +
+  geom_text(aes(x = X, y = Y, label = NAME), data = county_centroids_df, size = 3, check_overlap = TRUE) +
+  scale_colour_viridis_b(option="magma")+
+  theme_minimal()
+```
+Why were three of the four inmates from Whitman County -- a rural county that includes Washington State University -- released more than two weeks after their ERD in 2023? 
+
+If I had admission/release data for each DOC facility, I might be able to identify possible sources of the problem more easily.
+
+How does that map compare to prison releases per capita in FY 2023 for each county?
+
+For that calculation, I need my wa_late_release_county dataset, ACS data and my Washington counties dataset.
+
+I need a dataframe of Washington county populations; the latest data available is from the 2021 ACS.
+
+```{r}
+wa_county_population <- get_acs(geography = "county",
+              variables = c(population = "B01001_001"),
+              year = 2021,
+              state = "WA") |> rename(county_pop = estimate)
+```
+
+I can now join the county population dataset and the release/geometry dataset by GEOID and calculate releases per 1,000 residents in each county.
+
+```{r}
+wa_all_release_county_pop <- wa_county_population |> left_join(wa_late_release_county, join_by(GEOID)) |>
+  mutate(release_pc = (release_fy23/county_pop)*1000)
+
+head(wa_all_release_county_pop)
 ```
 
 
+I make a map with identical formatting for comparison.
+
+```{r}
+county_centroids <- st_centroid(wa_counties)
+county_centroids_df <- as.data.frame(st_coordinates(county_centroids))
+county_centroids_df$NAME <- county_centroids$NAME
+
+ggplot() +
+  geom_sf(data=wa_all_release_county_pop, aes(fill=release_pc, geometry = geometry)) +
+  geom_text(aes(x = X, y = Y, label = NAME), data = county_centroids_df, size = 3, check_overlap = TRUE) +
+  scale_colour_viridis_b(option="magma")+
+  theme_minimal()
+```
+A comparison of the two maps underscores that while 75 percent of inmates released to Whitman County in FY 2023 were released more than two weeks after their ERD, only four people were released from DOC custody to Whitman County in FY 2023 -- among the lowest numbers of releases per capita in the state in the last fiscal year. 
+
+Is there any correlation between releases per capita and the percentage of all releases two weeks or more past released inmates' ERDs?
+
+```{r}
+correlation_late_release_pct_releases_pc <- cor(wa_all_release_county_pop$late_release_pct, 
+                   wa_all_release_county_pop$release_pc)
+
+correlation_late_release_pct_releases_pc
+```
+There is a very weak negative correlation between the two statistics. 
+
+Moving on to the relationship between the number of people incarcerated in a given WA DOC facility/held in custody through a WA DOC program and the percentage of releases from that facility/program two weeks or more after the released inmate's ERD:
+
+Because the DOC's facility population dataset ends in June 2022, I have less than a year of overlap between the two datasets.
+
+To make the most of my limited data, I start by subsetting my facility population dataset to isolate the period from January 2022 and June 2022. 
+
+```{r}
+wadoc_avg_pop_jan22_jun22 <- wadoc_average_prison_pop |>
+  filter(count_year == "adp_jan_2022" | count_year == "adp_feb_2022" | count_year == "adp_mar_2022" | count_year == "adp_apr_2022" | count_year == "adp_may_2022" | count_year == "adp_jun_2022") |>
+  rename(month = count_year)
+```
+
+I also need to add a month and year filter to the late_release_standardized dataset, isolate January-Jun 2022, and group by facility.
+
+```{r}
+wadoc_late_release_standardized_2022 <- wadoc_late_release_standardized |>
+  #I keep the months in numeric format for easier filtering.
+  mutate(release_month = month(release_date),
+         release_year = year(release_date)) |>
+  filter(release_year == 2022) |>
+  filter(release_month >= 1 & release_month <= 6) |>
+  group_by(facility_released_from_standardized, release_month) |>
+  summarize(late_release_count = n())
+
+wadoc_late_release_standardized_2022
+
+```
+
+In order to join these datasets, I need to transpose the monthly population dataset and make the values in that month column into numbers. 
+
+```{r}
+wadoc_avg_pop_jan22_jun22_transposed <- data.frame(t(wadoc_avg_pop_jan22_jun22))
+
+# I set the first row of the wadoc_release_admission_transposed as the column names. 
+colnames(wadoc_avg_pop_jan22_jun22_transposed) <- wadoc_avg_pop_jan22_jun22_transposed[1, ]
+
+# I remove the first row to avoid duplication.
+wadoc_avg_pop_jan22_jun22_transposed <- wadoc_avg_pop_jan22_jun22_transposed[-1, ]
+
+# I make the row headers into a column.
+wadoc_avg_pop_jan22_jun22_transposed <- rownames_to_column(wadoc_avg_pop_jan22_jun22_transposed, var = "fiscal_year")
+
+#I clean the column names.
+wadoc_avg_pop_jan22_jun22_transposed <- clean_names(wadoc_avg_pop_jan22_jun22_transposed)
+
+# I rename the first column.
+
+wadoc_avg_pop_jan22_jun22_transposed <- wadoc_avg_pop_jan22_jun22_transposed |>
+  rename(facility_released_from_standardized = fiscal_year)
+
+```
+
+I also need to turn the "release_month" values of the wadoc_late_release_standardized_2022 column into columns of their own. I do that with a pivot_wider function.
+
+```{r}
+wadoc_late_release_standardized_2022_wide <- pivot_wider(
+  data = wadoc_late_release_standardized_2022,
+  id_cols = facility_released_from_standardized,
+  names_from = release_month,
+  values_from = late_release_count
+) |>
+  # Since the months in the dataset were in numeric format, I use the column index for renaming.
+  rename(late_release_jan_22 = 2,
+         late_release_feb_22 = 3,
+         late_release_mar_22 = 4,
+         late_release_apr_22 = 5,
+         late_release_may_22 = 6,
+         late_release_jun_22 = 7) |>
+  # I replace null values with 0. 
+   mutate_all(~ ifelse(is.na(.), 0, .))
+  
+```
+Now I can join by facility.
+
+```{r}
+wadoc_late_release_facility_pop_2022 <- left_join(wadoc_avg_pop_jan22_jun22_transposed, wadoc_late_release_standardized_2022_wide, by=c("facility_released_from_standardized")) |>
+    filter(facility_released_from_standardized)
+```
 
 

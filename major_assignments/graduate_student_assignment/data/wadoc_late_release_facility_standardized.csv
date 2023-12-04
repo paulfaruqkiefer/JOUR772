@@ -1,0 +1,1684 @@
+DOCNUM,ADMITDATE,FACILITY RELEASED FROM,facility_released_from_standardized,RELEASED TO COUNTY OR STATE,ERD,RELEASE DATE,REL PAST ERD DAYS
+208958,6/13/1996,WSP-MAIN,washington_state_penitentiary,PIERCE,5/25/2020,2/10/2022,626
+242133,6/22/2022,CRCC,coyote_ridge_corrections_center,YAKIMA,7/31/2023,8/16/2023,16
+250420,11/4/2019,WCC-RC,washington_correction_center,GRAYS HARBOR,1/3/2023,1/18/2023,15
+250972,8/17/2005,AHCC,airway_heights_corrections_center,SPOKANE,5/21/2022,9/28/2022,130
+252432,9/28/1976,WSP-MAIN,washington_state_penitentiary,WALLA WALLA,12/16/1985,11/17/2022,13485
+253923,7/9/2021,WCC-TC,washington_correction_center,KITSAP,11/29/2022,3/7/2023,98
+256322,7/28/2022,WCCW-RECEIVING,washington_correction_center_for_women,KING,8/9/2021,9/6/2022,393
+260854,6/10/2003,BROWNSTONE REENTRY CENTER,work_release,SPOKANE,1/31/2022,2/16/2022,16
+265473,4/27/2022,WCC-RC,washington_correction_center,FRANKLIN,4/27/2022,8/29/2022,124
+268865,6/3/2005,SCCC,stafford_creek_corrections_center,KING,10/29/2022,5/15/2023,198
+270012,5/27/2020,MCC-IMU,monroe_correctional_complex,BENTON,10/6/2021,1/3/2022,89
+271998,7/25/2018,AHCC,airway_heights_corrections_center,SPOKANE,5/21/2022,7/18/2022,58
+272304,1/19/2022,WCC-TC,washington_correction_center,KING,5/5/2022,5/24/2022,19
+273497,6/27/2019,WCCW-MSC,washington_correction_center_for_women,KING,10/2/2022,10/17/2022,15
+274154,6/1/2023,WCC-RC,washington_correction_center,SNOHOMISH,6/22/2023,8/25/2023,64
+274733,11/9/2020,CRCC,coyote_ridge_corrections_center,CLARK,12/29/2022,1/12/2023,14
+283135,11/6/2001,MCC-SOU,monroe_correctional_complex,KING,7/2/2022,8/29/2022,58
+283593,10/8/2013,MCC-TRU,monroe_correctional_complex,KING,6/13/2022,10/3/2022,112
+287316,1/24/1975,MCC-TRU,monroe_correctional_complex,KING,10/17/2022,1/24/2023,99
+288515,4/3/2019,GRE,other_partial_confinement,BENTON,6/23/2022,1/3/2023,194
+288541,8/22/1991,MCC-TRU,monroe_correctional_complex,SNOHOMISH,9/10/2021,5/5/2022,237
+293636,3/24/2017,WSP-MSU,washington_state_penitentiary,CLARK,10/13/2022,11/29/2022,47
+298466,5/15/2020,SCCC,stafford_creek_corrections_center,COWLITZ,9/25/2022,12/21/2022,87
+298684,5/27/2022,WCC-RC,washington_correction_center,PIERCE,5/27/2022,7/25/2022,59
+298689,3/11/2003,AHCC,airway_heights_corrections_center,SPOKANE,11/23/2015,7/25/2022,2436
+300127,12/15/2015,WSP-MAIN,washington_state_penitentiary,KITSAP,12/7/2021,1/5/2022,29
+300341,5/14/2021,MCC-SOU,monroe_correctional_complex,KING,2/7/2022,4/5/2022,57
+300563,3/15/2019,CRCC,coyote_ridge_corrections_center,GRAYS HARBOR,1/16/2022,2/2/2022,17
+301229,10/15/2021,LCC,larch_corrections_center,THURSTON,3/25/2023,4/13/2023,19
+301982,5/11/2021,CRCC,coyote_ridge_corrections_center,PIERCE,4/6/2022,5/6/2022,30
+302050,12/6/2021,CCCC,cedar_creek_corrections_center,GRAYS HARBOR,7/23/2022,8/23/2022,31
+302503,2/27/2007,GRE,other_partial_confinement,PIERCE,3/11/2023,4/3/2023,23
+302589,6/22/2020,CRCC,coyote_ridge_corrections_center,KITSAP,12/17/2021,4/11/2022,115
+302695,3/6/2018,AHCC,airway_heights_corrections_center,SNOHOMISH,11/27/2022,1/5/2023,39
+302938,8/31/2017,AHCC,airway_heights_corrections_center,PIERCE,2/9/2022,6/10/2022,121
+303267,1/13/2022,WCC-RC,washington_correction_center,PIERCE,3/11/2022,4/19/2022,39
+303856,10/28/2022,MCC-SOU,monroe_correctional_complex,CHELAN,4/21/2023,8/2/2023,103
+303975,3/6/2007,WCC-TC,washington_correction_center,SNOHOMISH,10/24/2022,6/1/2023,220
+304172,7/24/2022,COWLITZ COUNTY VIOLATOR FAC.,county_jail,COWLITZ,1/6/2023,2/16/2023,41
+304304,3/13/2007,SCCC,stafford_creek_corrections_center,KING,3/2/2022,4/12/2022,41
+304437,3/1/2021,MCC-TRU,monroe_correctional_complex,KING,12/18/2022,6/12/2023,176
+304924,3/27/2020,AHCC,airway_heights_corrections_center,KING,1/31/2023,3/14/2023,42
+305268,4/10/2007,SCCC,stafford_creek_corrections_center,PIERCE,8/24/2021,1/23/2023,517
+305326,1/29/2019,WCC-TC,washington_correction_center,SKAGIT,5/30/2023,8/11/2023,73
+305540,10/1/2021,WCC-TC,washington_correction_center,SNOHOMISH,10/8/2021,1/5/2022,89
+305658,2/18/2022,WCC-TC,washington_correction_center,KING,6/18/2022,8/30/2022,73
+305969,7/8/2021,SCCC,stafford_creek_corrections_center,SPOKANE,8/1/2023,8/22/2023,21
+306007,10/22/2019,PENINSULA REENTRY CENTER,work_release,KING,2/17/2022,3/10/2022,21
+306607,3/8/2019,MCC-SOU,monroe_correctional_complex,THURSTON,10/17/2022,2/28/2023,134
+306988,12/9/2021,CRCC-MSU,coyote_ridge_corrections_center,SPOKANE,7/19/2023,8/21/2023,33
+307059,9/30/2022,WCC-RC,washington_correction_center,KING,10/10/2022,12/6/2022,57
+307531,11/9/2021,WCC-TC,washington_correction_center,KITSAP,1/17/2022,3/23/2022,65
+308905,10/17/2022,WCC-IMU,washington_correction_center,KING,12/5/2022,1/18/2023,44
+308915,12/23/2019,WSP-MAIN,washington_state_penitentiary,KING,1/28/2022,5/31/2022,123
+309304,11/12/2021,WCC-RC,washington_correction_center,CLALLAM,11/12/2021,1/14/2022,63
+309556,2/1/2022,WCC-TC,washington_correction_center,KING,8/14/2022,9/5/2022,22
+309756,10/30/2007,SCCC,stafford_creek_corrections_center,PIERCE,6/15/2022,8/1/2022,47
+310081,8/24/2021,WCC-TC,washington_correction_center,KING,2/19/2023,4/12/2023,52
+310154,8/16/2019,WSP-MSU,washington_state_penitentiary,COWLITZ,5/14/2021,4/14/2022,335
+310592,9/17/2008,MCC-TRU,monroe_correctional_complex,YAKIMA,8/3/2022,8/22/2022,19
+310696,3/15/2022,WSP-MSU,washington_state_penitentiary,KING,2/12/2023,3/20/2023,36
+311176,8/4/2022,CRCC-MSU,coyote_ridge_corrections_center,GRAYS HARBOR,4/21/2023,5/18/2023,27
+311380,1/20/2023,WCC-TC,washington_correction_center,KING,7/15/2023,7/31/2023,16
+311433,2/24/2015,SCCC,stafford_creek_corrections_center,KING,1/4/2023,2/21/2023,48
+311499,1/5/2023,WCC-TC,washington_correction_center,PIERCE,6/24/2023,7/27/2023,33
+311586,2/14/2022,SCCC,stafford_creek_corrections_center,KITSAP,3/7/2023,4/7/2023,31
+311600,1/29/2014,MCC-SOU,monroe_correctional_complex,MASON,10/13/2021,6/7/2022,237
+312170,6/9/2020,SCCC,stafford_creek_corrections_center,PIERCE,5/2/2022,6/16/2022,45
+312192,12/10/2015,SCCC,stafford_creek_corrections_center,SPOKANE,3/16/2022,4/29/2022,44
+312755,1/30/2008,WCCW,washington_correction_center_for_women,PIERCE,5/20/2023,6/12/2023,23
+312960,12/8/2020,WSP-MSU,washington_state_penitentiary,PIERCE,3/24/2022,4/18/2022,25
+313010,10/14/2020,AHCC,airway_heights_corrections_center,KING,1/14/2023,3/29/2023,74
+313295,8/17/2021,CRCC,coyote_ridge_corrections_center,KING,2/18/2023,3/9/2023,19
+313574,7/7/2021,WSP-MSU,washington_state_penitentiary,BENTON,1/7/2022,1/25/2022,18
+313615,9/8/2015,MCC-TRU,monroe_correctional_complex,SNOHOMISH,2/4/2022,4/6/2022,61
+313646,4/17/2012,MCC-SOU,monroe_correctional_complex,BENTON,2/27/2023,4/28/2023,60
+313947,5/4/2018,AHCC,airway_heights_corrections_center,CLARK,6/23/2023,8/15/2023,53
+314591,3/25/2020,MCC-SOU,monroe_correctional_complex,SNOHOMISH,7/24/2021,8/15/2022,387
+314915,12/8/2017,AHCC,airway_heights_corrections_center,SPOKANE,2/10/2022,3/14/2022,32
+314964,11/1/2019,BROWNSTONE REENTRY CENTER,work_release,MASON,7/12/2023,8/10/2023,29
+315094,2/5/2020,CBCC-CLOSE CUST,clallam_bay_corrections_center,YAKIMA,12/27/2021,1/14/2022,18
+315693,2/26/2008,WSP-MAIN,washington_state_penitentiary,KING,1/13/2023,2/24/2023,42
+315969,8/28/2008,AHCC,airway_heights_corrections_center,SPOKANE,2/27/2023,8/15/2023,169
+316107,4/13/2021,MCC-SOU,monroe_correctional_complex,WHATCOM,9/3/2021,1/3/2022,122
+316410,12/9/2021,WCC-TC,washington_correction_center,KING,6/20/2023,8/2/2023,43
+316475,5/12/2020,SCCC,stafford_creek_corrections_center,KING,12/4/2021,1/6/2022,33
+316501,3/20/2008,WCC-RC,washington_correction_center,PIERCE,5/5/2022,6/21/2022,47
+316617,3/16/2021,AHCC,airway_heights_corrections_center,KING,3/9/2022,5/25/2022,77
+317952,7/28/2023,WCC-RC,washington_correction_center,KING,6/3/2021,8/15/2023,803
+318127,6/16/2022,WCCW-RECEIVING,washington_correction_center_for_women,KING,7/1/2022,7/25/2022,24
+318379,3/16/2021,AHCC,airway_heights_corrections_center,BENTON,12/17/2022,1/19/2023,33
+318437,12/22/2022,WCC-RC,washington_correction_center,ID,2/11/2023,3/24/2023,41
+318494,11/13/2019,AHCC,airway_heights_corrections_center,KING,3/29/2023,5/31/2023,63
+318860,11/1/2022,WCCW-MSC,washington_correction_center_for_women,BENTON,4/21/2023,5/5/2023,14
+318881,4/24/2019,SCCC,stafford_creek_corrections_center,SNOHOMISH,2/17/2023,7/10/2023,143
+319002,8/18/2020,CRCC,coyote_ridge_corrections_center,KING,4/30/2023,6/21/2023,52
+319051,4/25/2023,WCC-RC,washington_correction_center,PIERCE,5/6/2023,5/25/2023,19
+319551,4/25/2018,AHCC,airway_heights_corrections_center,FRANKLIN,12/17/2022,3/30/2023,103
+319944,9/17/2008,CRCC,coyote_ridge_corrections_center,PIERCE,11/24/2022,1/25/2023,62
+320204,10/21/2021,SCCC,stafford_creek_corrections_center,PIERCE,4/10/2023,5/9/2023,29
+320219,2/9/2023,WCC-RC,washington_correction_center,PIERCE,5/8/2023,5/30/2023,22
+320472,6/21/2022,WCC-TC,washington_correction_center,PACIFIC,3/24/2023,4/19/2023,26
+320583,1/4/2021,SCCC,stafford_creek_corrections_center,KITSAP,7/2/2022,9/19/2022,79
+321696,10/17/2008,SCCC,stafford_creek_corrections_center,PIERCE,12/16/2022,7/10/2023,206
+322041,9/13/2022,WCC-RC,washington_correction_center,PIERCE,3/5/2023,4/3/2023,29
+322234,2/26/2013,WSP-MSC,washington_state_penitentiary,SNOHOMISH,6/18/2021,2/9/2022,236
+323013,9/30/2020,MCC-TRU,monroe_correctional_complex,KING,4/28/2022,12/6/2022,222
+323379,4/20/2012,AHCC,airway_heights_corrections_center,CLARK,1/24/2022,2/14/2022,21
+323460,10/31/2018,WCC-TC,washington_correction_center,KING,1/23/2022,5/23/2022,120
+323954,11/12/2021,WCC-TC,washington_correction_center,KING,5/15/2022,6/17/2022,33
+324083,7/23/2020,AHCC,airway_heights_corrections_center,YAKIMA,1/14/2022,3/2/2022,47
+324304,12/2/2016,WCC-IMU,washington_correction_center,CLARK,1/17/2022,2/17/2022,31
+324460,3/27/2018,AHCC-MSU,airway_heights_corrections_center,MASON,10/1/2021,1/11/2022,102
+324773,8/6/2020,MCC-SOU,monroe_correctional_complex,SPOKANE,1/6/2022,2/1/2022,26
+325478,4/29/2022,WCC-TC,washington_correction_center,KING,3/4/2023,6/14/2023,102
+325482,5/5/2023,WCC-RC,washington_correction_center,KING,6/18/2023,7/28/2023,40
+325504,5/24/2022,CCCC,cedar_creek_corrections_center,PIERCE,12/12/2022,12/27/2022,15
+325607,11/2/2010,MCC-TRU,monroe_correctional_complex,KITSAP,10/24/2022,12/14/2022,51
+326115,6/8/2021,MCC-TRU,monroe_correctional_complex,WHATCOM,9/26/2021,3/16/2022,171
+326245,2/9/2022,WCCW,washington_correction_center_for_women,LEWIS,12/9/2022,1/11/2023,33
+326341,4/15/2021,WCC-RC,washington_correction_center,PIERCE,7/3/2019,1/27/2022,939
+326608,12/21/2021,WSP-MSU,washington_state_penitentiary,KING,2/16/2023,3/9/2023,21
+326609,11/16/2018,WSP-IMU,washington_state_penitentiary,KING,11/8/2022,12/27/2022,49
+326651,2/11/2020,AHCC-MSU,airway_heights_corrections_center,PIERCE,10/8/2022,11/2/2022,25
+326802,3/4/2022,CBCC-CLOSE CUST,clallam_bay_corrections_center,CLARK,9/30/2022,11/14/2022,45
+327575,8/11/2022,WCC-RC,washington_correction_center,KING,10/15/2022,12/7/2022,53
+327922,9/15/2020,CRCC,coyote_ridge_corrections_center,PIERCE,11/21/2021,1/11/2022,51
+328237,9/14/2020,WCC-RC,washington_correction_center,GRAYS HARBOR,9/2/2021,3/24/2022,203
+328854,4/20/2018,MCC-TRU,monroe_correctional_complex,KING,11/28/2022,4/7/2023,130
+329612,7/23/2021,WCC-RC,washington_correction_center,KITSAP,2/28/2020,2/3/2022,706
+329731,4/27/2022,WCC-RC,washington_correction_center,BENTON,4/7/2022,5/12/2022,35
+330049,12/14/2018,WCCW-MSC,washington_correction_center_for_women,KING,12/17/2021,1/7/2022,21
+330150,5/19/2021,SPOKANE CO VIOLATOR FACILITY,county_jail,SPOKANE,7/10/2022,1/3/2023,177
+330243,4/28/2009,CRCC-MSU,coyote_ridge_corrections_center,SKAGIT,9/30/2022,11/11/2022,42
+330359,3/16/2012,AHCC,airway_heights_corrections_center,COWLITZ,5/1/2022,7/19/2022,79
+330760,11/23/2022,WCC-TC,washington_correction_center,THURSTON,5/28/2023,6/16/2023,19
+330766,5/15/2009,MCC-TRU,monroe_correctional_complex,KING,5/24/2023,7/10/2023,47
+330883,2/18/2010,CRCC,coyote_ridge_corrections_center,KING,10/9/2022,11/3/2022,25
+331084,2/24/2020,AHCC,airway_heights_corrections_center,KING,11/6/2022,2/14/2023,100
+331159,5/1/2020,MCC-IMU,monroe_correctional_complex,KING,4/14/2022,8/15/2022,123
+331266,11/20/2019,AHCC,airway_heights_corrections_center,YAKIMA,11/15/2022,2/15/2023,92
+331867,9/22/2009,WCC-TC,washington_correction_center,KING,8/13/2022,8/29/2022,16
+332524,6/3/2014,MCC-TRU,monroe_correctional_complex,SNOHOMISH,4/7/2022,6/14/2022,68
+332827,9/9/2009,AHCC,airway_heights_corrections_center,PIERCE,9/19/2022,5/1/2023,224
+332973,9/24/2009,WCCW,washington_correction_center_for_women,SPOKANE,5/18/2022,9/6/2022,111
+333203,10/20/2011,MCC-SOU,monroe_correctional_complex,SPOKANE,9/27/2022,11/14/2022,48
+334011,1/5/2010,MCC-TRU,monroe_correctional_complex,PIERCE,10/26/2021,3/15/2022,140
+334076,4/15/2022,WCC-TC,washington_correction_center,KING,4/15/2022,8/10/2022,117
+334299,4/22/2014,CBCC-CLOSE CUST,clallam_bay_corrections_center,CLARK,6/30/2022,7/26/2022,26
+334522,12/8/2020,SCCC,stafford_creek_corrections_center,SNOHOMISH,7/6/2023,8/3/2023,28
+335283,12/8/2009,MCC-TRU,monroe_correctional_complex,KING,3/7/2022,5/11/2022,65
+335445,10/29/2009,SCCC,stafford_creek_corrections_center,PIERCE,8/2/2020,2/28/2022,575
+335593,12/29/2009,SCCC,stafford_creek_corrections_center,KING,11/13/2022,11/28/2022,15
+335786,3/15/2023,WCC-RC,washington_correction_center,BENTON,3/15/2023,5/17/2023,63
+336249,5/27/2021,AHCC,airway_heights_corrections_center,SPOKANE,12/5/2022,12/27/2022,22
+336432,6/2/2015,REYNOLDS REENTRY CENTER,work_release,KING,1/25/2022,2/8/2022,14
+337307,3/12/2010,CRCC,coyote_ridge_corrections_center,KING,4/12/2022,5/5/2022,23
+337341,2/10/2020,WSP-MAIN,washington_state_penitentiary,CLARK,10/30/2022,12/12/2022,43
+337405,11/9/2022,WCC-RC,washington_correction_center,YAKIMA,11/18/2022,1/4/2023,47
+337547,7/7/2017,WSP-MAIN,washington_state_penitentiary,THURSTON,2/15/2022,6/10/2022,115
+337758,11/3/2020,WCCW,washington_correction_center_for_women,WHATCOM,10/14/2021,4/21/2022,189
+338077,4/15/2022,CRCC,coyote_ridge_corrections_center,KING,2/12/2023,3/28/2023,44
+338184,11/10/2021,WCC-RC,washington_correction_center,YAKIMA,12/1/2021,2/28/2022,89
+338311,1/11/2021,AHCC,airway_heights_corrections_center,SPOKANE,1/18/2022,2/19/2022,32
+338325,11/6/2018,MCC-WSR-MSU,monroe_correctional_complex,PIERCE,2/6/2022,2/22/2022,16
+338572,4/9/2010,CRCC,coyote_ridge_corrections_center,KING,6/6/2023,6/21/2023,15
+338733,5/27/2022,WCC-TC,washington_correction_center,CLARK,3/5/2023,4/21/2023,47
+338898,6/10/2019,WSP-IMU,washington_state_penitentiary,LEWIS,2/24/2022,4/6/2022,41
+339188,3/23/2010,WCC-TC,washington_correction_center,PIERCE,9/27/2022,11/18/2022,52
+339346,2/11/2020,WSP-IMU,washington_state_penitentiary,PIERCE,1/23/2023,2/16/2023,24
+339411,11/23/2021,WCC-TC,washington_correction_center,PIERCE,12/15/2021,2/22/2022,69
+339557,7/1/2022,WCC-RC,washington_correction_center,KING,10/12/2021,8/10/2022,302
+339795,6/4/2010,AHCC,airway_heights_corrections_center,KING,3/3/2023,6/5/2023,94
+339882,5/14/2019,AHCC,airway_heights_corrections_center,NV,7/31/2022,9/7/2022,38
+340228,2/28/2023,WCC-RC,washington_correction_center,PIERCE,3/1/2023,5/26/2023,86
+340743,2/4/2023,WCC-RC,washington_correction_center,GRAYS HARBOR,4/13/2023,5/17/2023,34
+341028,7/22/2010,AHCC,airway_heights_corrections_center,SPOKANE,6/22/2023,7/17/2023,25
+341858,3/8/2023,WCC-RC,washington_correction_center,BENTON,5/23/2023,6/16/2023,24
+341899,2/13/2022,WCC-RC,washington_correction_center,KITSAP,4/24/2022,5/29/2022,35
+342081,4/28/2022,AHTANUM VIEW REENTRY CENTER,work_release,YAKIMA,11/29/2022,1/17/2023,49
+342707,11/23/2022,WCC-TC,washington_correction_center,SNOHOMISH,1/17/2023,5/10/2023,113
+343104,8/27/2010,REYNOLDS REENTRY CENTER,work_release,KING,3/16/2023,5/3/2023,48
+343331,6/4/2019,SCCC,stafford_creek_corrections_center,KING,2/26/2023,3/23/2023,25
+343563,11/29/2010,MCC-TRU,monroe_correctional_complex,SNOHOMISH,6/4/2022,9/27/2022,115
+343710,9/15/2021,AHCC-MSU,airway_heights_corrections_center,YAKIMA,11/24/2022,12/26/2022,32
+343795,11/20/2019,MCC-SOU,monroe_correctional_complex,SNOHOMISH,3/26/2023,6/22/2023,88
+343855,12/18/2022,THURSTON CO. VIOLATOR FACILITY,county_jail,THURSTON,1/3/2023,1/25/2023,22
+343907,2/16/2021,CCCC,cedar_creek_corrections_center,KITSAP,10/1/2022,10/25/2022,24
+344091,8/6/2019,CRCC-MSU,coyote_ridge_corrections_center,SKAGIT,10/16/2021,2/7/2022,114
+344158,1/7/2021,MCC-TRU,monroe_correctional_complex,KING,10/26/2022,11/28/2022,33
+344385,6/30/2020,MCC-TRU,monroe_correctional_complex,BENTON,11/2/2021,5/31/2022,210
+344523,11/29/2011,MCC-TRU,monroe_correctional_complex,PIERCE,6/2/2022,7/11/2022,39
+344551,9/1/2020,WCC-RC,washington_correction_center,SNOHOMISH,5/1/2022,7/26/2022,86
+345298,9/2/2021,CRCC-MSU,coyote_ridge_corrections_center,GRANT,3/4/2022,4/21/2022,48
+345437,1/18/2011,MCC-TRU,monroe_correctional_complex,CLARK,2/8/2023,3/7/2023,27
+345483,5/2/2022,WCC-RC,washington_correction_center,BENTON,4/25/2022,8/21/2022,118
+345586,10/4/2018,WSP-MSU,washington_state_penitentiary,PIERCE,10/15/2022,11/22/2022,38
+345620,4/13/2021,WCC-TC,washington_correction_center,KITSAP,12/25/2022,1/18/2023,24
+345741,6/23/2022,WCC-TC,washington_correction_center,SPOKANE,11/14/2022,1/19/2023,66
+345807,6/5/2018,CRCC,coyote_ridge_corrections_center,KING,5/27/2022,7/21/2022,55
+346017,10/5/2018,WSP-MSU,washington_state_penitentiary,COWLITZ,1/28/2022,2/17/2022,20
+346220,11/2/2020,MCC-TRU,monroe_correctional_complex,PIERCE,8/22/2022,11/3/2022,73
+346411,3/9/2011,AHCC,airway_heights_corrections_center,SPOKANE,5/25/2022,8/29/2022,96
+346510,11/10/2022,WCC-RC,washington_correction_center,KING,11/29/2022,1/23/2023,55
+347009,4/11/2017,CCCC,cedar_creek_corrections_center,SNOHOMISH,4/13/2022,6/17/2022,65
+347036,3/3/2020,SCCC,stafford_creek_corrections_center,PIERCE,6/12/2023,7/7/2023,25
+347129,2/15/2011,MCC-WSR-MSU,monroe_correctional_complex,KING,2/16/2022,3/7/2022,19
+347419,5/12/2022,CCCC,cedar_creek_corrections_center,CLARK,1/30/2023,3/7/2023,36
+347458,4/4/2023,WCC-RC,washington_correction_center,KING,4/4/2023,5/5/2023,31
+347464,3/1/2011,CRCC-MSU,coyote_ridge_corrections_center,PIERCE,8/20/2021,7/11/2022,325
+347704,4/21/2011,AHCC,airway_heights_corrections_center,PIERCE,7/3/2022,7/14/2023,376
+347731,9/11/2015,MCC-SOU,monroe_correctional_complex,YAKIMA,11/5/2021,5/19/2022,195
+348262,9/14/2022,WCC-RC,washington_correction_center,BENTON,9/27/2022,1/27/2023,122
+349459,5/24/2022,WCC-TC,washington_correction_center,THURSTON,7/19/2022,11/17/2022,121
+349506,5/26/2011,AHCC,airway_heights_corrections_center,SPOKANE,3/10/2021,6/1/2022,448
+349949,5/12/2022,WCC-RC,washington_correction_center,ASOTIN,5/25/2022,6/29/2022,35
+350589,5/12/2017,WCC-TC,washington_correction_center,CLARK,6/13/2021,6/3/2022,355
+350806,5/13/2021,AHCC-MSU,airway_heights_corrections_center,SPOKANE,6/5/2022,7/13/2022,38
+351911,10/29/2022,WCCW-RECEIVING,washington_correction_center_for_women,GRANT,12/24/2019,12/21/2022,1093
+352162,9/8/2011,WCC-RC,washington_correction_center,PIERCE,8/17/2021,8/17/2022,365
+352190,4/13/2021,AHCC,airway_heights_corrections_center,KING,1/30/2023,2/16/2023,17
+352200,3/19/2021,AHCC-MSU,airway_heights_corrections_center,THURSTON,4/13/2022,5/11/2022,28
+352354,10/25/2019,AHCC,airway_heights_corrections_center,KING,12/4/2021,2/2/2022,60
+352639,5/17/2012,MCC-WSR,monroe_correctional_complex,KING,11/10/2020,1/18/2022,434
+352780,9/30/2011,SCCC,stafford_creek_corrections_center,PIERCE,5/13/2022,12/16/2022,217
+352838,10/4/2011,OCC,olympic_corrections_center,TN,3/22/2022,4/21/2022,30
+352878,11/29/2011,MCCCW,mission_creek_corrections_center_for_women,SNOHOMISH,2/5/2023,5/9/2023,93
+352924,12/28/2021,WCCW-RECEIVING,washington_correction_center_for_women,KING,12/28/2021,2/21/2022,55
+352979,12/24/2015,WCC-TC,washington_correction_center,THURSTON,1/5/2022,2/8/2022,34
+353038,1/29/2019,CBCC-CLOSE CUST,clallam_bay_corrections_center,SNOHOMISH,6/6/2023,7/4/2023,28
+353113,11/18/2011,MCC-TRU,monroe_correctional_complex,CLARK,8/3/2022,11/22/2022,111
+353128,6/27/2023,WCC-RC,washington_correction_center,US MARSHAL,7/22/2023,8/22/2023,31
+353946,2/4/2022,WCC-RC,washington_correction_center,KING,3/1/2022,4/4/2022,34
+354623,12/27/2019,MCC-SOU,monroe_correctional_complex,CLARK,5/2/2022,6/15/2022,44
+354701,5/24/2022,WCCW-MSC,washington_correction_center_for_women,BENTON,10/13/2022,11/7/2022,25
+354831,3/1/2023,WCC-IMU,washington_correction_center,YAKIMA,4/14/2023,5/17/2023,33
+355278,3/29/2018,AHTANUM VIEW REENTRY CENTER,work_release,DOUGLAS,11/15/2022,11/30/2022,15
+355415,2/7/2020,MCC-TRU,monroe_correctional_complex,COWLITZ,10/24/2022,11/16/2022,23
+355860,6/21/2013,AHCC,airway_heights_corrections_center,KING,5/19/2022,6/13/2022,25
+355917,9/15/2020,WSP-MSU,washington_state_penitentiary,THURSTON,4/12/2022,5/13/2022,31
+356005,9/2/2022,MCC-IMU,monroe_correctional_complex,KING,2/9/2022,10/17/2022,250
+356252,7/5/2022,AHCC,airway_heights_corrections_center,WHATCOM,3/17/2023,4/7/2023,21
+356378,1/4/2022,WCC-TC,washington_correction_center,ISLAND,2/24/2022,5/17/2022,82
+356405,10/30/2020,AHCC,airway_heights_corrections_center,KING,2/24/2022,4/1/2022,36
+356499,3/28/2017,WSP-IMU,washington_state_penitentiary,SNOHOMISH,2/18/2022,3/17/2022,27
+356506,1/22/2021,CBCC-CLOSE CUST,clallam_bay_corrections_center,KING,4/29/2022,6/1/2022,33
+356537,9/10/2019,WCC-RC,washington_correction_center,KING,11/8/2022,12/6/2022,28
+356572,10/28/2022,WCC-TC,washington_correction_center,SNOHOMISH,10/28/2022,4/9/2023,163
+356922,12/5/2018,MCC-WSR,monroe_correctional_complex,SNOHOMISH,6/27/2022,7/27/2022,30
+357090,8/16/2016,WSP-IMU,washington_state_penitentiary,KING,9/26/2022,12/15/2022,80
+357264,7/8/2022,WCC-TC,washington_correction_center,SNOHOMISH,3/25/2023,5/19/2023,55
+358384,4/9/2019,CCCC,cedar_creek_corrections_center,PIERCE,3/30/2022,7/22/2022,114
+358657,7/27/2012,SCCC,stafford_creek_corrections_center,KING,8/15/2022,10/4/2022,50
+358748,7/27/2012,SCCC,stafford_creek_corrections_center,LEWIS,5/11/2022,6/14/2022,34
+358771,8/10/2012,MCC-TRU,monroe_correctional_complex,MASON,8/27/2022,9/27/2022,31
+358849,4/1/2022,WCC-RC,washington_correction_center,COWLITZ,3/29/2023,7/10/2023,103
+359025,11/25/2019,MCC-SOU,monroe_correctional_complex,SNOHOMISH,8/5/2022,2/23/2023,202
+359054,11/9/2021,WCC-TC,washington_correction_center,PIERCE,6/5/2022,7/14/2022,39
+359138,5/11/2021,WCC-TC,washington_correction_center,PIERCE,1/27/2023,3/6/2023,38
+359289,7/25/2012,WSP-MAIN,washington_state_penitentiary,KING,4/6/2023,5/23/2023,47
+359399,5/13/2021,WCC-TC,washington_correction_center,DOUGLAS,11/8/2022,3/14/2023,126
+359498,8/4/2021,AHTANUM VIEW REENTRY CENTER,work_release,YAKIMA,10/8/2022,10/24/2022,16
+359549,8/4/2022,WCC-TC,washington_correction_center,CHELAN,5/10/2023,5/25/2023,15
+359670,6/21/2022,SCCC-IMU,stafford_creek_corrections_center,PIERCE,12/13/2022,1/9/2023,27
+359701,3/22/2022,BENTON CO. VIOLATOR FACILITY,county_jail,BENTON,2/11/2023,7/25/2023,164
+360175,8/21/2012,CBCC-CLOSE CUST,clallam_bay_corrections_center,SKAGIT,2/19/2023,3/24/2023,33
+360278,11/1/2012,MCC-TRU,monroe_correctional_complex,MASON,2/22/2022,4/26/2022,63
+360521,8/24/2018,MCC-TRU,monroe_correctional_complex,KING,12/24/2022,1/23/2023,30
+360719,11/12/2021,MCC-IMU,monroe_correctional_complex,CLARK,10/8/2022,10/31/2022,23
+360823,5/15/2022,BENTON CO. VIOLATOR FACILITY,county_jail,BENTON,8/22/2021,6/16/2022,298
+361635,11/30/2012,MCC-WSR,monroe_correctional_complex,KING,7/19/2022,11/3/2022,107
+361782,4/8/2020,CRCC-MSU,coyote_ridge_corrections_center,BENTON,3/2/2022,3/29/2022,27
+361962,11/24/2021,CRCC,coyote_ridge_corrections_center,WALLA WALLA,2/4/2022,6/6/2022,122
+361997,8/2/2022,WCC-TC,washington_correction_center,KITSAP,2/9/2023,2/27/2023,18
+362022,12/10/2019,WCC-RC,washington_correction_center,SKAGIT,5/14/2021,1/3/2022,234
+362233,4/8/2016,MCC-TRU,monroe_correctional_complex,PIERCE,11/26/2022,12/28/2022,32
+362334,3/8/2016,MCC-SOU,monroe_correctional_complex,MASON,9/18/2021,5/3/2023,592
+362497,5/27/2022,WCC-RC,washington_correction_center,COWLITZ,12/15/2021,6/17/2022,184
+362683,8/14/2018,CBCC-CLOSE CUST,clallam_bay_corrections_center,SNOHOMISH,6/14/2021,2/10/2022,241
+363125,6/11/2021,SCCC,stafford_creek_corrections_center,CLARK,12/16/2021,1/11/2022,26
+363387,4/12/2022,WCC-IMU,washington_correction_center,PIERCE,1/9/2023,1/27/2023,18
+363473,6/10/2022,WCC-TC,washington_correction_center,YAKIMA,2/24/2023,6/23/2023,119
+363522,12/21/2022,WCC-TC,washington_correction_center,YAKIMA,5/27/2023,6/30/2023,34
+363732,6/23/2016,MCC-TRU,monroe_correctional_complex,SPOKANE,3/19/2022,4/19/2022,31
+363863,6/6/2017,MCC-WSR-MSU,monroe_correctional_complex,WHATCOM,6/20/2022,11/10/2022,143
+363910,2/7/2020,WCCW-MSC,washington_correction_center_for_women,THURSTON,2/11/2022,4/12/2022,60
+363937,1/8/2015,WCCW,washington_correction_center_for_women,KING,2/11/2023,7/6/2023,145
+364007,11/13/2021,MCC-TRU,monroe_correctional_complex,PIERCE,6/22/2022,7/21/2022,29
+364086,1/18/2022,MCCCW,mission_creek_corrections_center_for_women,MT,7/29/2023,8/15/2023,17
+364166,8/18/2022,CRCC,coyote_ridge_corrections_center,PIERCE,5/16/2023,6/22/2023,37
+364397,1/12/2023,WCCW-MSC,washington_correction_center_for_women,SPOKANE,2/12/2023,2/27/2023,15
+364476,1/24/2019,SCCC,stafford_creek_corrections_center,MASON,10/23/2022,11/17/2022,25
+364478,6/7/2013,AHCC,airway_heights_corrections_center,KING,3/28/2023,4/13/2023,16
+364496,4/24/2013,AHCC,airway_heights_corrections_center,SPOKANE,11/18/2022,3/29/2023,131
+365043,4/1/2022,WCC-RC,washington_correction_center,CLARK,4/1/2022,5/27/2022,56
+365348,1/31/2021,AHCC,airway_heights_corrections_center,SPOKANE,2/7/2022,5/3/2022,85
+365638,6/8/2021,GEIGER CORRECTION CENTER,juvenile_detention,SPOKANE,5/10/2021,12/9/2022,578
+365805,7/12/2013,CRCC,coyote_ridge_corrections_center,KING,6/15/2022,8/1/2022,47
+365812,7/28/2017,OCC,olympic_corrections_center,PIERCE,6/20/2021,3/7/2022,260
+365927,12/9/2021,AHCC,airway_heights_corrections_center,SPOKANE,6/8/2022,8/24/2022,77
+366198,2/2/2023,WSP-MSU,washington_state_penitentiary,CHELAN,2/17/2023,7/6/2023,139
+366201,11/10/2021,WCC-TC,washington_correction_center,KING,6/25/2022,12/10/2022,168
+366215,6/28/2013,MCC-TRU,monroe_correctional_complex,KING,12/5/2022,12/19/2022,14
+366265,10/12/2021,WSP-MSU,washington_state_penitentiary,PIERCE,2/6/2023,3/21/2023,43
+366365,11/25/2020,AHCC,airway_heights_corrections_center,KING,6/12/2022,11/2/2022,143
+367020,9/29/2021,AHCC-MSU,airway_heights_corrections_center,MT,1/29/2022,2/24/2022,26
+367050,9/28/2021,CRCC,coyote_ridge_corrections_center,KING,10/30/2022,11/15/2022,16
+367330,9/28/2021,MCC-SOU,monroe_correctional_complex,KING,7/31/2022,10/20/2022,81
+367387,8/17/2021,WCC-TC,washington_correction_center,PIERCE,12/6/2021,1/27/2022,52
+367862,12/6/2022,CCCC,cedar_creek_corrections_center,SNOHOMISH,7/12/2023,8/11/2023,30
+368069,6/22/2022,WCC-TC,washington_correction_center,DOUGLAS,11/2/2022,3/4/2023,122
+368149,4/1/2020,CRCC-MSU,coyote_ridge_corrections_center,YAKIMA,6/24/2023,7/12/2023,18
+368180,3/12/2019,WSP-MAIN,washington_state_penitentiary,KING,5/30/2022,8/10/2022,72
+368449,5/13/2021,WCC-TC,washington_correction_center,SPOKANE,4/23/2022,5/13/2022,20
+368503,6/22/2022,CBCC-CLOSE CUST,clallam_bay_corrections_center,BENTON,5/11/2023,6/6/2023,26
+368518,11/8/2022,WCC-TC,washington_correction_center,PIERCE,4/23/2023,6/29/2023,67
+368705,7/20/2022,WCC-TC,washington_correction_center,BENTON,9/22/2022,12/18/2022,87
+368706,11/24/2021,BENTON CO. VIOLATOR FACILITY,county_jail,BENTON,3/27/2021,12/8/2022,621
+368751,11/23/2021,WCC-TC,washington_correction_center,KING,8/26/2022,11/1/2022,67
+368823,10/17/2013,SCCC,stafford_creek_corrections_center,KING,10/18/2022,2/8/2023,113
+369008,10/25/2013,MCC-TRU,monroe_correctional_complex,PIERCE,2/12/2022,3/3/2022,19
+369123,1/29/2019,CBCC-CLOSE CUST,clallam_bay_corrections_center,SKAGIT,3/30/2022,4/21/2022,22
+369189,6/14/2021,AHCC,airway_heights_corrections_center,CHELAN,2/28/2022,4/9/2022,40
+369239,3/19/2022,WCC-TC,washington_correction_center,PIERCE,4/2/2022,10/24/2022,205
+369345,12/9/2022,WCC-RC,washington_correction_center,YAKIMA,12/9/2022,6/6/2023,179
+369398,6/8/2021,CRCC-MSU,coyote_ridge_corrections_center,PIERCE,3/11/2023,4/20/2023,40
+369717,5/25/2021,WSP-MSC,washington_state_penitentiary,KING,10/25/2022,12/13/2022,49
+369868,12/13/2013,AHCC,airway_heights_corrections_center,AK,12/27/2022,8/21/2023,237
+370033,11/7/2013,CRCC,coyote_ridge_corrections_center,SPOKANE,12/24/2021,1/10/2022,17
+370118,2/4/2014,CRCC-MSU,coyote_ridge_corrections_center,FRANKLIN,3/20/2022,7/17/2022,119
+370357,1/7/2014,AHCC,airway_heights_corrections_center,SNOHOMISH,11/8/2021,2/5/2022,89
+370381,9/2/2022,WCC-RC,washington_correction_center,COWLITZ,11/8/2022,11/26/2022,18
+370433,2/28/2014,CRCC,coyote_ridge_corrections_center,BENTON,8/20/2022,9/6/2022,17
+370625,5/6/2015,SCCC,stafford_creek_corrections_center,SPOKANE,1/5/2023,4/12/2023,97
+371135,3/16/2021,WSP-MAIN,washington_state_penitentiary,KITSAP,1/4/2022,1/20/2022,16
+371468,2/12/2014,AHCC,airway_heights_corrections_center,KING,8/7/2022,8/29/2022,22
+371486,3/8/2023,WCC-TC,washington_correction_center,PIERCE,5/25/2023,6/30/2023,36
+371695,5/24/2022,MCC-SOU,monroe_correctional_complex,PIERCE,8/1/2022,8/4/2023,368
+371789,3/17/2022,AHCC,airway_heights_corrections_center,SPOKANE,7/22/2022,8/16/2022,25
+371901,4/19/2019,WCCW,washington_correction_center_for_women,CLARK,5/9/2022,6/24/2022,46
+372344,12/8/2020,WCC-TC,washington_correction_center,ISLAND,12/23/2021,6/24/2022,183
+372438,7/22/2022,WCC-RC,washington_correction_center,KING,7/22/2022,9/3/2022,43
+372963,1/4/2023,SPOKANE CO VIOLATOR FACILITY,county_jail,SPOKANE,5/5/2023,7/5/2023,61
+373052,6/24/2022,MCC-TRU,monroe_correctional_complex,CLARK,3/19/2023,4/4/2023,16
+373811,4/18/2014,MCCCW,mission_creek_corrections_center_for_women,CLARK,5/15/2022,5/31/2022,16
+374145,3/4/2022,WSP-MAIN,washington_state_penitentiary,THURSTON,3/17/2023,4/14/2023,28
+374340,8/20/2021,AHCC-MSU,airway_heights_corrections_center,SPOKANE,6/29/2022,8/1/2022,33
+374440,5/16/2014,MCCCW,mission_creek_corrections_center_for_women,CLARK,4/14/2023,5/2/2023,18
+374948,12/9/2021,WCC-RC,washington_correction_center,KING,9/30/2020,4/18/2022,565
+374976,8/19/2022,WCC-RC,washington_correction_center,CLARK,8/19/2022,11/15/2022,88
+375083,6/16/2022,FRANKLIN CO. VIOLATOR FACILITY,county_jail,GRANT,2/4/2021,7/1/2022,512
+375155,10/13/2021,WCC-TC,washington_correction_center,BENTON,2/2/2022,3/22/2022,48
+375178,10/2/2014,AHCC,airway_heights_corrections_center,KITTITAS,4/18/2023,5/22/2023,34
+375320,8/1/2014,CRCC,coyote_ridge_corrections_center,US IMMIGRATION,8/18/2021,4/25/2022,250
+375332,5/18/2016,AHCC,airway_heights_corrections_center,BENTON,8/3/2022,8/23/2022,20
+375379,2/17/2022,WCC-RC,washington_correction_center,SPOKANE,2/17/2022,4/8/2022,50
+375546,7/23/2022,WALLA WALLA VIOLATOR FACILITY,county_jail,KING,11/26/2021,8/9/2022,256
+375760,7/15/2014,MCC-SOU,monroe_correctional_complex,KING,9/30/2022,1/17/2023,109
+375762,7/15/2014,WCC-TC,washington_correction_center,KING,9/28/2022,11/7/2022,40
+375938,9/2/2014,MCC-TRU,monroe_correctional_complex,KING,6/14/2022,10/5/2022,113
+376147,11/22/2022,MCC-WSR-MSU,monroe_correctional_complex,PIERCE,7/3/2023,7/31/2023,28
+376242,8/6/2021,SCCC,stafford_creek_corrections_center,LEWIS,5/26/2023,7/17/2023,52
+376266,2/11/2020,AHCC,airway_heights_corrections_center,KING,11/29/2021,2/3/2022,66
+376294,1/30/2015,SCCC,stafford_creek_corrections_center,CLARK,6/23/2023,8/22/2023,60
+376572,9/16/2020,WSP-MSU,washington_state_penitentiary,BENTON,1/8/2023,2/19/2023,42
+376659,5/19/2023,KITSAP COUNTY VIOLATOR FAC.,county_jail,KITSAP,1/22/2021,6/21/2023,880
+376858,12/9/2022,WCC-TC,washington_correction_center,CLARK,1/15/2023,4/5/2023,80
+376933,10/9/2014,AHCC,airway_heights_corrections_center,OR,4/1/2022,4/19/2022,18
+376939,10/10/2014,AHCC,airway_heights_corrections_center,SPOKANE,7/5/2023,8/8/2023,34
+377093,5/26/2021,MCC-TRU,monroe_correctional_complex,SNOHOMISH,3/14/2023,4/4/2023,21
+377265,8/6/2019,CRCC,coyote_ridge_corrections_center,KING,9/1/2022,9/15/2022,14
+377271,11/13/2014,CRCC-MSU,coyote_ridge_corrections_center,PIERCE,11/12/2022,1/16/2023,65
+377431,8/5/2021,CRCC,coyote_ridge_corrections_center,SPOKANE,4/18/2022,5/13/2022,25
+377463,10/29/2014,SCCC,stafford_creek_corrections_center,KING,11/12/2022,12/1/2022,19
+377500,5/27/2022,WSP-MSC,washington_state_penitentiary,COWLITZ,9/8/2022,10/6/2022,28
+377618,12/2/2014,SCCC,stafford_creek_corrections_center,PIERCE,5/20/2022,7/13/2022,54
+378118,11/9/2021,SCCC,stafford_creek_corrections_center,CLARK,8/26/2022,10/17/2022,52
+378169,1/13/2015,MCC-TRU,monroe_correctional_complex,GRAYS HARBOR,11/20/2021,12/15/2022,390
+378194,1/21/2022,WCC-TC,washington_correction_center,CLARK,2/16/2022,3/9/2022,21
+378326,12/9/2014,WCC-TC,washington_correction_center,KING,3/16/2022,4/26/2022,41
+378624,9/28/2021,CBCC-CLOSE CUST,clallam_bay_corrections_center,KITSAP,2/19/2022,5/5/2022,75
+378678,1/23/2020,WSP-MSC,washington_state_penitentiary,DOUGLAS,11/25/2022,1/19/2023,55
+378685,4/5/2019,AHCC,airway_heights_corrections_center,CLARK,11/1/2022,11/18/2022,17
+378702,9/17/2020,AHCC,airway_heights_corrections_center,SPOKANE,4/30/2022,2/13/2023,289
+379194,3/3/2021,AHCC,airway_heights_corrections_center,YAKIMA,1/1/2022,9/1/2022,243
+379204,3/2/2022,WCC-TC,washington_correction_center,YAKIMA,11/11/2022,12/1/2022,20
+379290,7/25/2019,WCC-RC,washington_correction_center,MASON,8/26/2022,4/4/2023,221
+379458,7/22/2016,AHCC,airway_heights_corrections_center,KING,11/21/2022,6/12/2023,203
+379467,6/23/2021,MCC-SOU,monroe_correctional_complex,CHELAN,3/27/2022,7/27/2022,122
+379591,3/1/2022,CRCC,coyote_ridge_corrections_center,LEWIS,2/5/2023,3/20/2023,43
+379982,4/28/2022,CRCC-MSU,coyote_ridge_corrections_center,SPOKANE,1/31/2023,2/22/2023,22
+379998,5/11/2022,WCC-RC,washington_correction_center,YAKIMA,3/27/2023,4/10/2023,14
+380040,2/11/2020,MCC-TRU,monroe_correctional_complex,WHATCOM,6/6/2023,6/21/2023,15
+380204,5/26/2021,WSP-MSU,washington_state_penitentiary,YAKIMA,6/18/2022,7/2/2022,14
+380326,1/30/2015,GRE,other_partial_confinement,PACIFIC,3/13/2022,3/28/2022,15
+380489,2/6/2015,BELLINGHAM REENTRY CENTER,work_release,KING,4/4/2022,5/3/2022,29
+380630,9/30/2022,MCC-WSR-MSU,monroe_correctional_complex,GRAYS HARBOR,3/19/2023,4/11/2023,23
+380669,5/8/2018,WSP-MAIN,washington_state_penitentiary,LEWIS,7/2/2021,3/31/2022,272
+380839,4/1/2022,CRCC,coyote_ridge_corrections_center,PIERCE,7/28/2022,9/8/2022,42
+381369,2/17/2022,AHCC,airway_heights_corrections_center,CHELAN,3/28/2023,6/29/2023,93
+381386,5/25/2022,WCC-RC,washington_correction_center,BENTON,5/25/2022,9/19/2022,117
+381451,8/3/2017,WCCW-RECEIVING,washington_correction_center_for_women,KING,4/10/2022,5/2/2022,22
+381810,3/15/2020,MCC-TRU,monroe_correctional_complex,KING,11/17/2022,2/27/2023,102
+381913,4/8/2019,CRCC,coyote_ridge_corrections_center,PACIFIC,3/4/2022,4/4/2022,31
+382034,10/13/2022,MCC-IMU,monroe_correctional_complex,THURSTON,6/28/2020,12/19/2022,904
+382064,4/8/2021,WCCW,washington_correction_center_for_women,SKAGIT,6/4/2023,8/17/2023,74
+382142,11/16/2020,SCCC,stafford_creek_corrections_center,GRAYS HARBOR,3/24/2022,10/13/2022,203
+382165,3/21/2019,WCCW,washington_correction_center_for_women,SPOKANE,3/7/2022,3/30/2022,23
+382335,3/2/2022,WCC-RC,washington_correction_center,YAKIMA,3/2/2022,4/23/2022,52
+382460,5/1/2015,WCC-IMU,washington_correction_center,OR,7/25/2022,9/8/2022,45
+382533,3/17/2023,WCC-RC,washington_correction_center,OR,3/17/2023,4/17/2023,31
+382784,7/12/2019,MCC-TRU,monroe_correctional_complex,CLARK,9/29/2022,10/19/2022,20
+382945,10/2/2020,MCC-SOU,monroe_correctional_complex,CLARK,2/6/2022,4/27/2022,80
+383701,7/5/2017,AHCC,airway_heights_corrections_center,YAKIMA,3/28/2022,4/19/2022,22
+383709,7/21/2022,WCC-TC,washington_correction_center,CLARK,3/21/2023,4/27/2023,37
+383825,10/9/2019,MCC-TRU,monroe_correctional_complex,CLARK,6/20/2022,2/8/2023,233
+384201,8/23/2018,WSP-MAIN,washington_state_penitentiary,SPOKANE,2/4/2022,6/1/2022,117
+384258,5/4/2023,WCC-RC,washington_correction_center,SPOKANE,5/4/2023,8/24/2023,112
+384732,12/17/2015,AHCC,airway_heights_corrections_center,GRANT,2/1/2023,3/21/2023,48
+384754,4/13/2021,WSP-MAIN,washington_state_penitentiary,KING,6/11/2022,11/18/2022,160
+385071,5/27/2021,CCCC,cedar_creek_corrections_center,GRAYS HARBOR,2/20/2022,3/17/2022,25
+385225,4/6/2023,WCC-RC,washington_correction_center,ASOTIN,4/30/2023,7/17/2023,78
+385385,10/28/2022,WCC-RC,washington_correction_center,KING,11/14/2022,3/28/2023,134
+385434,5/23/2019,WSP-MSU,washington_state_penitentiary,SPOKANE,11/28/2022,12/20/2022,22
+385521,9/14/2022,TRI-CITIES REENTRY CENTER,work_release,BENTON,7/4/2023,7/24/2023,20
+385595,6/11/2019,LCC,larch_corrections_center,SKAGIT,6/8/2021,1/4/2022,210
+385639,3/13/2020,WCC-RC,washington_correction_center,CLARK,12/12/2022,6/15/2023,185
+385898,7/8/2022,WCC-IMU,washington_correction_center,COWLITZ,7/8/2022,8/19/2022,42
+386668,2/5/2021,WSP-IMU,washington_state_penitentiary,YAKIMA,12/25/2021,1/8/2022,14
+386763,2/16/2022,WSP-MSU,washington_state_penitentiary,BENTON,10/22/2022,11/8/2022,17
+386925,4/26/2022,WCC-TC,washington_correction_center,SNOHOMISH,5/9/2022,6/27/2022,49
+386937,8/6/2019,CRCC,coyote_ridge_corrections_center,KING,10/6/2022,10/27/2022,21
+387149,8/4/2020,MCC-TRU,monroe_correctional_complex,SNOHOMISH,3/1/2023,3/23/2023,22
+387331,5/29/2020,LONGVIEW REENTRY CENTER,work_release,CLARK,1/30/2022,2/19/2022,20
+387349,7/19/2022,WCC-RC,washington_correction_center,PIERCE,7/19/2022,8/19/2022,31
+387352,12/3/2015,MCC-SOU,monroe_correctional_complex,OKANOGAN,6/5/2022,9/12/2022,99
+387430,7/23/2021,WCC-TC,washington_correction_center,CLARK,1/31/2022,2/23/2022,23
+387446,3/18/2022,WCC-RC,washington_correction_center,JEFFERSON,4/20/2022,5/23/2022,33
+387509,9/2/2022,CRCC,coyote_ridge_corrections_center,CLARK,4/9/2023,5/30/2023,51
+387752,11/24/2021,WCC-TC,washington_correction_center,KING,1/19/2022,4/25/2022,96
+387754,3/4/2021,WSP-MAIN,washington_state_penitentiary,SPOKANE,2/15/2023,6/2/2023,107
+387803,1/6/2021,WCC-TC,washington_correction_center,KITSAP,8/10/2022,9/7/2022,28
+387839,4/3/2019,AHCC,airway_heights_corrections_center,CLARK,2/19/2022,4/4/2022,44
+388267,4/6/2018,AHCC,airway_heights_corrections_center,SPOKANE,12/12/2021,2/9/2022,59
+388296,7/21/2021,CBCC-CLOSE CUST,clallam_bay_corrections_center,BENTON,5/15/2023,6/13/2023,29
+388548,8/16/2022,CCCC,cedar_creek_corrections_center,PIERCE,1/16/2023,2/14/2023,29
+388615,6/23/2022,SPOKANE CO VIOLATOR FACILITY,county_jail,SPOKANE,2/24/2021,7/13/2022,504
+388666,2/6/2020,AHCC,airway_heights_corrections_center,SPOKANE,12/21/2022,3/14/2023,83
+388670,11/10/2022,WCC-RC,washington_correction_center,SPOKANE,4/3/2023,7/28/2023,116
+388731,9/1/2021,WSP-MAIN,washington_state_penitentiary,BENTON,7/15/2023,8/3/2023,19
+388808,2/11/2016,WCCW,washington_correction_center_for_women,KING,3/29/2022,6/13/2022,76
+388873,1/5/2021,AHCC-MSU,airway_heights_corrections_center,SKAGIT,1/16/2022,2/8/2022,23
+389133,5/11/2016,CRCC,coyote_ridge_corrections_center,BENTON,12/23/2021,2/23/2022,62
+389456,9/13/2019,AHCC-MSU,airway_heights_corrections_center,BENTON,12/21/2022,1/10/2023,20
+389605,9/18/2020,WCC-TC,washington_correction_center,KING,11/6/2021,1/26/2022,81
+389607,8/9/2020,WSP-MAIN,washington_state_penitentiary,KING,2/18/2022,6/12/2022,114
+389620,7/9/2021,SCCC,stafford_creek_corrections_center,KING,12/18/2021,3/11/2022,83
+389699,4/8/2022,WCC-TC,washington_correction_center,KITSAP,6/28/2022,10/11/2022,105
+389858,5/5/2016,AHCC,airway_heights_corrections_center,OKANOGAN,1/20/2022,2/9/2022,20
+389933,11/6/2021,WCCW,washington_correction_center_for_women,PIERCE,5/5/2022,5/26/2022,21
+390121,3/30/2021,CRCC,coyote_ridge_corrections_center,KITSAP,5/16/2022,6/2/2022,17
+390144,9/1/2020,CBCC-CLOSE CUST,clallam_bay_corrections_center,GRAYS HARBOR,6/4/2022,9/5/2022,93
+390264,8/27/2022,WCC-TC,washington_correction_center,SNOHOMISH,2/19/2023,4/15/2023,55
+390380,7/21/2016,AHCC,airway_heights_corrections_center,KING,11/15/2022,1/30/2023,76
+390455,5/24/2016,WCC-TC,washington_correction_center,KITSAP,3/11/2023,3/29/2023,18
+390488,4/26/2016,CRCC,coyote_ridge_corrections_center,SNOHOMISH,3/23/2022,4/13/2022,21
+390599,7/20/2016,MCC-SOU,monroe_correctional_complex,SNOHOMISH,6/22/2022,4/20/2023,302
+390884,6/9/2016,MCC-TRU,monroe_correctional_complex,KING,10/19/2022,11/4/2022,16
+391575,1/6/2023,WCC-TC,washington_correction_center,CLARK,3/5/2023,5/2/2023,58
+391813,8/3/2016,SCCC,stafford_creek_corrections_center,KING,9/21/2022,11/2/2022,42
+391836,6/24/2016,AHCC-MSU,airway_heights_corrections_center,THURSTON,12/13/2021,4/6/2022,114
+391956,7/18/2016,AHCC,airway_heights_corrections_center,CLARK,12/16/2021,8/2/2022,229
+392191,8/1/2018,CBCC-CLOSE CUST,clallam_bay_corrections_center,BENTON,12/28/2022,3/3/2023,65
+392288,9/8/2016,MCC-SOU,monroe_correctional_complex,SPOKANE,4/21/2020,5/2/2022,741
+392366,5/13/2022,WCC-RC,washington_correction_center,KING,5/13/2022,8/15/2022,94
+392514,8/5/2022,WCC-TC,washington_correction_center,KITTITAS,9/18/2022,11/17/2022,60
+392517,5/28/2021,WCC-TC,washington_correction_center,KING,10/16/2022,11/28/2022,43
+392529,10/11/2022,WCC-TC,washington_correction_center,WHATCOM,3/4/2023,3/30/2023,26
+392565,11/10/2022,WCC-TC,washington_correction_center,THURSTON,5/2/2023,7/24/2023,83
+392618,9/8/2016,AHCC,airway_heights_corrections_center,PIERCE,2/15/2022,3/14/2022,27
+392696,3/15/2022,WCC-TC,washington_correction_center,SNOHOMISH,3/29/2022,5/2/2022,34
+392915,8/12/2016,BISHOP LEWIS REENTRY CENTER,work_release,KING,3/26/2023,4/11/2023,16
+392946,12/22/2021,WCC-RC,washington_correction_center,YAKIMA,12/22/2021,2/25/2022,65
+393054,3/2/2021,WSP-MAIN,washington_state_penitentiary,THURSTON,3/30/2023,5/2/2023,33
+393174,3/3/2020,WSP-MSC,washington_state_penitentiary,PIERCE,3/16/2022,4/5/2022,20
+393225,8/25/2016,AHCC,airway_heights_corrections_center,PIERCE,11/8/2022,2/9/2023,93
+393327,11/6/2018,OCC,olympic_corrections_center,KING,2/2/2022,3/2/2022,28
+393384,7/16/2019,AHCC,airway_heights_corrections_center,SNOHOMISH,1/17/2022,3/11/2022,53
+393602,9/6/2022,MCCCW,mission_creek_corrections_center_for_women,YAKIMA,3/16/2023,4/3/2023,18
+393615,4/10/2018,AHCC,airway_heights_corrections_center,PIERCE,7/9/2022,8/17/2022,39
+393674,8/21/2021,WSP-MSU,washington_state_penitentiary,GRAYS HARBOR,12/21/2021,4/22/2022,122
+393720,6/21/2019,LCC,larch_corrections_center,CLARK,12/28/2021,3/23/2023,450
+393763,4/27/2023,WCCW-MSC,washington_correction_center_for_women,KING,6/4/2023,7/5/2023,31
+393855,4/26/2021,LCC,larch_corrections_center,GRAYS HARBOR,3/18/2022,4/12/2022,25
+394017,8/3/2021,WCC-TC,washington_correction_center,PIERCE,4/17/2022,11/15/2022,212
+394051,4/19/2022,WCCW-MSC,washington_correction_center_for_women,BENTON,4/19/2022,6/7/2022,49
+394169,11/8/2021,WCC-TC,washington_correction_center,GRAYS HARBOR,11/8/2021,2/23/2022,107
+394399,7/20/2021,AHCC,airway_heights_corrections_center,SNOHOMISH,9/16/2022,1/12/2023,118
+394495,12/26/2019,CRCC,coyote_ridge_corrections_center,BENTON,1/7/2022,2/8/2022,32
+394713,9/3/2021,WSP-MAIN,washington_state_penitentiary,THURSTON,7/7/2023,7/27/2023,20
+395001,12/8/2016,AHCC,airway_heights_corrections_center,KING,5/1/2022,7/11/2022,71
+395218,8/22/2019,MCC-TRU,monroe_correctional_complex,SPOKANE,7/12/2022,8/3/2022,22
+395345,11/10/2021,WCC-TC,washington_correction_center,CLALLAM,8/12/2022,1/31/2023,172
+395482,9/15/2021,WSP-MAIN,washington_state_penitentiary,YAKIMA,6/6/2022,8/24/2022,79
+395566,12/6/2016,MCC-SOU,monroe_correctional_complex,SNOHOMISH,1/7/2022,6/13/2022,157
+395802,2/17/2017,AHCC,airway_heights_corrections_center,KING,5/23/2023,6/19/2023,27
+395898,1/4/2023,WCC-TC,washington_correction_center,YAKIMA,5/17/2023,6/8/2023,22
+395908,11/4/2019,WSP-MAIN,washington_state_penitentiary,KITSAP,9/26/2021,5/19/2022,235
+395965,9/28/2022,WCC-TC,washington_correction_center,KITTITAS,1/24/2023,5/17/2023,113
+396008,1/6/2021,AHCC,airway_heights_corrections_center,SPOKANE,3/12/2023,4/7/2023,26
+396023,4/29/2022,WCC-RC,washington_correction_center,KING,4/15/2022,5/4/2022,19
+396158,4/14/2022,WSP-MSC,washington_state_penitentiary,SPOKANE,10/8/2022,11/7/2022,30
+396186,2/10/2017,MCC-TRU,monroe_correctional_complex,CLARK,9/17/2022,11/15/2022,59
+396211,2/14/2017,CRCC,coyote_ridge_corrections_center,KING,5/6/2023,5/30/2023,24
+396258,9/14/2022,WCC-TC,washington_correction_center,YAKIMA,12/25/2022,2/2/2023,39
+396292,10/1/2019,REYNOLDS REENTRY CENTER,work_release,WHATCOM,4/8/2022,5/16/2022,38
+396375,8/16/2022,WCCW,washington_correction_center_for_women,COWLITZ,2/18/2021,9/7/2022,566
+396447,2/27/2017,CRCC-MSU,coyote_ridge_corrections_center,LEWIS,9/14/2021,10/24/2022,405
+396517,11/23/2022,WCC-RC,washington_correction_center,YAKIMA,12/11/2022,1/12/2023,32
+396683,9/16/2022,WCC-TC,washington_correction_center,CLARK,2/19/2023,3/9/2023,18
+396837,12/5/2019,WCCW,washington_correction_center_for_women,GRANT,4/2/2023,8/2/2023,122
+396901,5/12/2021,WSP-MAIN,washington_state_penitentiary,YAKIMA,1/2/2022,1/19/2022,17
+397345,5/17/2017,AHCC,airway_heights_corrections_center,KLICKITAT,11/6/2022,12/19/2022,43
+397371,12/27/2019,REYNOLDS REENTRY CENTER,work_release,KING,4/22/2022,5/10/2022,18
+397417,2/18/2022,SCCC-IMU,stafford_creek_corrections_center,PIERCE,3/9/2023,3/29/2023,20
+397425,6/8/2017,WCCW,washington_correction_center_for_women,KING,11/18/2022,1/23/2023,66
+397545,2/2/2022,WSP-MAIN,washington_state_penitentiary,SNOHOMISH,2/14/2023,4/7/2023,52
+397569,11/11/2022,WCC-RC,washington_correction_center,WHATCOM,12/3/2022,2/16/2023,75
+397592,1/7/2021,WCC-TC,washington_correction_center,PIERCE,12/1/2022,12/29/2022,28
+397722,7/9/2021,SCCC,stafford_creek_corrections_center,COWLITZ,2/7/2022,3/9/2022,30
+397744,10/28/2022,WCC-RC,washington_correction_center,KING,10/28/2022,12/27/2022,60
+397830,7/22/2022,WCC-RC,washington_correction_center,KING,7/22/2022,9/26/2022,66
+397862,6/20/2017,WCC-TC,washington_correction_center,SNOHOMISH,3/2/2023,6/7/2023,97
+397913,2/3/2021,WSP-MSU,washington_state_penitentiary,KING,4/8/2022,5/3/2022,25
+397943,2/1/2022,WCC-TC,washington_correction_center,PIERCE,7/6/2022,8/2/2022,27
+398006,3/23/2017,PROGRESS HOUSE REENTRY CENTER,work_release,PIERCE,12/13/2022,8/9/2023,239
+398076,8/17/2022,WCC-RC,washington_correction_center,YAKIMA,10/16/2022,11/24/2022,39
+398261,7/20/2021,WSP-MSU,washington_state_penitentiary,SNOHOMISH,9/17/2022,1/9/2023,114
+398279,3/5/2021,WSP-IMU,washington_state_penitentiary,COWLITZ,5/19/2022,7/8/2022,50
+398293,2/8/2023,WCC-TC,washington_correction_center,FRANKLIN,5/1/2023,5/17/2023,16
+398348,9/15/2022,CRCC,coyote_ridge_corrections_center,GRANT,4/1/2023,4/26/2023,25
+398576,6/8/2022,MCC-WSR-MSU,monroe_correctional_complex,PIERCE,9/20/2022,11/15/2022,56
+398638,1/26/2018,MCC-SOU,monroe_correctional_complex,LEWIS,12/17/2021,2/17/2022,62
+398735,10/1/2019,WSP-IMU,washington_state_penitentiary,KITSAP,1/30/2022,3/10/2022,39
+398752,7/6/2017,AHCC,airway_heights_corrections_center,GRAYS HARBOR,5/23/2022,8/3/2022,72
+398770,12/17/2019,CCCC,cedar_creek_corrections_center,SKAGIT,4/4/2022,6/3/2022,60
+398785,5/27/2022,WCC-RC,washington_correction_center,SNOHOMISH,6/27/2022,8/17/2022,51
+398851,5/9/2017,SCCC,stafford_creek_corrections_center,PIERCE,1/31/2022,2/14/2022,14
+398900,8/2/2022,WCC-TC,washington_correction_center,SNOHOMISH,2/5/2023,4/25/2023,79
+398970,1/3/2023,WCC-TC,washington_correction_center,SNOHOMISH,6/8/2023,7/7/2023,29
+398974,5/2/2017,BELLINGHAM REENTRY CENTER,work_release,KING,2/24/2022,3/17/2022,21
+399044,8/2/2022,CRCC,coyote_ridge_corrections_center,SNOHOMISH,2/18/2023,5/10/2023,81
+399117,6/9/2020,MCC-TRU,monroe_correctional_complex,KING,3/5/2023,4/24/2023,50
+399293,11/15/2018,CRCC,coyote_ridge_corrections_center,SNOHOMISH,8/11/2022,1/3/2023,145
+399373,4/13/2021,WSP-MSU,washington_state_penitentiary,WHATCOM,4/1/2022,4/15/2022,14
+399656,5/27/2021,WSP-MAIN,washington_state_penitentiary,KING,12/28/2022,1/13/2023,16
+399669,9/26/2017,SCCC,stafford_creek_corrections_center,SNOHOMISH,3/28/2023,7/13/2023,107
+399805,5/14/2020,MCC-TRU,monroe_correctional_complex,CHELAN,7/20/2022,9/22/2022,64
+400124,11/14/2021,MCC-WSR-MSU,monroe_correctional_complex,PIERCE,12/15/2022,1/5/2023,21
+400141,10/20/2017,AHCC,airway_heights_corrections_center,GRANT,1/13/2023,2/2/2023,20
+400180,6/14/2021,MCC-TRU,monroe_correctional_complex,SNOHOMISH,7/29/2022,8/29/2022,31
+400228,3/5/2021,CRCC-MSU,coyote_ridge_corrections_center,SNOHOMISH,2/16/2022,3/4/2022,16
+400240,12/21/2021,SCCC,stafford_creek_corrections_center,KING,1/11/2023,2/13/2023,33
+400344,6/29/2017,GRE,other_partial_confinement,SPOKANE,5/8/2022,6/1/2022,24
+400431,8/11/2017,AHCC,airway_heights_corrections_center,KING,7/10/2023,8/1/2023,22
+400497,7/7/2017,CBCC-CLOSE CUST,clallam_bay_corrections_center,WALLA WALLA,10/31/2022,11/21/2022,21
+400643,10/15/2021,MCC-WSR-MSU,monroe_correctional_complex,CLARK,8/31/2022,10/4/2022,34
+400692,3/21/2023,WCC-RC,washington_correction_center,GRAYS HARBOR,5/4/2023,5/18/2023,14
+400844,7/21/2017,SCCC,stafford_creek_corrections_center,CLARK,1/29/2022,4/7/2022,68
+400911,5/30/2019,WCC-TC,washington_correction_center,PIERCE,4/24/2022,6/9/2022,46
+401089,4/27/2021,WCCW-MSC,washington_correction_center_for_women,YAKIMA,8/16/2022,9/13/2022,28
+401137,4/30/2020,WSP-MSC,washington_state_penitentiary,KING,10/25/2021,8/5/2022,284
+401233,5/28/2021,LCC,larch_corrections_center,LEWIS,4/15/2022,5/11/2022,26
+401376,12/5/2017,SCCC,stafford_creek_corrections_center,PIERCE,8/2/2022,8/16/2022,14
+401749,12/2/2021,WCC-TC,washington_correction_center,PIERCE,3/8/2022,3/24/2022,16
+401829,10/26/2022,WSP-IMU,washington_state_penitentiary,BENTON,5/30/2023,7/13/2023,44
+401847,10/27/2017,CRCC,coyote_ridge_corrections_center,OR,2/22/2022,4/25/2022,62
+401850,10/15/2021,WCC-TC,washington_correction_center,KING,10/15/2021,2/18/2022,126
+402024,10/15/2021,WSP-MSU,washington_state_penitentiary,THURSTON,7/26/2022,9/12/2022,48
+402255,10/12/2022,WCC-TC,washington_correction_center,YAKIMA,10/21/2022,3/14/2023,144
+402266,8/1/2019,AHCC,airway_heights_corrections_center,SPOKANE,1/19/2023,2/14/2023,26
+402632,12/21/2017,MCC-TRU,monroe_correctional_complex,SNOHOMISH,10/4/2022,2/2/2023,121
+402695,1/23/2020,BROWNSTONE REENTRY CENTER,work_release,SPOKANE,4/8/2022,10/21/2022,196
+402949,1/9/2018,AHCC,airway_heights_corrections_center,KING,4/8/2022,10/18/2022,193
+402991,10/12/2021,WCC-TC,washington_correction_center,CHELAN,12/4/2021,3/21/2022,107
+403085,12/7/2017,AHCC,airway_heights_corrections_center,PIERCE,3/25/2023,4/18/2023,24
+403244,6/10/2022,MCC-WSR-MSU,monroe_correctional_complex,KING,3/15/2023,4/5/2023,21
+403267,11/1/2017,CRCC,coyote_ridge_corrections_center,GRANT,4/15/2022,5/23/2022,38
+403357,5/25/2023,THURSTON CO. VIOLATOR FACILITY,county_jail,THURSTON,4/7/2023,6/28/2023,82
+403359,12/23/2021,WCC-RC,washington_correction_center,THURSTON,1/15/2020,1/3/2022,719
+403435,11/3/2017,WCC-RC,washington_correction_center,PIERCE,5/13/2023,5/29/2023,16
+403464,3/8/2023,WCCW-RECEIVING,washington_correction_center_for_women,GRAYS HARBOR,3/8/2023,4/7/2023,30
+403474,12/5/2017,MCC-TRU,monroe_correctional_complex,KING,2/20/2022,4/1/2022,40
+403488,12/5/2017,SCCC,stafford_creek_corrections_center,KING,1/29/2022,2/18/2022,20
+403892,2/17/2022,AHTANUM VIEW REENTRY CENTER,work_release,GRANT,12/27/2022,1/30/2023,34
+403907,2/2/2018,AHCC,airway_heights_corrections_center,CA,4/30/2022,7/11/2022,72
+403929,5/24/2022,WCCW-MSC,washington_correction_center_for_women,PIERCE,10/2/2022,10/21/2022,19
+403985,5/13/2020,WCC-TC,washington_correction_center,BENTON,1/19/2022,2/3/2022,15
+404118,2/20/2018,CRCC,coyote_ridge_corrections_center,WHATCOM,1/13/2022,2/9/2022,27
+404162,2/1/2018,SCCC,stafford_creek_corrections_center,THURSTON,2/12/2022,3/1/2022,17
+404251,12/22/2021,WCC-TC,washington_correction_center,SNOHOMISH,3/20/2022,5/3/2022,44
+404261,12/12/2017,WSP-MSC,washington_state_penitentiary,KING,6/13/2023,7/17/2023,34
+404291,3/3/2023,WCC-TC,washington_correction_center,KING,6/25/2023,7/11/2023,16
+404530,6/7/2022,WCCW-MSC,washington_correction_center_for_women,PIERCE,7/19/2022,8/17/2022,29
+404643,12/23/2021,WCC-RC,washington_correction_center,CLARK,12/23/2021,3/1/2022,68
+404757,10/12/2021,WCC-TC,washington_correction_center,SNOHOMISH,2/27/2022,4/4/2022,36
+404811,10/2/2019,WSP-IMU,washington_state_penitentiary,FRANKLIN,11/4/2022,2/17/2023,105
+405075,3/13/2018,SCCC,stafford_creek_corrections_center,KING,4/18/2022,5/16/2022,28
+405186,5/16/2018,AHCC,airway_heights_corrections_center,SPOKANE,2/19/2023,4/10/2023,50
+405190,4/4/2018,WCC-TC,washington_correction_center,KING,12/9/2022,4/4/2023,116
+405243,1/25/2018,CRCC-MSU,coyote_ridge_corrections_center,FRANKLIN,3/29/2022,3/30/2023,366
+405293,3/1/2018,AHCC,airway_heights_corrections_center,KING,4/16/2021,5/9/2022,388
+405325,9/3/2021,CRCC,coyote_ridge_corrections_center,KING,3/28/2023,4/21/2023,24
+405479,3/30/2022,WCC-TC,washington_correction_center,YAKIMA,5/29/2022,7/20/2022,52
+405689,6/7/2022,CBCC-CLOSE CUST,clallam_bay_corrections_center,SNOHOMISH,6/7/2022,11/7/2022,153
+405924,2/23/2018,SCCC,stafford_creek_corrections_center,PIERCE,4/5/2023,8/3/2023,120
+405929,8/31/2021,WCC-TC,washington_correction_center,PIERCE,1/7/2022,5/4/2022,117
+406162,10/12/2021,CBCC-CLOSE CUST,clallam_bay_corrections_center,KING,6/8/2022,7/17/2022,39
+406166,3/6/2018,CRCC-MSU,coyote_ridge_corrections_center,KING,2/18/2022,3/15/2022,25
+406167,10/14/2022,MCC-SOU,monroe_correctional_complex,KING,10/17/2022,2/21/2023,127
+406216,8/19/2021,WSP-MSC,washington_state_penitentiary,ASOTIN,8/15/2022,9/14/2022,30
+406244,3/30/2018,CRCC,coyote_ridge_corrections_center,THURSTON,1/26/2022,2/9/2022,14
+406256,7/6/2018,AHCC,airway_heights_corrections_center,CLARK,12/9/2021,1/7/2022,29
+406373,3/17/2022,WCCW,washington_correction_center_for_women,WHATCOM,3/17/2022,5/23/2022,67
+406383,1/7/2022,MCC-SOU,monroe_correctional_complex,KING,12/16/2022,2/14/2023,60
+406463,7/8/2021,AHCC-MSU,airway_heights_corrections_center,BENTON,6/1/2022,6/22/2022,21
+406622,4/9/2018,AHCC,airway_heights_corrections_center,CLARK,11/10/2022,12/15/2022,35
+406813,5/30/2018,SCCC,stafford_creek_corrections_center,CLALLAM,5/1/2022,5/31/2022,30
+406869,3/31/2023,WCC-RC,washington_correction_center,PIERCE,3/13/2023,4/5/2023,23
+406937,6/28/2022,WCCW-RECEIVING,washington_correction_center_for_women,SPOKANE,6/28/2022,7/29/2022,31
+407076,4/18/2018,WSP-MAIN,washington_state_penitentiary,YAKIMA,12/29/2021,2/22/2022,55
+407094,3/3/2023,PUB SAFTY CMPLX NISQ,county_jail,MASON,12/12/2021,4/28/2023,502
+407297,10/7/2022,WCC-RC,washington_correction_center,KING,12/4/2022,1/25/2023,52
+407324,6/5/2018,SCCC,stafford_creek_corrections_center,GRAYS HARBOR,6/10/2022,6/27/2022,17
+407326,6/5/2018,SCCC,stafford_creek_corrections_center,THURSTON,8/18/2022,9/6/2022,19
+407614,5/1/2018,CBCC-CLOSE CUST,clallam_bay_corrections_center,KING,12/24/2021,2/12/2022,50
+407668,5/3/2018,WSP-MAIN,washington_state_penitentiary,GRANT,12/30/2021,2/10/2022,42
+407954,7/11/2018,AHCC,airway_heights_corrections_center,AR,8/24/2021,1/11/2022,140
+407996,7/5/2018,SCCC,stafford_creek_corrections_center,OK,10/10/2022,11/9/2022,30
+408022,10/25/2022,WCC-RC,washington_correction_center,SNOHOMISH,12/13/2022,1/10/2023,28
+408063,5/11/2021,WCC-TC,washington_correction_center,PIERCE,1/14/2022,2/25/2022,42
+408073,9/30/2022,WCC-RC,washington_correction_center,KING,12/13/2022,1/3/2023,21
+408145,11/10/2021,SCCC,stafford_creek_corrections_center,YAKIMA,2/21/2023,5/9/2023,77
+408416,6/5/2018,MCC-TRU,monroe_correctional_complex,KING,11/1/2022,11/15/2022,14
+408437,7/10/2018,CRCC,coyote_ridge_corrections_center,KING,2/8/2023,2/27/2023,19
+408628,11/9/2021,WCC-TC,washington_correction_center,PIERCE,11/20/2022,1/13/2023,54
+408641,3/6/2019,MCC-SOU,monroe_correctional_complex,KING,4/7/2022,4/10/2023,368
+408689,6/22/2022,WCC-RC,washington_correction_center,KING,7/7/2022,9/1/2022,56
+408855,7/20/2023,WCC-RC,washington_correction_center,SPOKANE,7/20/2023,8/3/2023,14
+408997,11/10/2021,WCCW-MSC,washington_correction_center_for_women,SPOKANE,7/6/2022,11/20/2022,137
+409102,3/16/2021,WSP-MSU,washington_state_penitentiary,WHATCOM,5/21/2022,7/20/2022,60
+409293,8/28/2018,CRCC,coyote_ridge_corrections_center,KING,7/2/2023,8/17/2023,46
+409301,10/24/2022,WCC-RC,washington_correction_center,CLARK,11/7/2019,11/25/2022,1114
+409352,11/24/2021,WSP-MSC,washington_state_penitentiary,WALLA WALLA,3/15/2023,4/28/2023,44
+409397,7/7/2021,WCC-IMU,washington_correction_center,KING,10/17/2022,11/16/2022,30
+409638,8/29/2018,AHCC,airway_heights_corrections_center,BENTON,12/8/2022,1/11/2023,34
+409680,10/9/2018,AHCC,airway_heights_corrections_center,KING,5/31/2023,6/29/2023,29
+409712,7/31/2018,MCC-SOU,monroe_correctional_complex,KING,12/19/2021,2/3/2022,46
+409725,7/31/2018,REYNOLDS REENTRY CENTER,work_release,KING,1/18/2022,2/10/2022,23
+409763,5/17/2023,WCC-RC,washington_correction_center,WHITMAN,5/26/2023,6/29/2023,34
+409908,7/8/2022,WCC-RC,washington_correction_center,SNOHOMISH,8/28/2022,11/2/2022,66
+409916,5/12/2022,AHCC-MSU,airway_heights_corrections_center,SPOKANE,9/29/2022,10/20/2022,21
+410102,3/4/2020,WSP-MAIN,washington_state_penitentiary,FRANKLIN,2/8/2023,5/2/2023,83
+410174,3/1/2022,SCCC,stafford_creek_corrections_center,KITSAP,4/13/2023,5/26/2023,43
+410303,3/30/2021,AHCC-MSU,airway_heights_corrections_center,KING,4/30/2023,6/23/2023,54
+410454,9/30/2021,AHCC,airway_heights_corrections_center,SPOKANE,5/5/2023,8/10/2023,97
+410476,11/1/2018,AHCC,airway_heights_corrections_center,SPOKANE,12/26/2020,3/29/2023,823
+410490,5/25/2021,SCCC,stafford_creek_corrections_center,SKAGIT,12/11/2021,4/22/2022,132
+410517,11/24/2020,CRCC,coyote_ridge_corrections_center,KING,4/15/2022,5/11/2022,26
+410519,10/25/2022,SCCC,stafford_creek_corrections_center,PIERCE,4/13/2023,5/12/2023,29
+410559,11/7/2018,AHCC,airway_heights_corrections_center,BENTON,12/7/2022,1/16/2023,40
+410602,10/4/2022,WCCW-MSC,washington_correction_center_for_women,SPOKANE,2/26/2023,3/28/2023,30
+410947,1/31/2023,WCC-RC,washington_correction_center,PIERCE,2/15/2023,5/3/2023,77
+411094,8/5/2022,WCC-TC,washington_correction_center,KING,1/6/2023,2/16/2023,41
+411099,11/1/2018,AHCC,airway_heights_corrections_center,SPOKANE,12/12/2022,4/10/2023,119
+411353,11/21/2018,AHCC,airway_heights_corrections_center,YAKIMA,12/11/2022,1/19/2023,39
+411783,2/27/2020,AHCC,airway_heights_corrections_center,SPOKANE,3/13/2022,4/27/2022,45
+412159,8/2/2022,WCC-TC,washington_correction_center,DOUGLAS,12/8/2022,1/17/2023,40
+412250,9/28/2021,MCC-IMU,monroe_correctional_complex,SKAGIT,10/11/2022,10/26/2022,15
+412757,11/22/2022,WCC-RC,washington_correction_center,KING,12/8/2022,12/22/2022,14
+412797,6/23/2021,CRCC,coyote_ridge_corrections_center,KITSAP,2/17/2023,3/21/2023,32
+412824,12/22/2021,WCC-TC,washington_correction_center,KING,2/22/2022,8/29/2022,188
+412895,6/24/2021,WSP-MAIN,washington_state_penitentiary,SPOKANE,1/28/2022,2/16/2022,19
+413019,9/1/2021,WCC-RC,washington_correction_center,YAKIMA,12/10/2021,2/1/2022,53
+413031,12/16/2022,WCC-RC,washington_correction_center,SPOKANE,2/12/2023,3/16/2023,32
+413118,2/18/2022,WCC-RC,washington_correction_center,KING,3/13/2022,4/5/2022,23
+413145,10/1/2021,WCCW,washington_correction_center_for_women,OR,4/12/2022,6/1/2022,50
+413176,8/30/2022,WCC-RC,washington_correction_center,US IMMIGRATION,8/30/2022,10/26/2022,57
+413196,9/28/2022,WCC-TC,washington_correction_center,FRANKLIN,2/27/2023,4/18/2023,50
+413336,1/11/2019,TOUCHSTONE COMM FAC,juvenile_detention,COWLITZ,11/26/2022,5/15/2023,170
+413461,6/11/2021,WCC-TC,washington_correction_center,LEWIS,12/14/2021,3/25/2022,101
+413503,3/14/2019,CRCC,coyote_ridge_corrections_center,SPOKANE,11/10/2021,1/5/2022,56
+413561,6/2/2022,OKANOGAN CO VIOLATOR FACILITY,county_jail,GRAYS HARBOR,9/1/2021,11/9/2022,434
+413670,4/16/2019,MCC-TRU,monroe_correctional_complex,PIERCE,8/10/2022,9/9/2022,30
+413769,5/23/2023,WCCW,washington_correction_center_for_women,BENTON,5/23/2023,8/3/2023,72
+414235,9/15/2021,WSP-IMU,washington_state_penitentiary,YAKIMA,4/29/2022,6/9/2022,41
+414252,5/2/2019,SCCC,stafford_creek_corrections_center,SPOKANE,2/2/2022,3/14/2022,40
+414351,2/26/2019,SCCC-IMU,stafford_creek_corrections_center,KING,2/19/2022,3/25/2022,34
+414437,11/12/2021,WCC-IMU,washington_correction_center,KING,11/12/2021,2/6/2022,86
+414446,5/14/2019,SCCC,stafford_creek_corrections_center,KING,7/1/2023,7/27/2023,26
+414458,3/1/2019,CBCC-CLOSE CUST,clallam_bay_corrections_center,THURSTON,4/12/2021,2/8/2022,302
+414495,11/25/2020,WSP-MAIN,washington_state_penitentiary,YAKIMA,8/6/2022,9/15/2022,40
+414499,3/5/2019,REYNOLDS REENTRY CENTER,work_release,KING,2/19/2022,3/8/2022,17
+414568,10/26/2022,WCC-RC,washington_correction_center,BENTON,1/22/2023,2/17/2023,26
+414635,6/24/2022,WCC-RC,washington_correction_center,THURSTON,9/15/2022,10/25/2022,40
+414654,12/10/2021,WSP-MAIN,washington_state_penitentiary,BENTON,4/6/2022,5/27/2022,51
+414690,6/22/2021,WSP-MAIN,washington_state_penitentiary,KLICKITAT,3/11/2023,4/17/2023,37
+414709,3/29/2022,MCC-SOU,monroe_correctional_complex,SNOHOMISH,7/14/2022,3/14/2023,243
+414791,1/17/2020,WSP-IMU,washington_state_penitentiary,PIERCE,1/28/2023,2/21/2023,24
+414938,1/4/2023,WCC-TC,washington_correction_center,KING,3/1/2023,5/15/2023,75
+415162,3/28/2019,CRCC-MSU,coyote_ridge_corrections_center,WHITMAN,11/20/2022,1/31/2023,72
+415354,4/4/2019,AHCC,airway_heights_corrections_center,LINCOLN,5/23/2022,9/5/2022,105
+415429,9/30/2022,WCC-RC,washington_correction_center,KING,3/2/2020,10/14/2022,956
+415565,6/24/2022,SCCC,stafford_creek_corrections_center,LEWIS,3/17/2023,5/25/2023,69
+415690,4/19/2019,CRCC,coyote_ridge_corrections_center,CLARK,12/20/2021,5/6/2022,137
+415721,6/18/2019,WCC-TC,washington_correction_center,KING,3/14/2022,4/27/2022,44
+415758,7/7/2022,WCC-TC,washington_correction_center,WHATCOM,10/3/2022,11/14/2022,42
+415907,1/8/2021,SCCC-IMU,stafford_creek_corrections_center,CLARK,2/26/2022,6/12/2022,106
+416012,5/3/2019,CRCC-MSU,coyote_ridge_corrections_center,CLARK,9/22/2022,11/22/2022,61
+416028,4/26/2022,WCC-RC,washington_correction_center,SNOHOMISH,4/26/2022,6/15/2022,50
+416065,9/11/2019,MCC-TRU,monroe_correctional_complex,SNOHOMISH,7/3/2022,8/11/2022,39
+416180,10/13/2020,AHCC,airway_heights_corrections_center,SPOKANE,3/3/2022,4/28/2022,56
+416477,7/14/2023,WCCW-RECEIVING,washington_correction_center_for_women,COWLITZ,8/1/2023,8/17/2023,16
+416507,3/3/2023,WCC-RC,washington_correction_center,KING,4/15/2023,6/14/2023,60
+416515,8/28/2019,MCC-TRU,monroe_correctional_complex,BENTON,6/11/2023,6/29/2023,18
+416733,6/4/2019,AHCC-MSU,airway_heights_corrections_center,SPOKANE,11/27/2022,12/28/2022,31
+416740,8/7/2019,SCCC,stafford_creek_corrections_center,SNOHOMISH,8/3/2022,10/17/2022,75
+416964,7/23/2019,SCCC,stafford_creek_corrections_center,GRAYS HARBOR,9/11/2022,10/21/2022,40
+416992,1/3/2023,WCCW-MSC,washington_correction_center_for_women,BENTON,1/3/2023,2/22/2023,50
+417123,5/29/2020,GREEN HILL SCHOOL,juvenile_detention,KITSAP,7/26/2021,1/6/2022,164
+417199,4/21/2022,MCC-IMU,monroe_correctional_complex,KING,6/16/2020,5/16/2022,699
+417230,8/17/2021,WCC-IMU,washington_correction_center,PIERCE,8/4/2022,9/10/2022,37
+417298,5/26/2022,WCC-RC,washington_correction_center,SPOKANE,7/9/2022,8/17/2022,39
+417382,1/19/2023,WCCW-MSC,washington_correction_center_for_women,SNOHOMISH,1/19/2023,4/7/2023,78
+417601,10/3/2019,WCCW,washington_correction_center_for_women,KITTITAS,2/18/2023,4/27/2023,68
+417650,9/16/2021,AHCC,airway_heights_corrections_center,SPOKANE,6/26/2023,7/11/2023,15
+417659,3/2/2021,AHCC,airway_heights_corrections_center,KITSAP,2/16/2022,6/6/2022,110
+417794,8/27/2019,OCC,olympic_corrections_center,GRAYS HARBOR,12/5/2021,1/3/2022,29
+417882,12/21/2021,MCCCW,mission_creek_corrections_center_for_women,BENTON,11/26/2022,12/13/2022,17
+417892,3/18/2022,WCC-RC,washington_correction_center,CLARK,10/2/2022,12/14/2022,73
+417928,6/24/2021,AHCC,airway_heights_corrections_center,CHELAN,6/27/2023,8/2/2023,36
+417964,2/18/2022,WCC-IMU,washington_correction_center,CLARK,1/23/2023,2/28/2023,36
+418069,8/30/2019,CRCC,coyote_ridge_corrections_center,CLARK,3/3/2022,4/22/2022,50
+418083,9/13/2019,LCC,larch_corrections_center,CLARK,1/17/2022,2/8/2022,22
+418220,12/7/2021,WCC-RC,washington_correction_center,SNOHOMISH,12/23/2021,1/18/2022,26
+418270,8/13/2019,REYNOLDS REENTRY CENTER,work_release,KING,11/23/2022,12/15/2022,22
+418345,10/18/2021,GREEN HILL SCHOOL,juvenile_detention,KING,6/30/2022,8/4/2022,35
+418651,11/23/2020,WCC-TC,washington_correction_center,SNOHOMISH,12/23/2021,1/10/2022,18
+418715,10/28/2022,WCC-TC,washington_correction_center,LEWIS,5/3/2023,6/8/2023,36
+418722,9/5/2019,MCC-TRU,monroe_correctional_complex,KING,3/1/2022,6/27/2022,118
+418776,2/9/2023,WCC-TC,washington_correction_center,US IMMIGRATION,2/9/2023,5/12/2023,92
+418822,9/10/2019,AHCC-MSU,airway_heights_corrections_center,WHATCOM,1/28/2022,3/2/2022,33
+418868,4/14/2022,WCC-RC,washington_correction_center,SPOKANE,4/14/2022,6/21/2022,68
+419005,1/6/2021,WCCW,washington_correction_center_for_women,PIERCE,5/20/2022,7/6/2022,47
+419086,4/28/2021,CRCC,coyote_ridge_corrections_center,FRANKLIN,12/22/2021,2/18/2022,58
+419300,10/26/2022,WCC-RC,washington_correction_center,YAKIMA,2/16/2023,4/27/2023,70
+419429,12/2/2019,CRCC,coyote_ridge_corrections_center,KING,12/9/2022,1/5/2023,27
+419659,8/4/2021,WSP-MSU,washington_state_penitentiary,BENTON,6/6/2022,6/24/2022,18
+419778,4/29/2022,WSP-MSU,washington_state_penitentiary,GRAYS HARBOR,10/18/2022,3/10/2023,143
+419889,12/12/2019,CRCC,coyote_ridge_corrections_center,YAKIMA,2/12/2023,2/28/2023,16
+419895,10/25/2019,MCC-SOU,monroe_correctional_complex,CLARK,4/6/2022,5/12/2022,36
+419940,1/5/2022,LCC,larch_corrections_center,KING,5/15/2023,7/21/2023,67
+419957,12/13/2019,CRCC,coyote_ridge_corrections_center,THURSTON,1/18/2022,2/1/2022,14
+420029,11/21/2020,WCC-RC,washington_correction_center,LEWIS,12/17/2021,2/17/2022,62
+420057,11/4/2019,MCC-WSR-MSU,monroe_correctional_complex,LEWIS,8/25/2021,3/14/2022,201
+420142,10/14/2021,WCC-RC,washington_correction_center,SPOKANE,2/15/2022,3/31/2022,44
+420170,4/26/2022,MCC-WSR-MSU,monroe_correctional_complex,SNOHOMISH,10/20/2022,2/19/2023,122
+420225,11/22/2019,MCC-TRU,monroe_correctional_complex,KING,10/8/2021,3/2/2022,145
+420246,4/5/2022,WSP-MSU,washington_state_penitentiary,CHELAN,8/6/2022,9/21/2022,46
+420318,3/3/2023,WCC-TC,washington_correction_center,COWLITZ,3/22/2023,8/11/2023,142
+420537,7/8/2021,AHCC,airway_heights_corrections_center,YAKIMA,5/24/2022,7/28/2022,65
+420630,9/14/2022,WCC-RC,washington_correction_center,US IMMIGRATION,10/18/2022,11/21/2022,34
+420636,4/16/2021,SCCC,stafford_creek_corrections_center,KING,5/6/2023,5/29/2023,23
+420647,4/29/2022,WCC-TC,washington_correction_center,KING,6/25/2023,8/21/2023,57
+420665,12/4/2019,WSP-MAIN,washington_state_penitentiary,WALLA WALLA,11/22/2021,7/31/2022,251
+420726,12/6/2019,MCC-WSR-MSU,monroe_correctional_complex,KING,3/20/2022,4/11/2022,22
+420728,4/26/2023,WCC-RC,washington_correction_center,BENTON,4/26/2023,5/10/2023,14
+420787,7/6/2021,WCC-TC,washington_correction_center,THURSTON,9/3/2021,1/3/2022,122
+420893,9/27/2022,WCC-RC,washington_correction_center,WHATCOM,3/28/2021,10/11/2022,562
+420993,9/30/2021,CRCC,coyote_ridge_corrections_center,SPOKANE,7/21/2022,8/26/2022,36
+421058,9/21/2022,WSP-MSC,washington_state_penitentiary,WHATCOM,7/9/2023,7/31/2023,22
+421236,2/11/2020,AHCC,airway_heights_corrections_center,PIERCE,11/1/2022,11/28/2022,27
+421309,3/24/2020,AHCC,airway_heights_corrections_center,KING,10/30/2022,12/12/2022,43
+421314,2/25/2020,CRCC,coyote_ridge_corrections_center,SNOHOMISH,7/15/2023,8/3/2023,19
+421339,1/9/2020,WSP-MSU,washington_state_penitentiary,ISLAND,1/14/2023,2/14/2023,31
+421437,5/15/2020,MCC-WSR-MSU,monroe_correctional_complex,SNOHOMISH,9/15/2022,11/21/2022,67
+421494,3/16/2022,CRCC,coyote_ridge_corrections_center,YAKIMA,9/22/2022,10/14/2022,22
+421512,7/6/2023,WCC-RC,washington_correction_center,SPOKANE,7/6/2023,8/2/2023,27
+421662,3/17/2020,AHCC,airway_heights_corrections_center,IL,11/4/2021,1/25/2022,82
+421669,4/30/2021,AHCC-MSU,airway_heights_corrections_center,LEWIS,5/19/2022,6/15/2022,27
+421716,5/27/2021,WSP-MSU,washington_state_penitentiary,BENTON,1/21/2022,3/9/2022,47
+421833,3/13/2020,CRCC,coyote_ridge_corrections_center,CLARK,5/19/2023,6/29/2023,41
+422006,6/26/2020,MCC-WSR-MSU,monroe_correctional_complex,CLARK,12/15/2021,5/23/2022,159
+422046,4/19/2023,WCC-RC,washington_correction_center,BENTON,4/19/2023,7/18/2023,90
+422128,12/23/2021,SCCC,stafford_creek_corrections_center,CLARK,9/6/2022,10/11/2022,35
+422265,4/16/2020,AHCC,airway_heights_corrections_center,SPOKANE,5/11/2022,9/6/2022,118
+422266,4/21/2020,WCCW,washington_correction_center_for_women,SPOKANE,5/11/2022,12/12/2022,215
+422270,4/28/2022,CRCC-MSU,coyote_ridge_corrections_center,KING,4/1/2023,5/19/2023,48
+422334,10/26/2022,WCC-TC,washington_correction_center,KLICKITAT,3/21/2023,4/4/2023,14
+422401,9/21/2021,WCCW,washington_correction_center_for_women,YAKIMA,3/28/2022,5/30/2022,63
+422415,2/28/2020,WCC-RC,washington_correction_center,KING,9/5/2021,9/11/2022,371
+422427,2/28/2020,MCC-WSR-MSU,monroe_correctional_complex,CLARK,2/21/2022,4/5/2022,43
+422637,3/10/2020,WSP-MSU,washington_state_penitentiary,SNOHOMISH,5/25/2022,6/23/2022,29
+422653,3/18/2022,MCC-SOU,monroe_correctional_complex,KING,5/28/2023,6/20/2023,23
+422706,7/22/2022,WCC-TC,washington_correction_center,THURSTON,12/26/2022,4/6/2023,101
+422822,5/1/2020,AHCC,airway_heights_corrections_center,CLARK,6/6/2022,7/22/2022,46
+422951,7/5/2023,WCC-RC,washington_correction_center,YAKIMA,7/5/2023,8/2/2023,28
+423036,10/13/2022,WCC-RC,washington_correction_center,SPOKANE,10/13/2022,11/4/2022,22
+423258,8/19/2022,WCC-TC,washington_correction_center,LEWIS,10/17/2022,1/16/2023,91
+423349,5/15/2020,MCC-TRU,monroe_correctional_complex,KING,2/16/2022,4/14/2022,57
+423392,5/8/2022,BROWNSTONE REENTRY CENTER,work_release,SPOKANE,7/31/2023,8/25/2023,25
+423434,5/28/2020,WOODINVILLE COMM FAC,juvenile_detention,PIERCE,1/24/2023,2/21/2023,28
+423569,4/13/2021,WCC-TC,washington_correction_center,SKAGIT,4/24/2022,5/23/2022,29
+423678,8/6/2020,MCC-TRU,monroe_correctional_complex,SPOKANE,3/9/2022,4/11/2022,33
+423735,6/26/2020,CBCC-CLOSE CUST,clallam_bay_corrections_center,KING,8/9/2022,8/29/2022,20
+423821,2/18/2022,WCC-RC,washington_correction_center,KING,3/22/2022,6/9/2022,79
+423852,12/23/2021,SCCC,stafford_creek_corrections_center,CLARK,4/13/2023,5/5/2023,22
+423884,7/10/2020,LCC,larch_corrections_center,PIERCE,11/16/2022,12/15/2022,29
+423920,7/23/2020,AHCC-MSU,airway_heights_corrections_center,SPOKANE,4/18/2022,6/13/2022,56
+423935,5/27/2022,WCC-RC,washington_correction_center,CLARK,7/29/2022,11/3/2022,97
+423976,9/1/2020,AHCC,airway_heights_corrections_center,KING,5/25/2023,6/13/2023,19
+424002,7/21/2020,SCCC,stafford_creek_corrections_center,WHATCOM,5/3/2022,5/24/2022,21
+424025,9/4/2020,MCC-TRU,monroe_correctional_complex,IN,6/18/2022,8/9/2022,52
+424070,7/24/2020,CRCC-MSU,coyote_ridge_corrections_center,THURSTON,10/14/2021,3/4/2022,141
+424195,3/12/2022,WCC-IMU,washington_correction_center,KITSAP,5/22/2023,8/17/2023,87
+424219,9/18/2020,CRCC,coyote_ridge_corrections_center,LEWIS,1/26/2023,2/23/2023,28
+424236,5/11/2021,MCC-SOU,monroe_correctional_complex,KITSAP,4/9/2022,7/18/2022,100
+424269,8/20/2020,WSP-MSU,washington_state_penitentiary,KING,1/28/2022,2/11/2022,14
+424278,8/19/2020,AHTANUM VIEW REENTRY CENTER,work_release,YAKIMA,5/10/2022,6/15/2022,36
+424335,10/27/2020,CRCC,coyote_ridge_corrections_center,SPOKANE,9/26/2022,8/2/2023,310
+424337,9/15/2020,AHCC-MSU,airway_heights_corrections_center,KITSAP,12/8/2022,12/27/2022,19
+424347,11/18/2021,RATCLIFF HOUSE REENTRY CENTER,work_release,KING,3/14/2023,4/3/2023,20
+424375,9/2/2022,WCC-RC,washington_correction_center,KING,9/2/2022,11/23/2022,82
+424415,8/21/2020,SCCC,stafford_creek_corrections_center,KING,7/13/2022,8/1/2022,19
+424432,11/10/2021,AHCC,airway_heights_corrections_center,SPOKANE,5/31/2022,7/6/2022,36
+424448,3/1/2022,WCC-TC,washington_correction_center,KING,9/17/2022,12/26/2022,100
+424595,9/3/2020,MCCCW,mission_creek_corrections_center_for_women,HI,9/9/2022,11/23/2022,75
+424639,5/13/2022,SCCC-IMU,stafford_creek_corrections_center,KING,3/20/2023,8/15/2023,148
+424717,9/15/2022,WSP-MAIN,washington_state_penitentiary,DOUGLAS,6/23/2023,7/19/2023,26
+424741,9/15/2020,GREEN HILL SCHOOL,juvenile_detention,YAKIMA,3/4/2023,5/1/2023,58
+424743,9/16/2020,MCCCW,mission_creek_corrections_center_for_women,PIERCE,5/9/2022,5/26/2022,17
+424948,9/29/2020,CBCC-CLOSE CUST,clallam_bay_corrections_center,SNOHOMISH,11/13/2022,12/5/2022,22
+425001,8/31/2022,WCCW,washington_correction_center_for_women,KING,1/11/2023,3/7/2023,55
+425193,12/11/2020,CRCC,coyote_ridge_corrections_center,KING,7/4/2022,8/16/2022,43
+425327,8/17/2022,WCC-IMU,washington_correction_center,YAKIMA,8/27/2022,10/3/2022,37
+425330,8/3/2021,WCCW-MSC,washington_correction_center_for_women,YAKIMA,11/13/2021,1/17/2022,65
+425389,6/24/2022,WCC-RC,washington_correction_center,KING,7/16/2022,10/4/2022,80
+425393,12/8/2020,MCC-TRU,monroe_correctional_complex,KING,10/26/2022,12/7/2022,42
+425398,5/2/2023,WSP-IMU,washington_state_penitentiary,WALLA WALLA,5/3/2022,7/5/2023,428
+425411,12/10/2020,SCCC,stafford_creek_corrections_center,SPOKANE,10/21/2022,2/21/2023,123
+425553,6/22/2021,SCCC,stafford_creek_corrections_center,KING,7/27/2023,8/10/2023,14
+425567,11/5/2020,CRCC,coyote_ridge_corrections_center,SPOKANE,4/15/2023,5/16/2023,31
+425637,11/10/2020,CRCC-IMU,coyote_ridge_corrections_center,SNOHOMISH,6/23/2022,7/8/2022,15
+425645,2/16/2021,WSP-MSU,washington_state_penitentiary,KING,2/16/2022,3/2/2022,14
+425757,1/8/2021,MCC-TRU,monroe_correctional_complex,KING,8/9/2022,9/7/2022,29
+425821,1/18/2022,WCC-TC,washington_correction_center,SNOHOMISH,6/11/2022,8/11/2022,61
+425904,11/25/2020,WOODINVILLE COMM FAC,juvenile_detention,KING,12/22/2021,2/23/2022,63
+425945,9/28/2021,MCC-WSR-MSU,monroe_correctional_complex,SNOHOMISH,11/29/2021,1/3/2022,35
+425974,11/23/2022,WCC-RC,washington_correction_center,YAKIMA,11/23/2022,1/23/2023,61
+426019,12/1/2021,CRCC,coyote_ridge_corrections_center,PIERCE,10/9/2022,10/28/2022,19
+426029,3/2/2021,MCC-TRU,monroe_correctional_complex,PIERCE,3/13/2023,4/19/2023,37
+426042,7/5/2022,WCC-RC,washington_correction_center,PIERCE,7/17/2022,8/16/2022,30
+426064,5/12/2021,SCCC,stafford_creek_corrections_center,SNOHOMISH,3/15/2023,3/31/2023,16
+426096,5/25/2023,WCC-TC,washington_correction_center,KITSAP,5/25/2023,8/1/2023,68
+426130,2/3/2021,INTERSTATE COMPACT INMATES,interstate_compact_inmates,SNOHOMISH,1/11/2022,3/28/2022,76
+426134,4/27/2022,WSP-MSU,washington_state_penitentiary,BENTON,11/6/2022,11/30/2022,24
+426185,1/20/2021,WSP-MAIN,washington_state_penitentiary,YAKIMA,7/6/2022,9/13/2022,69
+426241,2/19/2021,AHCC,airway_heights_corrections_center,KING,2/10/2022,4/15/2022,64
+426263,6/22/2022,WCC-TC,washington_correction_center,KITSAP,12/3/2022,3/23/2023,110
+426279,7/23/2021,WSP-MSC,washington_state_penitentiary,SPOKANE,5/18/2022,7/12/2022,55
+426296,1/5/2021,OCC,olympic_corrections_center,SNOHOMISH,1/30/2022,2/22/2022,23
+426322,11/9/2022,FRANKLIN CO. VIOLATOR FACILITY,county_jail,BENTON,10/14/2022,1/7/2023,85
+426472,1/19/2021,WSP-MSU,washington_state_penitentiary,KING,2/21/2022,3/18/2022,25
+426619,8/30/2021,SCCC,stafford_creek_corrections_center,CLARK,8/13/2022,9/29/2022,47
+426646,2/1/2021,SCCC,stafford_creek_corrections_center,MASON,12/29/2022,1/20/2023,22
+426712,2/4/2021,WCC-RC,washington_correction_center,US MARSHAL,11/23/2021,4/20/2022,148
+426746,3/4/2021,WSP-IMU,washington_state_penitentiary,SPOKANE,1/19/2022,3/29/2022,69
+426818,2/16/2021,MCC-WSR-MSU,monroe_correctional_complex,SNOHOMISH,11/4/2021,1/4/2022,61
+426827,2/16/2021,WCCW,washington_correction_center_for_women,BENTON,10/7/2022,11/21/2022,45
+426843,3/4/2021,WSP-MAIN,washington_state_penitentiary,SPOKANE,2/4/2022,4/23/2022,78
+426890,2/19/2021,WSP-MAIN,washington_state_penitentiary,CLARK,1/15/2022,3/10/2022,54
+426962,3/30/2021,WCC-TC,washington_correction_center,KITSAP,9/22/2021,1/22/2022,122
+427034,3/4/2021,CCCC,cedar_creek_corrections_center,GRANT,1/30/2023,4/3/2023,63
+427100,8/5/2021,SCCC,stafford_creek_corrections_center,SPOKANE,3/26/2023,7/13/2023,109
+427104,4/30/2021,AHCC,airway_heights_corrections_center,KING,6/27/2022,8/24/2022,58
+427129,5/13/2022,WCC-TC,washington_correction_center,CLARK,9/16/2022,10/17/2022,31
+427193,3/18/2021,WSP-MAIN,washington_state_penitentiary,CHELAN,7/4/2022,9/8/2022,66
+427222,4/27/2021,SCCC-IMU,stafford_creek_corrections_center,GRANT,11/6/2021,1/6/2022,61
+427230,2/21/2023,WCCW,washington_correction_center_for_women,SPOKANE,3/6/2023,5/2/2023,57
+427245,4/16/2021,AHCC,airway_heights_corrections_center,NJ,7/16/2022,9/7/2022,53
+427409,4/2/2021,CBCC-CLOSE CUST,clallam_bay_corrections_center,CLARK,10/19/2022,11/19/2022,31
+427487,2/1/2022,WSP-MSU,washington_state_penitentiary,WHATCOM,12/22/2022,3/20/2023,88
+427493,9/15/2021,TRI-CITIES REENTRY CENTER,work_release,BENTON,5/19/2022,7/12/2022,54
+427539,4/14/2021,AHCC,airway_heights_corrections_center,WALLA WALLA,12/12/2021,2/5/2022,55
+427574,4/16/2021,AHCC-MSU,airway_heights_corrections_center,LEWIS,4/5/2022,4/19/2022,14
+427579,5/14/2021,SCCC,stafford_creek_corrections_center,CLARK,5/24/2022,8/2/2022,70
+427622,4/30/2021,WSP-MAIN,washington_state_penitentiary,KING,8/17/2022,9/13/2022,27
+427646,5/14/2021,CRCC,coyote_ridge_corrections_center,PIERCE,4/10/2022,10/30/2022,203
+427650,5/26/2021,SCCC,stafford_creek_corrections_center,BENTON,3/4/2022,3/31/2022,27
+427658,5/14/2021,MCC-WSR-MSU,monroe_correctional_complex,CLARK,5/24/2022,6/13/2022,20
+427671,1/11/2023,WCC-RC,washington_correction_center,YAKIMA,2/11/2023,4/24/2023,72
+427744,5/26/2021,WSP-MAIN,washington_state_penitentiary,YAKIMA,1/18/2022,2/15/2022,28
+427777,7/6/2021,CRCC,coyote_ridge_corrections_center,KING,7/27/2022,8/26/2022,30
+427867,7/5/2022,WCC-TC,washington_correction_center,KITSAP,11/19/2022,1/2/2023,44
+427883,5/11/2021,CRCC,coyote_ridge_corrections_center,PIERCE,12/15/2021,2/10/2022,57
+427916,6/22/2021,CCCC,cedar_creek_corrections_center,KING,9/11/2022,10/31/2022,50
+427954,5/14/2021,WSP-MSU,washington_state_penitentiary,PIERCE,12/6/2021,1/5/2022,30
+427964,5/14/2021,LONGVIEW REENTRY CENTER,work_release,CLARK,7/22/2022,8/26/2022,35
+427969,8/17/2021,SCCC,stafford_creek_corrections_center,MASON,2/19/2022,3/23/2022,32
+427990,5/27/2021,CRCC,coyote_ridge_corrections_center,KING,8/8/2022,9/15/2022,38
+428044,7/6/2021,SCCC,stafford_creek_corrections_center,SNOHOMISH,3/2/2023,4/19/2023,48
+428083,5/25/2021,BELLINGHAM REENTRY CENTER,work_release,SKAGIT,12/18/2021,2/2/2022,46
+428126,7/3/2022,CCCC,cedar_creek_corrections_center,CLALLAM,4/6/2023,4/25/2023,19
+428131,5/27/2021,WSP-MAIN,washington_state_penitentiary,SPOKANE,3/15/2022,5/18/2022,64
+428152,1/27/2023,WCC-RC,washington_correction_center,KING,4/1/2023,5/23/2023,52
+428181,8/17/2021,WCC-TC,washington_correction_center,KING,4/1/2022,4/15/2022,14
+428243,6/10/2021,CRCC,coyote_ridge_corrections_center,CO,3/3/2022,3/21/2022,18
+428258,6/8/2021,WCC-TC,washington_correction_center,PIERCE,2/15/2022,3/16/2022,29
+428335,6/23/2021,CBCC-CLOSE CUST,clallam_bay_corrections_center,PIERCE,5/25/2023,8/11/2023,78
+428345,8/5/2021,AHCC,airway_heights_corrections_center,KITSAP,11/2/2022,2/1/2023,91
+428355,7/20/2021,CRCC,coyote_ridge_corrections_center,MASON,5/10/2022,5/24/2022,14
+428438,6/21/2022,WCC-RC,washington_correction_center,SNOHOMISH,8/20/2022,9/8/2022,19
+428443,1/12/2023,WCCW-RECEIVING,washington_correction_center_for_women,KING,1/12/2023,2/19/2023,38
+428463,8/19/2021,CRCC,coyote_ridge_corrections_center,SPOKANE,3/12/2022,4/13/2022,32
+428480,6/24/2021,AHTANUM VIEW REENTRY CENTER,work_release,SPOKANE,4/14/2022,5/5/2022,21
+428520,8/6/2021,WCC-TC,washington_correction_center,CLARK,4/1/2022,4/20/2022,19
+428589,8/3/2021,CRCC,coyote_ridge_corrections_center,KITSAP,3/1/2022,3/23/2022,22
+428607,7/6/2021,WSP-MSC,washington_state_penitentiary,KING,2/10/2022,3/11/2022,29
+428611,7/6/2021,MCC-TRU,monroe_correctional_complex,SKAGIT,1/30/2023,3/23/2023,52
+428613,7/6/2021,REYNOLDS REENTRY CENTER,work_release,KING,9/24/2022,10/12/2022,18
+428628,1/11/2023,WCC-RC,washington_correction_center,BENTON,3/21/2023,5/3/2023,43
+428694,8/18/2022,WCC-RC,washington_correction_center,CHELAN,9/5/2022,9/23/2022,18
+428748,1/14/2022,WCCW-MSC,washington_correction_center_for_women,COWLITZ,1/25/2023,2/14/2023,20
+428869,7/23/2021,WSP-MSU,washington_state_penitentiary,WALLA WALLA,2/22/2023,3/9/2023,15
+428870,7/23/2021,SCCC,stafford_creek_corrections_center,CLARK,12/8/2021,1/31/2022,54
+428883,6/8/2022,AHCC,airway_heights_corrections_center,WALLA WALLA,5/11/2023,8/16/2023,97
+428963,8/31/2021,WCC-TC,washington_correction_center,PIERCE,8/31/2021,2/28/2022,181
+428985,8/3/2021,WSP-MAIN,washington_state_penitentiary,SNOHOMISH,12/23/2021,3/25/2022,92
+429026,4/29/2022,WCC-TC,washington_correction_center,KING,6/10/2022,7/16/2022,36
+429032,1/5/2023,WCC-RC,washington_correction_center,PIERCE,1/13/2023,2/8/2023,26
+429044,2/24/2023,WCC-RC,washington_correction_center,THURSTON,3/31/2023,5/31/2023,61
+429051,2/16/2022,WCC-TC,washington_correction_center,WALLA WALLA,6/29/2022,8/3/2022,35
+429068,8/20/2021,WCC-TC,washington_correction_center,COWLITZ,1/29/2022,3/7/2022,37
+429109,11/24/2021,WSP-MAIN,washington_state_penitentiary,YAKIMA,5/3/2022,5/27/2022,24
+429139,10/27/2022,WCC-TC,washington_correction_center,DOUGLAS,2/22/2023,5/2/2023,69
+429141,8/18/2021,MCC-SOU,monroe_correctional_complex,YAKIMA,2/9/2022,3/16/2022,35
+429150,8/17/2021,WCC-TC,washington_correction_center,SNOHOMISH,12/23/2021,2/10/2022,49
+429163,8/17/2021,WSP-MSC,washington_state_penitentiary,PIERCE,12/2/2021,1/4/2022,33
+429211,9/28/2021,MCC-TRU,monroe_correctional_complex,KING,2/3/2022,4/8/2022,64
+429217,9/1/2021,WSP-MAIN,washington_state_penitentiary,YAKIMA,1/24/2022,2/17/2022,24
+429224,8/20/2021,WCC-TC,washington_correction_center,LEWIS,10/19/2021,2/18/2022,122
+429227,8/20/2021,WCC-TC,washington_correction_center,CLARK,11/30/2021,4/1/2022,122
+429229,8/20/2021,SCCC,stafford_creek_corrections_center,CLARK,4/29/2022,11/20/2022,205
+429249,11/24/2021,MCC-TRU,monroe_correctional_complex,YAKIMA,12/25/2022,2/16/2023,53
+429326,8/31/2021,SCCC,stafford_creek_corrections_center,PIERCE,1/4/2022,5/16/2022,132
+429327,8/31/2021,SCCC,stafford_creek_corrections_center,PIERCE,12/8/2022,1/24/2023,47
+429335,8/31/2021,WSP-MSC,washington_state_penitentiary,US IMMIGRATION,6/8/2022,6/30/2022,22
+429336,8/31/2021,WOODINVILLE COMM FAC,juvenile_detention,SNOHOMISH,3/19/2023,4/7/2023,19
+429342,1/21/2022,WCC-IMU,washington_correction_center,GRAYS HARBOR,6/8/2022,7/5/2022,27
+429410,9/3/2021,GRE,other_partial_confinement,COWLITZ,7/3/2022,7/20/2022,17
+429431,9/15/2021,WSP-IMU,washington_state_penitentiary,KITSAP,12/24/2022,1/25/2023,32
+429438,10/15/2021,WCC-TC,washington_correction_center,PACIFIC,2/8/2022,7/10/2022,152
+429441,12/23/2021,WCC-RC,washington_correction_center,US IMMIGRATION,1/3/2022,5/2/2022,119
+429482,11/12/2021,WCC-TC,washington_correction_center,KING,4/14/2022,5/3/2022,19
+429494,9/14/2021,WCC-TC,washington_correction_center,SNOHOMISH,5/11/2022,5/26/2022,15
+429528,11/9/2021,WCC-TC,washington_correction_center,KING,5/17/2022,7/29/2022,73
+429533,11/10/2021,CRCC-MSU,coyote_ridge_corrections_center,BENTON,4/19/2022,5/18/2022,29
+429545,9/16/2021,WCCW-MSC,washington_correction_center_for_women,WHATCOM,1/16/2022,2/9/2022,24
+429627,9/23/2021,WCC-RC,washington_correction_center,JEFFERSON,2/12/2022,8/3/2022,172
+429648,11/22/2021,WCC-RC,washington_correction_center,SNOHOMISH,11/22/2021,1/19/2022,58
+429694,12/7/2021,MCC-TRU,monroe_correctional_complex,PIERCE,6/6/2022,7/18/2022,42
+429734,9/30/2021,WCC-TC,washington_correction_center,WHITMAN,3/23/2022,4/14/2022,22
+429736,9/30/2021,CRCC,coyote_ridge_corrections_center,GRANT,3/16/2022,4/7/2022,22
+429752,10/1/2021,WCC-RC,washington_correction_center,THURSTON,10/5/2021,2/4/2022,122
+429808,10/27/2022,WCC-RC,washington_correction_center,OKANOGAN,10/13/2022,11/2/2022,20
+429823,11/24/2021,CRCC,coyote_ridge_corrections_center,OR,9/10/2022,11/17/2022,68
+429918,11/24/2021,WCC-TC,washington_correction_center,BENTON,2/24/2022,4/8/2022,43
+429939,10/15/2021,WCC-TC,washington_correction_center,KING,10/15/2021,1/13/2022,90
+429940,10/15/2021,WCC-RC,washington_correction_center,PIERCE,11/9/2021,3/11/2022,122
+429945,4/1/2022,WCC-RC,washington_correction_center,THURSTON,4/1/2022,8/12/2022,133
+429966,11/10/2021,WSP-MAIN,washington_state_penitentiary,SPOKANE,9/15/2022,12/7/2022,83
+430005,3/15/2022,SCCC,stafford_creek_corrections_center,ISLAND,7/6/2023,7/27/2023,21
+430009,12/22/2021,WCC-TC,washington_correction_center,THURSTON,5/2/2022,7/22/2022,81
+430027,12/7/2021,SCCC,stafford_creek_corrections_center,PIERCE,7/10/2023,8/17/2023,38
+430038,11/24/2021,CRCC,coyote_ridge_corrections_center,FRANKLIN,11/24/2021,1/20/2022,57
+430091,12/10/2021,CRCC,coyote_ridge_corrections_center,KING,3/31/2022,7/22/2022,113
+430121,2/4/2022,WCC-TC,washington_correction_center,KING,5/27/2022,8/1/2022,66
+430142,11/12/2021,WCC-RC,washington_correction_center,CLARK,12/17/2021,2/2/2022,47
+430156,11/10/2021,WCC-RC,washington_correction_center,KING,8/19/2022,9/20/2022,32
+430175,12/13/2022,WCCW-RECEIVING,washington_correction_center_for_women,GRANT,1/7/2023,1/24/2023,17
+430217,11/8/2021,WCC-TC,washington_correction_center,WHATCOM,2/4/2022,2/24/2022,20
+430220,11/8/2021,CRCC,coyote_ridge_corrections_center,SNOHOMISH,6/9/2022,7/5/2022,26
+430221,11/8/2021,WCC-TC,washington_correction_center,SKAGIT,7/19/2022,10/14/2022,87
+430238,11/9/2021,WSP-MSU,washington_state_penitentiary,WHATCOM,6/3/2022,6/21/2022,18
+430243,12/23/2021,MCC-TRU,monroe_correctional_complex,THURSTON,5/30/2023,7/10/2023,41
+430245,11/9/2021,WCC-RC,washington_correction_center,PIERCE,11/15/2021,3/17/2022,122
+430249,12/23/2021,SCCC-IMU,stafford_creek_corrections_center,KING,12/23/2021,9/9/2022,260
+430250,11/9/2021,WCC-TC,washington_correction_center,PIERCE,5/16/2022,6/15/2022,30
+430284,7/8/2022,MCC-IMU,monroe_correctional_complex,SPOKANE,12/30/2022,3/8/2023,68
+430310,11/12/2021,WCC-TC,washington_correction_center,KING,12/8/2021,3/24/2022,106
+430408,12/8/2021,CRCC,coyote_ridge_corrections_center,YAKIMA,4/10/2022,7/6/2022,87
+430435,2/17/2022,WCC-RC,washington_correction_center,SPOKANE,3/3/2022,7/1/2022,120
+430442,1/19/2022,GREEN HILL SCHOOL,juvenile_detention,KITSAP,11/9/2022,12/23/2022,44
+430591,12/7/2021,WCC-RC,washington_correction_center,PIERCE,12/31/2021,1/27/2022,27
+430595,12/7/2021,WCC-TC,washington_correction_center,SNOHOMISH,6/9/2022,10/31/2022,144
+430596,12/7/2021,WCC-RC,washington_correction_center,WHATCOM,12/22/2021,2/17/2022,57
+430598,12/7/2021,MCC-SOU,monroe_correctional_complex,WHATCOM,1/31/2023,4/6/2023,65
+430609,5/3/2023,WCC-RC,washington_correction_center,WALLA WALLA,5/3/2023,6/13/2023,41
+430640,4/13/2022,CRCC,coyote_ridge_corrections_center,BENTON,11/10/2022,12/7/2022,27
+430643,12/9/2021,AHCC,airway_heights_corrections_center,OH,12/13/2021,9/14/2022,275
+430649,12/9/2021,AHCC,airway_heights_corrections_center,GRANT,12/19/2022,2/1/2023,44
+430651,12/9/2021,WCC-RC,washington_correction_center,GRANT,5/22/2022,6/13/2022,22
+430660,12/10/2021,WCC-RC,washington_correction_center,NV,1/12/2022,4/7/2022,85
+430661,12/10/2021,WCC-RC,washington_correction_center,KING,12/17/2021,5/18/2022,152
+430679,1/5/2022,CRCC,coyote_ridge_corrections_center,BENTON,5/29/2022,6/14/2022,16
+430686,3/1/2022,CRCC,coyote_ridge_corrections_center,KING,1/9/2023,3/28/2023,78
+430792,12/22/2021,WCC-TC,washington_correction_center,BENTON,9/25/2022,10/25/2022,30
+430805,12/23/2021,WCC-TC,washington_correction_center,US IMMIGRATION,3/31/2022,4/27/2022,27
+430815,12/23/2021,WCC-RC,washington_correction_center,PIERCE,1/22/2022,4/19/2022,87
+430848,3/29/2022,CRCC,coyote_ridge_corrections_center,PIERCE,11/23/2022,12/14/2022,21
+430865,1/5/2022,WCC-RC,washington_correction_center,YAKIMA,2/10/2022,6/12/2022,122
+430958,2/18/2022,WCC-TC,washington_correction_center,CLARK,2/18/2022,5/17/2022,88
+431010,3/18/2022,CRCC,coyote_ridge_corrections_center,KING,4/29/2023,7/10/2023,72
+431012,1/19/2022,SCCC,stafford_creek_corrections_center,PIERCE,1/19/2022,4/17/2023,453
+431045,3/17/2022,WCC-RC,washington_correction_center,YAKIMA,3/17/2022,5/15/2022,59
+431048,3/16/2022,WCC-TC,washington_correction_center,YAKIMA,6/30/2022,10/11/2022,103
+431052,1/21/2022,WCC-TC,washington_correction_center,CLARK,5/22/2022,6/13/2022,22
+431061,1/21/2022,WSP-MSC,washington_state_penitentiary,KING,11/13/2022,12/13/2022,30
+431064,1/21/2022,WCC-RC,washington_correction_center,SNOHOMISH,2/17/2022,5/30/2022,102
+431076,3/1/2022,WCC-TC,washington_correction_center,WHATCOM,9/6/2022,9/23/2022,17
+431104,1/26/2022,WCCW,washington_correction_center_for_women,CLARK,6/13/2022,7/25/2022,42
+431139,5/25/2022,CRCC-MSU,coyote_ridge_corrections_center,CA,11/15/2022,12/5/2022,20
+431184,2/2/2022,WCC-TC,washington_correction_center,BENTON,4/9/2022,6/28/2022,80
+431185,2/2/2022,WCC-RC,washington_correction_center,FRANKLIN,2/2/2022,3/4/2022,30
+431186,2/2/2022,CRCC-MSU,coyote_ridge_corrections_center,SPOKANE,7/26/2023,8/28/2023,33
+431219,2/3/2022,WCC-RC,washington_correction_center,PIERCE,2/13/2022,4/19/2022,65
+431225,3/16/2022,AHCC,airway_heights_corrections_center,YAKIMA,1/16/2023,3/10/2023,53
+431232,2/4/2022,WCC-RC,washington_correction_center,KING,2/4/2022,4/14/2022,69
+431235,5/30/2023,WCC-RC,washington_correction_center,WHATCOM,6/29/2023,7/19/2023,20
+431238,2/4/2022,WCC-TC,washington_correction_center,CLARK,4/2/2022,6/7/2022,66
+431298,2/9/2022,WCCW,washington_correction_center_for_women,THURSTON,2/9/2022,5/26/2022,106
+431328,3/30/2022,WCC-TC,washington_correction_center,BENTON,5/17/2022,6/27/2022,41
+431341,2/14/2022,WCC-TC,washington_correction_center,THURSTON,9/26/2022,10/13/2022,17
+431360,2/15/2022,WCC-TC,washington_correction_center,WHATCOM,4/23/2022,8/16/2022,115
+431398,4/1/2022,WCC-TC,washington_correction_center,KING,4/1/2022,8/13/2022,134
+431419,2/18/2022,WCC-RC,washington_correction_center,PIERCE,2/18/2022,3/26/2022,36
+431489,4/12/2022,WCC-TC,washington_correction_center,KING,10/27/2022,11/21/2022,25
+431527,3/1/2022,CRCC,coyote_ridge_corrections_center,PIERCE,7/26/2022,10/18/2022,84
+431568,3/3/2022,WCC-RC,washington_correction_center,GRANT,8/24/2022,10/5/2022,42
+431578,4/15/2022,WCC-TC,washington_correction_center,KING,4/15/2022,7/13/2022,89
+431596,3/4/2022,WCC-RC,washington_correction_center,KING,3/4/2022,5/30/2022,87
+431629,7/19/2022,WCC-RC,washington_correction_center,WHATCOM,7/19/2022,9/6/2022,49
+431635,3/8/2022,WCCW-MSC,washington_correction_center_for_women,GRANT,5/29/2022,7/11/2022,43
+431670,6/21/2022,WCC-TC,washington_correction_center,CLARK,10/23/2022,12/7/2022,45
+431739,3/15/2022,MCC-WSR-MSU,monroe_correctional_complex,KING,6/4/2022,6/23/2022,19
+431741,7/19/2022,WCC-RC,washington_correction_center,SNOHOMISH,11/4/2022,12/7/2022,33
+431762,3/10/2022,GREEN HILL SCHOOL,juvenile_detention,KING,3/10/2022,7/1/2022,113
+431772,8/3/2022,WCC-RC,washington_correction_center,YAKIMA,8/13/2022,10/5/2022,53
+431804,3/18/2022,WCC-RC,washington_correction_center,THURSTON,3/18/2022,4/26/2022,39
+431813,3/18/2022,WCC-RC,washington_correction_center,OR,4/12/2022,8/3/2022,113
+431822,3/18/2022,WCC-TC,washington_correction_center,COWLITZ,4/17/2022,5/11/2022,24
+431932,3/29/2022,WCC-TC,washington_correction_center,AZ,11/9/2022,1/17/2023,69
+431940,3/29/2022,LCC,larch_corrections_center,THURSTON,11/19/2022,12/8/2022,19
+431942,3/29/2022,WCC-IMU,washington_correction_center,WHATCOM,3/29/2022,7/11/2022,104
+431943,3/29/2022,WCC-TC,washington_correction_center,WHATCOM,9/14/2022,10/13/2022,29
+431969,3/30/2022,WCC-RC,washington_correction_center,FRANKLIN,10/4/2022,10/19/2022,15
+431991,5/13/2022,CRCC,coyote_ridge_corrections_center,CLARK,1/8/2023,3/8/2023,59
+432022,4/1/2022,WCC-TC,washington_correction_center,THURSTON,9/1/2022,9/29/2022,28
+432030,4/1/2022,WCC-RC,washington_correction_center,KING,4/1/2022,6/6/2022,66
+432037,5/10/2022,WCC-RC,washington_correction_center,PIERCE,5/10/2022,7/5/2022,56
+432053,2/16/2023,WCCW-MSC,washington_correction_center_for_women,SNOHOMISH,3/2/2023,4/6/2023,35
+432159,4/12/2022,WSP-MSU,washington_state_penitentiary,SNOHOMISH,10/17/2022,11/2/2022,16
+432160,4/12/2022,WCC-TC,washington_correction_center,SNOHOMISH,1/3/2023,1/23/2023,20
+432182,4/27/2022,WCC-TC,washington_correction_center,US IMMIGRATION,6/8/2022,8/25/2022,78
+432184,4/13/2022,WCC-RC,washington_correction_center,FRANKLIN,4/13/2022,6/13/2022,61
+432197,6/10/2022,WCC-TC,washington_correction_center,KING,6/10/2022,10/24/2022,136
+432235,4/15/2022,WCC-TC,washington_correction_center,KING,7/23/2022,9/9/2022,48
+432267,4/28/2022,WCC-TC,washington_correction_center,SPOKANE,6/14/2022,7/27/2022,43
+432282,4/28/2022,WSP-MAIN,washington_state_penitentiary,SNOHOMISH,12/16/2022,2/23/2023,69
+432331,5/27/2022,SCCC,stafford_creek_corrections_center,KING,12/1/2022,12/27/2022,26
+432334,6/10/2022,CRCC,coyote_ridge_corrections_center,CLARK,7/24/2023,8/16/2023,23
+432361,4/26/2022,WCC-RC,washington_correction_center,PIERCE,10/10/2022,11/7/2022,28
+432405,1/19/2023,WCC-TC,washington_correction_center,SPOKANE,3/14/2023,6/9/2023,87
+432425,4/29/2022,WCC-TC,washington_correction_center,MASON,9/17/2022,1/3/2023,108
+432430,4/29/2022,WCC-RC,washington_correction_center,PIERCE,7/10/2022,10/19/2022,101
+432565,5/10/2022,WCC-TC,washington_correction_center,US IMMIGRATION,7/22/2022,8/24/2022,33
+432648,7/5/2022,WCC-TC,washington_correction_center,CLALLAM,2/28/2023,3/28/2023,28
+432716,5/26/2022,WSP-IMU,washington_state_penitentiary,CHELAN,12/4/2022,1/27/2023,54
+432757,5/24/2022,WCC-RC,washington_correction_center,WHATCOM,5/24/2022,7/18/2022,55
+432759,5/24/2022,WCC-TC,washington_correction_center,US IMMIGRATION,5/24/2022,8/17/2022,85
+432761,5/24/2022,WCC-TC,washington_correction_center,SNOHOMISH,6/27/2022,9/1/2022,66
+432764,5/24/2022,CBCC-CLOSE CUST,clallam_bay_corrections_center,SNOHOMISH,9/11/2022,11/4/2022,54
+432775,5/24/2022,CRCC,coyote_ridge_corrections_center,WHATCOM,3/30/2023,4/20/2023,21
+432784,5/25/2022,CRCC-MSU,coyote_ridge_corrections_center,BENTON,2/3/2023,2/21/2023,18
+432807,1/13/2023,WCC-TC,washington_correction_center,CLARK,5/22/2023,6/28/2023,37
+432828,5/26/2022,WCCW,washington_correction_center_for_women,KING,3/1/2023,3/28/2023,27
+432834,5/27/2022,WCC-RC,washington_correction_center,KING,5/28/2022,7/8/2022,41
+432836,5/27/2022,WCC-RC,washington_correction_center,KING,5/27/2022,8/1/2022,66
+432930,6/7/2022,WCC-TC,washington_correction_center,SNOHOMISH,6/7/2022,10/7/2022,122
+432954,6/7/2022,WCC-TC,washington_correction_center,SNOHOMISH,5/27/2023,6/28/2023,32
+432964,6/7/2022,WCC-RC,washington_correction_center,PIERCE,6/27/2022,8/16/2022,50
+432981,5/30/2023,WCCW-RECEIVING,washington_correction_center_for_women,SPOKANE,5/8/2023,6/29/2023,52
+432994,11/22/2022,WCC-RC,washington_correction_center,SKAGIT,11/22/2022,2/9/2023,79
+433017,6/10/2022,CRCC,coyote_ridge_corrections_center,CLARK,6/10/2022,9/13/2022,95
+433025,6/10/2022,BISHOP LEWIS REENTRY CENTER,work_release,KING,5/19/2023,6/8/2023,20
+433074,7/5/2022,WCC-RC,washington_correction_center,SNOHOMISH,8/6/2022,9/28/2022,53
+433112,10/14/2022,WCC-RC,washington_correction_center,KING,11/9/2022,12/14/2022,35
+433119,8/4/2022,WCC-TC,washington_correction_center,YAKIMA,10/26/2022,2/17/2023,114
+433156,6/21/2022,WSP-MAIN,washington_state_penitentiary,PIERCE,3/9/2023,8/9/2023,153
+433167,8/3/2022,SCCC,stafford_creek_corrections_center,WALLA WALLA,3/27/2023,5/10/2023,44
+433191,11/10/2022,WCC-TC,washington_correction_center,KING,3/12/2023,4/24/2023,43
+433193,6/23/2022,BROWNSTONE REENTRY CENTER,work_release,SPOKANE,6/4/2023,6/22/2023,18
+433200,3/17/2023,WCCW-MSC,washington_correction_center_for_women,COWLITZ,7/9/2023,7/28/2023,19
+433228,6/29/2023,WCC-RC,washington_correction_center,CHELAN,7/1/2023,8/10/2023,40
+433242,7/6/2022,SCCC,stafford_creek_corrections_center,COWLITZ,12/16/2022,1/25/2023,40
+433276,8/30/2022,CRCC,coyote_ridge_corrections_center,SNOHOMISH,7/31/2023,8/17/2023,17
+433323,7/5/2022,MCC-SOU,monroe_correctional_complex,KING,7/5/2022,11/7/2022,125
+433327,7/5/2022,CRCC,coyote_ridge_corrections_center,SKAGIT,3/19/2023,4/24/2023,36
+433378,7/8/2022,WCC-RC,washington_correction_center,US IMMIGRATION,7/8/2022,9/6/2022,60
+433379,7/8/2022,WCC-TC,washington_correction_center,KING,9/26/2022,10/24/2022,28
+433382,7/8/2022,WCC-TC,washington_correction_center,KING,7/8/2022,11/7/2022,122
+433430,7/12/2022,WCCW,washington_correction_center_for_women,BENTON,7/12/2022,12/27/2022,168
+433457,8/17/2022,WCC-RC,washington_correction_center,BENTON,8/17/2022,11/1/2022,76
+433490,7/19/2022,WSP-MAIN,washington_state_penitentiary,THURSTON,5/30/2023,6/29/2023,30
+433499,7/19/2022,WCC-TC,washington_correction_center,PIERCE,2/6/2023,3/30/2023,52
+433576,7/22/2022,WCC-RC,washington_correction_center,KING,7/22/2022,8/16/2022,25
+433695,9/29/2022,WCC-RC,washington_correction_center,SPOKANE,12/4/2022,1/10/2023,37
+433708,8/2/2022,SCCC-IMU,stafford_creek_corrections_center,KING,2/10/2023,2/27/2023,17
+433709,8/2/2022,WCC-TC,washington_correction_center,PIERCE,11/24/2022,12/21/2022,27
+433710,8/2/2022,WSP-MAIN,washington_state_penitentiary,PIERCE,12/17/2022,1/16/2023,30
+433721,9/28/2022,WCC-TC,washington_correction_center,US IMMIGRATION,1/7/2023,2/13/2023,37
+433762,8/4/2022,CRCC-MSU,coyote_ridge_corrections_center,GRANT,1/9/2023,2/2/2023,24
+433778,8/18/2022,WCCW,washington_correction_center_for_women,ISLAND,11/27/2022,12/13/2022,16
+433790,9/14/2022,WCC-TC,washington_correction_center,KING,9/14/2022,3/20/2023,187
+433897,8/16/2022,WCC-RC,washington_correction_center,OKANOGAN,8/16/2022,11/1/2022,77
+433899,8/16/2022,WCC-RC,washington_correction_center,PIERCE,8/16/2022,10/31/2022,76
+433939,8/18/2022,WCC-RC,washington_correction_center,SPOKANE,2/14/2023,5/26/2023,101
+433945,8/18/2022,WCC-TC,washington_correction_center,SNOHOMISH,1/30/2023,2/27/2023,28
+433960,8/19/2022,WCC-RC,washington_correction_center,KING,8/19/2022,9/7/2022,19
+434089,8/30/2022,WCC-RC,washington_correction_center,PIERCE,10/5/2022,11/30/2022,56
+434091,8/30/2022,MCC-WSR-MSU,monroe_correctional_complex,PIERCE,3/25/2023,4/10/2023,16
+434105,8/31/2022,WCC-RC,washington_correction_center,BENTON,8/31/2022,10/4/2022,34
+434138,9/1/2022,CRCC,coyote_ridge_corrections_center,SNOHOMISH,9/1/2022,5/22/2023,263
+434179,9/28/2022,WCC-RC,washington_correction_center,YAKIMA,10/14/2022,11/21/2022,38
+434188,9/14/2022,WCC-RC,washington_correction_center,ISLAND,4/15/2023,4/29/2023,14
+434224,10/14/2022,WCC-RC,washington_correction_center,KING,12/7/2022,1/6/2023,30
+434230,9/8/2022,WCCW,washington_correction_center_for_women,SKAGIT,12/7/2022,3/13/2023,96
+434245,9/9/2022,WCCW,washington_correction_center_for_women,OR,10/14/2022,12/13/2022,60
+434259,9/13/2022,WCC-TC,washington_correction_center,SNOHOMISH,2/26/2023,4/3/2023,36
+434260,9/13/2022,WCC-TC,washington_correction_center,SNOHOMISH,9/15/2022,2/14/2023,152
+434268,9/13/2022,CRCC,coyote_ridge_corrections_center,PIERCE,5/14/2023,6/21/2023,38
+434274,9/13/2022,WCC-RC,washington_correction_center,PIERCE,10/20/2022,11/28/2022,39
+434301,9/28/2022,WCC-RC,washington_correction_center,COLUMBIA,9/28/2022,12/12/2022,75
+434359,11/9/2022,AHCC,airway_heights_corrections_center,YAKIMA,11/9/2022,3/10/2023,121
+434408,10/28/2022,SCCC,stafford_creek_corrections_center,CLARK,7/14/2023,8/1/2023,18
+434476,9/27/2022,WCC-IMU,washington_correction_center,SNOHOMISH,11/30/2022,1/12/2023,43
+434486,9/27/2022,WCC-RC,washington_correction_center,OR,3/7/2023,3/29/2023,22
+434492,9/27/2022,WCC-RC,washington_correction_center,US MARSHAL,6/27/2023,7/11/2023,14
+434499,9/30/2022,WCC-RC,washington_correction_center,KING,9/30/2022,12/2/2022,63
+434513,11/10/2022,WCC-RC,washington_correction_center,KING,11/10/2022,12/18/2022,38
+434516,9/29/2022,WCC-RC,washington_correction_center,ISLAND,9/29/2022,11/23/2022,55
+434546,9/30/2022,WCC-TC,washington_correction_center,KING,9/30/2022,3/9/2023,160
+434684,11/10/2022,WCC-RC,washington_correction_center,MN,11/10/2022,3/3/2023,113
+434788,10/14/2022,SCCC,stafford_creek_corrections_center,LEWIS,5/1/2023,7/19/2023,79
+434795,10/14/2022,WCC-RC,washington_correction_center,KING,10/14/2022,12/23/2022,70
+434798,10/14/2022,WCC-RC,washington_correction_center,US IMMIGRATION,11/20/2022,12/15/2022,25
+434938,10/25/2022,WCC-RC,washington_correction_center,SKAGIT,11/3/2022,12/5/2022,32
+434956,11/10/2022,WCC-RC,washington_correction_center,CLARK,11/10/2022,1/23/2023,74
+434961,10/26/2022,WCC-RC,washington_correction_center,FRANKLIN,11/9/2022,12/31/2022,52
+434981,10/27/2022,WCCW,washington_correction_center_for_women,SNOHOMISH,5/16/2023,6/5/2023,20
+435008,10/28/2022,WCC-RC,washington_correction_center,KING,10/28/2022,1/26/2023,90
+435009,10/28/2022,WCC-RC,washington_correction_center,KING,10/28/2022,12/30/2022,63
+435010,10/28/2022,WCC-RC,washington_correction_center,KING,10/28/2022,12/19/2022,52
+435027,12/19/2022,CRCC,coyote_ridge_corrections_center,GRAYS HARBOR,8/6/2023,8/21/2023,15
+435089,11/8/2022,WCCW,washington_correction_center_for_women,BENTON,2/18/2023,3/6/2023,16
+435129,11/8/2022,WCC-RC,washington_correction_center,KING,11/8/2022,3/8/2023,120
+435153,11/9/2022,WCC-RC,washington_correction_center,BENTON,12/3/2022,2/17/2023,76
+435200,11/23/2022,WCC-TC,washington_correction_center,SPOKANE,4/22/2023,5/29/2023,37
+435302,11/21/2022,WCC-IMU,washington_correction_center,KING,12/12/2022,1/19/2023,38
+435310,11/22/2022,WCC-RC,washington_correction_center,KING,11/22/2022,12/19/2022,27
+435328,11/22/2022,WCC-TC,washington_correction_center,PIERCE,4/2/2023,5/1/2023,29
+435333,1/13/2023,MCC-TRU,monroe_correctional_complex,KING,6/27/2023,7/25/2023,28
+435372,11/23/2022,WCC-TC,washington_correction_center,COWLITZ,5/20/2023,7/20/2023,61
+435456,12/6/2022,WSP-MAIN,washington_state_penitentiary,SKAGIT,6/23/2023,7/27/2023,34
+435472,12/6/2022,WCC-TC,washington_correction_center,SNOHOMISH,4/22/2023,5/23/2023,31
+435486,1/11/2023,WCC-TC,washington_correction_center,KING,3/16/2023,7/25/2023,131
+435516,1/18/2023,WCCW,washington_correction_center_for_women,PIERCE,1/18/2023,3/12/2023,53
+435523,2/14/2023,WCC-TC,washington_correction_center,PIERCE,2/14/2023,6/25/2023,131
+435535,12/8/2022,MCC-IMU,monroe_correctional_complex,KING,4/9/2023,5/30/2023,51
+435547,12/9/2022,WCC-TC,washington_correction_center,SNOHOMISH,5/13/2023,5/29/2023,16
+435600,1/11/2023,CRCC-MSU,coyote_ridge_corrections_center,YAKIMA,2/24/2023,5/10/2023,75
+435654,12/20/2022,WSP-MSU,washington_state_penitentiary,SNOHOMISH,6/6/2023,7/12/2023,36
+435718,12/23/2022,WCC-TC,washington_correction_center,THURSTON,6/16/2023,7/5/2023,19
+435816,1/4/2023,CRCC,coyote_ridge_corrections_center,YAKIMA,7/16/2023,8/23/2023,38
+435833,1/6/2023,WCCW,washington_correction_center_for_women,KING,1/6/2023,6/6/2023,151
+435866,1/10/2023,WCC-TC,washington_correction_center,PIERCE,4/22/2023,5/12/2023,20
+435873,1/10/2023,WCC-RC,washington_correction_center,KING,1/17/2023,3/31/2023,73
+435919,1/13/2023,WCC-RC,washington_correction_center,CLARK,2/21/2023,3/29/2023,36
+435924,1/13/2023,WCC-RC,washington_correction_center,OR,1/26/2023,2/13/2023,18
+435939,2/14/2023,WCC-TC,washington_correction_center,KITSAP,2/18/2023,7/20/2023,152
+436377,2/9/2023,WCC-RC,washington_correction_center,PIERCE,2/9/2023,5/9/2023,89
+436434,3/29/2023,WCC-RC,washington_correction_center,JEFFERSON,3/29/2023,6/16/2023,79
+436441,2/16/2023,WCC-RC,washington_correction_center,OKANOGAN,2/16/2023,3/8/2023,20
+436448,2/14/2023,WCC-RC,washington_correction_center,WHATCOM,2/14/2023,3/14/2023,28
+436484,2/16/2023,CRCC,coyote_ridge_corrections_center,SPOKANE,7/30/2023,8/28/2023,29
+436494,2/17/2023,WCC-RC,washington_correction_center,KING,2/17/2023,6/7/2023,110
+436537,2/28/2023,WCC-RC,washington_correction_center,WHATCOM,3/28/2023,5/17/2023,50
+436540,2/21/2023,WCC-RC,washington_correction_center,SNOHOMISH,2/21/2023,3/8/2023,15
+436541,2/21/2023,WCC-RC,washington_correction_center,WHATCOM,2/21/2023,5/13/2023,81
+436556,2/22/2023,WCC-RC,washington_correction_center,FRANKLIN,2/22/2023,5/19/2023,86
+436598,2/24/2023,WCC-TC,washington_correction_center,OR,6/13/2023,7/25/2023,42
+436676,3/2/2023,WCC-TC,washington_correction_center,ASOTIN,5/6/2023,5/30/2023,24
+436707,3/8/2023,WCC-RC,washington_correction_center,YAKIMA,3/8/2023,4/7/2023,30
+436772,3/8/2023,WCCW,washington_correction_center_for_women,KING,3/16/2023,4/24/2023,39
+436827,3/14/2023,MCC-WSR-MSU,monroe_correctional_complex,SKAGIT,8/4/2023,8/21/2023,17
+436840,3/15/2023,WCC-RC,washington_correction_center,WALLA WALLA,3/18/2023,5/31/2023,74
+436842,3/15/2023,WCC-TC,washington_correction_center,WALLA WALLA,6/19/2023,8/1/2023,43
+436849,3/14/2023,WCC-RC,washington_correction_center,US MARSHAL,4/18/2023,5/15/2023,27
+436934,3/23/2023,WCC-RC,washington_correction_center,SPOKANE,3/23/2023,6/1/2023,70
+436943,3/21/2023,WCC-RC,washington_correction_center,US IMMIGRATION,3/24/2023,6/14/2023,82
+436953,3/21/2023,WCC-RC,washington_correction_center,KING,3/21/2023,5/5/2023,45
+437103,4/5/2023,WCC-RC,washington_correction_center,KITTITAS,4/5/2023,6/1/2023,57
+437140,4/4/2023,WCCW,washington_correction_center_for_women,OKANOGAN,4/4/2023,5/3/2023,29
+437163,4/4/2023,WCC-TC,washington_correction_center,SKAGIT,4/7/2023,5/30/2023,53
+437219,4/7/2023,WCC-RC,washington_correction_center,KING,5/25/2023,7/14/2023,50
+437339,4/18/2023,WCC-TC,washington_correction_center,KING,4/18/2023,6/19/2023,62
+437357,4/19/2023,WCC-TC,washington_correction_center,WALLA WALLA,6/29/2023,7/27/2023,28
+437375,5/23/2023,WCC-RC,washington_correction_center,KING,5/23/2023,8/21/2023,90
+437401,4/21/2023,WCC-TC,washington_correction_center,SNOHOMISH,6/7/2023,7/12/2023,35
+437441,4/25/2023,WCC-TC,washington_correction_center,KING,4/27/2023,7/26/2023,90
+437529,5/3/2023,WCCW-MSC,washington_correction_center_for_women,KITSAP,5/3/2023,7/26/2023,84
+437554,5/2/2023,WCC-TC,washington_correction_center,KING,6/27/2023,7/28/2023,31
+437556,5/3/2023,WCC-RC,washington_correction_center,BENTON,5/27/2023,7/15/2023,49
+437588,5/17/2023,WCC-TC,washington_correction_center,YAKIMA,8/4/2023,8/18/2023,14
+437639,5/10/2023,WCC-TC,washington_correction_center,US IMMIGRATION,7/26/2023,8/9/2023,14
+437653,5/9/2023,WCC-RC,washington_correction_center,KING,5/15/2023,7/28/2023,74
+437945,5/31/2023,WCC-RC,washington_correction_center,US IMMIGRATION,7/8/2023,7/27/2023,19
+437973,6/1/2023,AHCC,airway_heights_corrections_center,SPOKANE,7/29/2023,8/15/2023,17
+438074,6/14/2023,WCC-TC,washington_correction_center,YAKIMA,6/14/2023,8/21/2023,68
+438144,6/9/2023,WCC-RC,washington_correction_center,KING,6/9/2023,8/4/2023,56
+438188,6/13/2023,WCC-TC,washington_correction_center,KING,8/6/2023,8/21/2023,15
+438261,6/16/2023,WCC-RC,washington_correction_center,KING,6/16/2023,7/13/2023,27
+438352,6/23/2023,WCC-RC,washington_correction_center,KING,6/23/2023,7/14/2023,21
+438786,7/26/2023,WCCW-RECEIVING,washington_correction_center_for_women,PIERCE,7/26/2023,8/23/2023,28
+623496,10/12/1983,MCC-TRU,monroe_correctional_complex,KING,2/16/2023,3/29/2023,41
+626413,10/12/2022,CRCC,coyote_ridge_corrections_center,YAKIMA,4/6/2023,4/21/2023,15
+629174,5/26/2022,MCC-WSR,monroe_correctional_complex,SPOKANE,5/20/2023,8/3/2023,75
+629661,2/19/1991,WCC-RC,washington_correction_center,KING,9/28/2022,1/23/2023,117
+630341,1/24/2018,GRE,other_partial_confinement,FRANKLIN,7/24/2022,8/17/2022,24
+702429,2/12/1993,WCC-RC,washington_correction_center,CLARK,9/4/2018,11/12/2022,1530
+703247,12/27/2018,AHCC,airway_heights_corrections_center,PIERCE,3/18/2022,6/24/2022,98
+703753,3/30/2023,WCCW-RECEIVING,washington_correction_center_for_women,KING,4/12/2023,6/19/2023,68
+704103,11/10/2022,WCC-RC,washington_correction_center,CLARK,11/10/2022,12/30/2022,50
+704238,4/10/2018,CRCC,coyote_ridge_corrections_center,PIERCE,6/17/2021,12/23/2022,554
+704263,2/6/2018,MCC-SOU,monroe_correctional_complex,KING,7/7/2022,7/27/2022,20
+704445,6/29/2017,MCC-TRU,monroe_correctional_complex,KING,4/12/2022,4/28/2022,16
+705354,10/2/2020,MCC-TRU,monroe_correctional_complex,GRAYS HARBOR,1/19/2022,2/24/2022,36
+706154,8/20/2021,WCC-TC,washington_correction_center,CO,1/4/2023,2/9/2023,36
+707215,4/25/2023,WCC-RC,washington_correction_center,PIERCE,4/25/2023,6/5/2023,41
+707254,8/20/2020,CRCC-MSU,coyote_ridge_corrections_center,SPOKANE,1/1/2022,1/19/2022,18
+708234,11/22/2005,WCC-RC,washington_correction_center,PIERCE,6/17/2012,7/27/2023,4057
+708372,1/21/2021,AHCC,airway_heights_corrections_center,YAKIMA,3/1/2023,4/19/2023,49
+708770,3/11/2020,WSP-MSU,washington_state_penitentiary,KITSAP,2/6/2022,2/22/2022,16
+710439,7/6/1993,MCC-SOU,monroe_correctional_complex,BENTON,11/9/2022,8/2/2023,266
+710713,6/6/2006,MCC-TRU,monroe_correctional_complex,KING,3/17/2022,9/6/2022,173
+712402,1/21/2022,WCC-RC,washington_correction_center,LEWIS,3/16/2022,4/2/2022,17
+712677,5/18/2012,WSP-MAIN,washington_state_penitentiary,KING,5/20/2020,9/13/2022,846
+712909,10/8/2019,AHCC,airway_heights_corrections_center,COWLITZ,9/28/2022,3/21/2023,174
+714447,3/17/2022,AHCC,airway_heights_corrections_center,ID,7/16/2022,10/3/2022,79
+714699,7/25/2002,SCCC,stafford_creek_corrections_center,PIERCE,4/11/2021,10/20/2022,557
+715552,12/12/1995,GRE,other_partial_confinement,SNOHOMISH,1/24/2022,2/10/2022,17
+718017,1/10/2020,CRCC-MSU,coyote_ridge_corrections_center,THURSTON,12/3/2022,3/30/2023,117
+719428,2/25/2020,MCC-TRU,monroe_correctional_complex,KING,2/4/2022,3/7/2022,31
+720626,12/13/2019,SCCC-IMU,stafford_creek_corrections_center,GRAYS HARBOR,11/21/2022,3/30/2023,129
+720797,4/16/2021,SCCC,stafford_creek_corrections_center,KING,3/25/2022,4/4/2023,375
+722102,3/3/2020,WCC-TC,washington_correction_center,PIERCE,12/5/2022,2/7/2023,64
+722341,6/16/2017,SCCC,stafford_creek_corrections_center,KING,8/27/2022,12/29/2022,124
+723504,1/9/2022,SPOKANE CO VIOLATOR FACILITY,county_jail,SPOKANE,8/12/2020,2/18/2022,555
+723533,3/15/2022,WSP-MSU,washington_state_penitentiary,PIERCE,8/16/2022,1/27/2023,164
+724095,4/18/2013,AHCC,airway_heights_corrections_center,OKANOGAN,3/17/2023,6/5/2023,80
+725275,10/13/2021,WCC-TC,washington_correction_center,KING,3/23/2022,4/26/2022,34
+726097,3/27/2022,WCC-RC,washington_correction_center,BENTON,6/6/2022,7/7/2022,31
+728271,9/15/2021,WSP-MSU,washington_state_penitentiary,SPOKANE,1/3/2022,5/2/2022,119
+732604,10/1/2021,WCC-RC,washington_correction_center,KING,3/17/2022,5/16/2022,60
+732886,3/31/2021,WCC-TC,washington_correction_center,YAKIMA,1/25/2022,2/17/2022,23
+732975,10/15/1996,SCCC,stafford_creek_corrections_center,PIERCE,10/4/2019,5/27/2022,966
+734712,9/27/2022,WCC-TC,washington_correction_center,SNOHOMISH,12/30/2022,1/20/2023,21
+734822,4/14/2022,AHCC,airway_heights_corrections_center,SPOKANE,4/22/2022,7/29/2022,98
+735222,10/23/2019,OCC,olympic_corrections_center,KITSAP,1/4/2022,2/8/2022,35
+735490,11/14/2013,LCC,larch_corrections_center,KITSAP,1/16/2023,2/10/2023,25
+736318,3/25/2016,GRE,other_partial_confinement,COWLITZ,2/16/2022,4/13/2022,56
+736818,9/10/2019,PROGRESS HOUSE REENTRY CENTER,work_release,KING,3/29/2021,8/21/2022,510
+736845,8/21/2020,SCCC,stafford_creek_corrections_center,KING,6/10/2021,4/10/2022,304
+737074,5/30/2019,WSP-MAIN,washington_state_penitentiary,KITSAP,4/26/2022,1/2/2023,251
+737573,4/28/2017,MCC-IMU,monroe_correctional_complex,LEWIS,11/17/2021,1/24/2022,68
+738051,6/2/2009,WSP-MAIN,washington_state_penitentiary,KING,1/22/2022,3/1/2022,38
+740132,6/8/2021,CRCC,coyote_ridge_corrections_center,SKAGIT,2/17/2022,3/23/2022,34
+740545,8/2/2022,MCC-WSR-MSU,monroe_correctional_complex,SNOHOMISH,3/14/2023,4/26/2023,43
+740856,11/17/2011,BROWNSTONE REENTRY CENTER,work_release,SPOKANE,1/6/2023,2/8/2023,33
+741983,5/13/2015,WCCW,washington_correction_center_for_women,MASON,1/7/2022,2/11/2022,35
+742389,6/9/2021,CRCC,coyote_ridge_corrections_center,GRAYS HARBOR,12/10/2022,6/9/2023,181
+742832,11/23/2022,WCC-RC,washington_correction_center,CLARK,1/28/2023,3/11/2023,42
+744250,3/20/2018,REYNOLDS REENTRY CENTER,work_release,KING,4/25/2022,5/26/2022,31
+744601,11/17/2015,WCC-TC,washington_correction_center,KING,7/7/2023,7/21/2023,14
+744921,8/19/2022,WCC-TC,washington_correction_center,KING,12/9/2022,6/16/2023,189
+745728,4/3/2019,MCC-IMU,monroe_correctional_complex,SNOHOMISH,1/16/2022,10/9/2022,266
+746016,12/6/2016,MCC-TRU,monroe_correctional_complex,KING,10/25/2021,4/12/2022,169
+746103,2/18/2020,SCCC,stafford_creek_corrections_center,SNOHOMISH,4/14/2022,5/9/2022,25
+746428,3/15/1996,MCC-TRU,monroe_correctional_complex,KING,6/21/2023,7/31/2023,40
+746689,3/10/2022,THURSTON CO. VIOLATOR FACILITY,county_jail,WHATCOM,2/10/2022,6/1/2022,111
+747348,3/5/2020,SCCC,stafford_creek_corrections_center,KING,2/9/2022,3/24/2022,43
+748921,4/14/2021,CRCC,coyote_ridge_corrections_center,YAKIMA,12/30/2022,3/9/2023,69
+749266,9/27/2017,WCC-TC,washington_correction_center,COWLITZ,12/26/2021,7/1/2022,187
+750155,5/27/2022,SCCC,stafford_creek_corrections_center,THURSTON,11/6/2022,4/14/2023,159
+750773,2/19/2022,WSP-MSC,washington_state_penitentiary,ID,7/13/2022,8/11/2022,29
+751035,3/9/2007,CRCC,coyote_ridge_corrections_center,KING,3/2/2022,5/11/2023,435
+752940,9/4/2020,WSP-MSU,washington_state_penitentiary,KING,4/6/2022,4/22/2022,16
+753440,9/9/2010,AHCC,airway_heights_corrections_center,KING,4/15/2023,5/16/2023,31
+753558,1/6/2016,MCC-SOU,monroe_correctional_complex,SNOHOMISH,9/23/2021,2/25/2022,155
+753650,5/24/2022,MCC-SOU,monroe_correctional_complex,KING,2/19/2023,5/30/2023,100
+754780,6/2/2015,OCC,olympic_corrections_center,KING,6/10/2022,5/29/2023,353
+754914,2/15/2022,WSP-MSU,washington_state_penitentiary,THURSTON,9/11/2022,10/6/2022,25
+755738,5/15/2012,AHCC,airway_heights_corrections_center,KING,1/17/2022,6/7/2022,141
+756346,10/30/2020,OCC,olympic_corrections_center,WHATCOM,4/22/2022,5/12/2022,20
+759296,3/3/2022,SCCC,stafford_creek_corrections_center,SPOKANE,2/16/2023,6/13/2023,117
+759633,10/11/2021,SCCC,stafford_creek_corrections_center,COWLITZ,11/28/2022,1/6/2023,39
+761281,3/20/2019,CRCC,coyote_ridge_corrections_center,SPOKANE,1/14/2023,1/31/2023,17
+761509,4/30/2021,WCC-TC,washington_correction_center,CLARK,9/25/2021,1/5/2022,102
+762664,1/31/2023,WCC-RC,washington_correction_center,KING,2/12/2023,4/14/2023,61
+762855,4/1/2022,CRCC-MSU,coyote_ridge_corrections_center,KING,11/4/2022,11/22/2022,18
+763523,6/22/2018,SCCC,stafford_creek_corrections_center,KING,1/2/2022,2/14/2022,43
+764041,4/27/2022,WCC-TC,washington_correction_center,THURSTON,3/14/2023,3/29/2023,15
+764064,12/5/2019,WSP-MSU,washington_state_penitentiary,PIERCE,12/18/2021,9/1/2022,257
+764770,6/14/2022,MCC-IMU,monroe_correctional_complex,KING,10/13/2021,8/1/2022,292
+765577,8/8/2019,SCCC,stafford_creek_corrections_center,PIERCE,6/28/2021,6/8/2022,345
+766286,5/4/2022,MCC-WSR-MSU,monroe_correctional_complex,SPOKANE,2/12/2023,2/28/2023,16
+767964,11/12/2021,WCC-TC,washington_correction_center,KING,1/28/2022,2/25/2022,28
+769408,1/8/2021,SCCC,stafford_creek_corrections_center,KING,10/27/2021,3/24/2022,148
+769453,1/28/1999,SCCC,stafford_creek_corrections_center,KITSAP,7/13/2021,3/24/2022,254
+770471,8/21/2007,WSP-MAIN,washington_state_penitentiary,GRAYS HARBOR,9/7/2021,3/21/2022,195
+771610,8/19/2022,WCC-RC,washington_correction_center,KING,9/1/2022,10/28/2022,57
+773576,3/4/2022,SCCC,stafford_creek_corrections_center,CLARK,10/7/2022,10/28/2022,21
+773696,3/1/2022,OCC,olympic_corrections_center,PIERCE,10/1/2022,11/4/2022,34
+773979,3/5/2021,WCCW,washington_correction_center_for_women,KITSAP,3/22/2022,4/14/2022,23
+775094,11/9/2022,WCC-RC,washington_correction_center,CLALLAM,11/9/2022,12/21/2022,42
+775339,5/28/2021,CRCC,coyote_ridge_corrections_center,CLARK,1/2/2022,2/9/2022,38
+775420,4/8/2020,WSP-IMU,washington_state_penitentiary,YAKIMA,10/19/2021,4/22/2022,185
+776980,8/7/2018,WCC-HOSPITAL,washington_correction_center,SNOHOMISH,3/31/2022,4/22/2022,22
+777148,2/14/2020,MCC-SOU,monroe_correctional_complex,CLARK,7/11/2022,9/12/2022,63
+777179,8/2/2022,BROWNSTONE REENTRY CENTER,work_release,SPOKANE,1/5/2023,2/14/2023,40
+779316,9/5/2019,MCC-SOU,monroe_correctional_complex,PIERCE,3/3/2022,7/7/2022,126
+779521,11/23/2016,WSP-MAIN,washington_state_penitentiary,SPOKANE,4/7/2021,1/24/2022,292
+779756,10/1/2021,WCC-TC,washington_correction_center,KING,6/18/2022,7/14/2022,26
+782928,9/29/1998,WCC-RC,washington_correction_center,KING,11/27/1999,7/22/2022,8273
+784279,7/31/2009,SCCC,stafford_creek_corrections_center,CLARK,5/6/2023,7/5/2023,60
+784777,11/5/2014,WCC-TC,washington_correction_center,KITSAP,11/21/2022,12/6/2022,15
+785477,6/9/2015,REYNOLDS REENTRY CENTER,work_release,KING,1/3/2022,1/31/2022,28
+785539,7/30/2019,WCC-TC,washington_correction_center,YAKIMA,12/17/2021,2/25/2022,70
+787449,7/20/2021,SCCC,stafford_creek_corrections_center,KITTITAS,3/4/2023,4/25/2023,52
+788046,11/2/2018,WCC-TC,washington_correction_center,LEWIS,3/4/2022,3/18/2022,14
+788697,9/8/2017,AHCC,airway_heights_corrections_center,THURSTON,12/25/2021,2/11/2022,48
+790256,11/10/2022,WCC-TC,washington_correction_center,KING,1/3/2023,1/27/2023,24
+790530,6/8/2021,WSP-MSU,washington_state_penitentiary,PIERCE,1/29/2022,2/18/2022,20
+791455,2/14/2019,MCC-TRU,monroe_correctional_complex,SNOHOMISH,5/25/2022,7/21/2022,57
+792093,2/3/2021,CRCC,coyote_ridge_corrections_center,FRANKLIN,9/28/2022,10/26/2022,28
+794326,6/3/1999,AHCC,airway_heights_corrections_center,THURSTON,5/14/2023,7/27/2023,74
+794640,3/30/2021,AHCC,airway_heights_corrections_center,SPOKANE,12/10/2022,12/27/2022,17
+795227,8/5/2021,AHCC,airway_heights_corrections_center,SPOKANE,1/8/2023,2/3/2023,26
+795500,1/30/2023,WSP-IMU,washington_state_penitentiary,GRANT,9/23/2022,2/14/2023,144
+796377,10/21/2021,WCC-TC,washington_correction_center,KING,2/8/2022,5/7/2022,88
+797278,7/24/2023,MCC-IMU,monroe_correctional_complex,SKAGIT,10/3/2022,8/26/2023,327
+797652,8/31/1999,MCC-TRU,monroe_correctional_complex,GRAYS HARBOR,8/24/2022,10/10/2022,47
+797972,4/13/2012,SCCC,stafford_creek_corrections_center,PIERCE,4/24/2023,7/25/2023,92
+798037,3/15/2022,WCC-TC,washington_correction_center,WHATCOM,4/18/2022,5/24/2022,36
+798713,6/30/2023,WCC-RC,washington_correction_center,COWLITZ,4/13/2022,7/10/2023,453
+798768,8/5/2020,CRCC,coyote_ridge_corrections_center,BENTON,12/14/2021,3/14/2022,90
+800717,10/14/2021,AHCC,airway_heights_corrections_center,SPOKANE,2/14/2023,3/17/2023,31
+801615,6/9/2017,WCC-TC,washington_correction_center,PIERCE,5/19/2022,6/17/2022,29
+805024,1/18/2006,SCCC-IMU,stafford_creek_corrections_center,KING,12/10/2021,3/23/2022,103
+805257,8/19/2022,CRCC,coyote_ridge_corrections_center,CLARK,6/13/2023,7/6/2023,23
+806172,9/27/2018,WSP-MAIN,washington_state_penitentiary,SPOKANE,12/20/2021,1/27/2022,38
+806326,2/14/2022,WCC-RC,washington_correction_center,CLALLAM,5/29/2022,9/26/2022,120
+807132,7/21/2021,WCC-TC,washington_correction_center,CLALLAM,7/3/2022,8/2/2022,30
+808378,11/10/2021,WSP-MAIN,washington_state_penitentiary,KING,12/27/2022,1/10/2023,14
+809429,8/30/2022,WCC-RC,washington_correction_center,WHATCOM,8/31/2022,11/8/2022,69
+810603,3/24/2020,MCC-TRU,monroe_correctional_complex,FRANKLIN,7/30/2023,8/22/2023,23
+810632,4/26/2022,CRCC,coyote_ridge_corrections_center,KING,11/22/2022,3/24/2023,122
+810870,10/17/2014,MCC-IMU,monroe_correctional_complex,SPOKANE,7/28/2022,9/21/2022,55
+811421,2/3/2021,AHCC,airway_heights_corrections_center,BENTON,12/4/2021,2/25/2022,83
+811792,8/18/2021,WCC-TC,washington_correction_center,SNOHOMISH,2/3/2022,3/29/2022,54
+812480,9/28/2022,WCC-RC,washington_correction_center,BENTON,11/20/2022,1/17/2023,58
+812498,9/30/2021,WSP-IMU,washington_state_penitentiary,BENTON,5/11/2023,6/1/2023,21
+812813,12/28/2021,SPOKANE CO VIOLATOR FACILITY,county_jail,SPOKANE,7/14/2020,2/7/2022,573
+813072,11/3/2010,MCC-WSR-MSU,monroe_correctional_complex,KLICKITAT,4/1/2022,7/11/2022,101
+813278,11/10/2020,LCC,larch_corrections_center,PIERCE,2/19/2022,3/22/2022,31
+814428,7/26/2022,WCC-RC,washington_correction_center,KING,3/25/2021,8/11/2022,504
+816398,5/11/2021,WSP-MAIN,washington_state_penitentiary,THURSTON,3/3/2023,3/22/2023,19
+816801,3/2/2021,CBCC-CLOSE CUST,clallam_bay_corrections_center,KING,7/24/2023,8/17/2023,24
+816864,11/5/2019,AHCC,airway_heights_corrections_center,PIERCE,7/7/2021,6/13/2022,341
+819183,2/3/2021,WCC-RC,washington_correction_center,SPOKANE,10/27/2020,12/28/2022,792
+819544,4/26/2023,WCC-TC,washington_correction_center,YAKIMA,4/26/2023,8/8/2023,104
+820181,3/29/2022,SCCC,stafford_creek_corrections_center,KITSAP,4/13/2023,5/22/2023,39
+820926,2/17/2022,WSP-MAIN,washington_state_penitentiary,SPOKANE,10/6/2022,10/27/2022,21
+821192,12/17/2020,WCC-TC,washington_correction_center,PIERCE,8/29/2022,9/14/2022,16
+821804,10/27/2022,WCC-RC,washington_correction_center,GRANT,3/12/2023,4/18/2023,37
+821991,10/17/2021,WCC-RC,washington_correction_center,THURSTON,4/30/2022,6/7/2022,38
+822300,5/29/2020,SCCC,stafford_creek_corrections_center,CLARK,3/8/2022,3/23/2022,15
+823030,7/21/2020,LCC,larch_corrections_center,PIERCE,2/10/2022,3/17/2022,35
+824177,3/31/2020,AHTANUM VIEW REENTRY CENTER,work_release,YAKIMA,2/8/2023,2/22/2023,14
+824596,3/21/2017,CBCC-CLOSE CUST,clallam_bay_corrections_center,PIERCE,9/17/2022,12/15/2022,89
+825864,10/12/2022,WCC-TC,washington_correction_center,KING,2/22/2023,5/23/2023,90
+827653,3/29/2022,SCCC,stafford_creek_corrections_center,SNOHOMISH,3/5/2023,4/4/2023,30
+827880,8/21/2001,WCC-TC,washington_correction_center,KING,10/7/2022,2/9/2023,125
+827903,2/27/2020,OLYMPIA REENTRY CENTER,work_release,THURSTON,5/18/2022,6/22/2022,35
+828200,11/9/2022,WCC-RC,washington_correction_center,YAKIMA,11/9/2022,1/25/2023,77
+828766,2/17/2016,BROWNSTONE REENTRY CENTER,work_release,YAKIMA,7/27/2022,6/9/2023,317
+829175,9/6/2001,SCCC,stafford_creek_corrections_center,GRAYS HARBOR,9/7/2022,1/11/2023,126
+829886,10/15/2021,WCC-TC,washington_correction_center,GRAYS HARBOR,1/25/2022,2/28/2022,34
+830453,10/25/2016,MCC-IMU,monroe_correctional_complex,PIERCE,6/1/2021,3/22/2022,294
+830529,8/26/2002,CRCC-MSU,coyote_ridge_corrections_center,KING,8/28/2020,2/14/2023,900
+830619,3/15/2021,SCCC,stafford_creek_corrections_center,GRAYS HARBOR,5/30/2022,7/1/2022,32
+830747,5/5/2017,WCC-TC,washington_correction_center,LEWIS,1/2/2022,3/29/2022,86
+831247,5/24/2022,WCCW-MSC,washington_correction_center_for_women,KITSAP,7/19/2022,8/12/2022,24
+831266,1/2/2002,WSP-MSC,washington_state_penitentiary,KING,4/19/2023,5/15/2023,26
+831429,9/2/2021,WCC-RC,washington_correction_center,KING,10/27/2022,1/2/2023,67
+831449,3/14/2022,WCC-TC,washington_correction_center,PIERCE,1/13/2023,1/28/2023,15
+831538,12/20/2022,SCCC,stafford_creek_corrections_center,PIERCE,5/4/2023,5/30/2023,26
+831710,11/9/2021,WCCW,washington_correction_center_for_women,WALLA WALLA,4/26/2022,6/24/2022,59
+832046,10/22/2019,AHCC-MSU,airway_heights_corrections_center,GRAYS HARBOR,11/21/2022,3/1/2023,100
+832920,2/1/2022,WCC-RC,washington_correction_center,KITSAP,2/1/2022,3/25/2022,52
+833881,2/17/2021,SCCC,stafford_creek_corrections_center,CLALLAM,9/6/2021,1/6/2022,122
+833893,12/23/2021,WCC-TC,washington_correction_center,YAKIMA,6/21/2022,8/3/2022,43
+834051,5/26/2022,WCC-RC,washington_correction_center,KING,5/26/2022,6/17/2022,22
+834249,8/2/2022,WCC-TC,washington_correction_center,WHATCOM,8/15/2022,10/24/2022,70
+835372,11/24/2021,AHCC,airway_heights_corrections_center,SPOKANE,2/12/2022,3/4/2022,20
+835411,10/31/2019,WCC-RC,washington_correction_center,KITSAP,8/4/2022,8/29/2022,25
+835565,2/2/2021,WCC-RC,washington_correction_center,COWLITZ,11/21/2022,12/28/2022,37
+837299,9/30/2005,WSP-MSU,washington_state_penitentiary,KING,3/7/2023,6/16/2023,101
+838278,9/28/2021,AHCC,airway_heights_corrections_center,KING,1/7/2023,3/20/2023,72
+838752,3/23/2021,AHCC,airway_heights_corrections_center,SKAGIT,12/3/2022,12/27/2022,24
+838822,10/18/2018,MCC-SOU,monroe_correctional_complex,PIERCE,12/8/2020,8/29/2022,629
+838845,8/7/2019,SCCC,stafford_creek_corrections_center,PIERCE,11/5/2021,12/27/2022,417
+838954,6/24/2021,CRCC,coyote_ridge_corrections_center,SPOKANE,2/28/2022,5/3/2022,64
+839536,1/30/2007,CCCC,cedar_creek_corrections_center,SNOHOMISH,3/20/2023,4/25/2023,36
+841033,7/28/2021,AHCC,airway_heights_corrections_center,CLARK,4/24/2023,5/9/2023,15
+841212,2/2/2022,CRCC,coyote_ridge_corrections_center,YAKIMA,2/25/2023,3/15/2023,18
+841674,7/30/2019,AHCC,airway_heights_corrections_center,MASON,4/20/2022,5/16/2022,26
+842556,1/10/2019,WCC-TC,washington_correction_center,PIERCE,11/21/2022,1/24/2023,64
+842850,12/23/2022,WCC-RC,washington_correction_center,GRAYS HARBOR,12/23/2022,3/26/2023,93
+843218,8/18/2021,WSP-MSU,washington_state_penitentiary,CLALLAM,1/10/2023,2/14/2023,35
+843612,10/1/2020,AHCC,airway_heights_corrections_center,SPOKANE,10/10/2022,8/11/2023,305
+844340,7/8/2022,GEIGER CORRECTION CENTER,juvenile_detention,SPOKANE,7/15/2020,8/30/2022,776
+844853,10/1/2021,CRCC,coyote_ridge_corrections_center,THURSTON,4/3/2023,5/1/2023,28
+845136,12/19/2006,MCC-TRU,monroe_correctional_complex,SNOHOMISH,4/2/2022,4/25/2022,23
+845197,12/23/2021,WCC-RC,washington_correction_center,KING,6/18/2020,1/28/2022,589
+845803,7/14/2020,MCC-TRU,monroe_correctional_complex,PIERCE,3/26/2022,1/25/2023,305
+846245,2/14/2019,WSP-MAIN,washington_state_penitentiary,BENTON,10/20/2022,12/26/2022,67
+847542,12/3/2019,MCC-SOU,monroe_correctional_complex,KITSAP,7/2/2023,7/20/2023,18
+847930,12/10/2002,MCC-TRU,monroe_correctional_complex,KING,1/18/2022,3/14/2022,55
+848104,8/20/2021,WCC-RC,washington_correction_center,KING,12/21/2021,2/23/2022,64
+848168,3/15/2023,WCC-RC,washington_correction_center,YAKIMA,5/10/2023,5/31/2023,21
+848969,10/14/2022,WCC-RC,washington_correction_center,KING,10/14/2022,12/5/2022,52
+849038,10/16/2019,WSP-MAIN,washington_state_penitentiary,YAKIMA,6/13/2022,10/11/2022,120
+849227,3/31/2022,WCC-RC,washington_correction_center,SNOHOMISH,5/14/2022,6/6/2022,23
+849473,8/19/2008,MCC-TRU,monroe_correctional_complex,KING,5/11/2022,7/13/2022,63
+850134,5/26/2022,WCC-RC,washington_correction_center,SPOKANE,6/5/2022,8/23/2022,79
+850350,8/2/2022,MCC-TRU,monroe_correctional_complex,KING,11/29/2022,1/9/2023,41
+850536,12/9/2022,WCC-RC,washington_correction_center,CLARK,2/17/2023,3/22/2023,33
+850650,12/9/2020,AHCC-MSU,airway_heights_corrections_center,SPOKANE,3/11/2022,4/22/2022,42
+850698,10/1/2020,AHCC,airway_heights_corrections_center,SPOKANE,9/7/2022,10/5/2022,28
+850867,3/26/2003,CRCC,coyote_ridge_corrections_center,KING,4/4/2022,5/9/2022,35
+851732,7/22/2022,MCC-WSR-MSU,monroe_correctional_complex,KING,1/3/2023,1/19/2023,16
+851833,5/13/2020,AHCC,airway_heights_corrections_center,KING,3/31/2022,4/27/2022,27
+851988,8/19/2020,CRCC,coyote_ridge_corrections_center,KING,5/1/2022,7/11/2022,71
+852241,11/9/2018,MCC-TRU,monroe_correctional_complex,COWLITZ,3/27/2022,12/27/2022,275
+852776,2/2/2021,CRCC,coyote_ridge_corrections_center,PIERCE,5/17/2022,6/23/2022,37
+852829,1/14/2019,AHCC,airway_heights_corrections_center,SNOHOMISH,1/8/2022,5/26/2022,138
+853254,12/11/2018,LCC,larch_corrections_center,KING,3/25/2022,4/13/2022,19
+853760,7/22/2015,WSP-MAIN,washington_state_penitentiary,YAKIMA,12/12/2022,3/29/2023,107
+853813,10/3/2019,MCC-SOU,monroe_correctional_complex,PIERCE,1/3/2022,4/14/2022,101
+854200,6/21/2018,BISHOP LEWIS REENTRY CENTER,work_release,KING,10/3/2021,2/25/2022,145
+854203,8/4/2022,AHCC,airway_heights_corrections_center,SPOKANE,12/26/2022,5/15/2023,140
+855655,10/1/2019,AHCC,airway_heights_corrections_center,KING,9/21/2022,11/2/2022,42
+855886,10/12/2021,CRCC,coyote_ridge_corrections_center,KING,5/21/2022,6/15/2022,25
+856198,11/12/2021,MCC-TRU,monroe_correctional_complex,KING,2/26/2023,6/12/2023,106
+856583,3/17/2016,WSP-IMU,washington_state_penitentiary,SPOKANE,3/2/2022,3/23/2022,21
+857967,4/16/2004,CRCC,coyote_ridge_corrections_center,KING,9/10/2022,12/14/2022,95
+858491,3/19/2021,SCCC,stafford_creek_corrections_center,KING,5/7/2023,5/31/2023,24
+858614,3/17/2020,AHCC,airway_heights_corrections_center,KING,7/27/2022,8/31/2022,35
+859020,2/26/2019,MCC-SOU,monroe_correctional_complex,CLARK,3/30/2022,9/22/2022,176
+859387,2/17/2017,AHCC,airway_heights_corrections_center,SPOKANE,5/10/2022,7/26/2023,442
+859430,4/13/2022,WCC-TC,washington_correction_center,YAKIMA,7/7/2022,8/1/2022,25
+859972,10/25/2018,MCC-TRU,monroe_correctional_complex,KING,12/21/2022,3/14/2023,83
+859982,3/4/2021,AHCC,airway_heights_corrections_center,KITTITAS,1/8/2023,2/15/2023,38
+861186,11/5/2018,PROGRESS HOUSE REENTRY CENTER,work_release,KING,11/22/2020,1/7/2022,411
+861420,10/27/2020,MCC-TRU,monroe_correctional_complex,KING,7/9/2022,12/14/2022,158
+861724,4/16/2021,CRCC,coyote_ridge_corrections_center,PIERCE,12/14/2021,1/5/2022,22
+861850,6/17/2020,SCCC,stafford_creek_corrections_center,PIERCE,2/27/2022,4/18/2022,50
+862044,10/9/2019,AHCC-MSU,airway_heights_corrections_center,SPOKANE,10/11/2022,11/7/2022,27
+863391,2/12/2020,WSP-IMU,washington_state_penitentiary,FRANKLIN,6/7/2023,6/21/2023,14
+864898,7/6/2020,AHCC-MSU,airway_heights_corrections_center,GRAYS HARBOR,11/22/2022,7/17/2023,237
+865171,12/10/2003,WSP-MSU,washington_state_penitentiary,YAKIMA,1/26/2023,3/9/2023,42
+865642,6/9/2021,AHCC,airway_heights_corrections_center,KING,3/8/2023,4/12/2023,35
+865698,5/27/2022,WCC-TC,washington_correction_center,COWLITZ,9/30/2022,11/14/2022,45
+865733,8/20/2004,WCCW,washington_correction_center_for_women,KING,6/10/2022,11/8/2022,151
+867094,8/2/2022,WCC-TC,washington_correction_center,DOUGLAS,10/25/2022,3/8/2023,134
+867220,3/5/2004,GRE,other_partial_confinement,SNOHOMISH,7/11/2023,7/26/2023,15
+867613,7/8/2021,MCC-SOU,monroe_correctional_complex,SPOKANE,4/9/2022,6/9/2022,61
+867902,10/13/2020,SCCC,stafford_creek_corrections_center,KING,2/15/2023,5/1/2023,75
+868415,2/26/2023,BENTON CO. VIOLATOR FACILITY,county_jail,BENTON,2/2/2023,3/19/2023,45
+868649,1/6/2006,AHCC,airway_heights_corrections_center,KING,1/19/2022,5/23/2022,124
+868798,5/4/2004,AHCC,airway_heights_corrections_center,CLARK,1/7/2023,3/13/2023,65
+869637,4/1/2017,AHCC,airway_heights_corrections_center,KING,5/20/2022,8/24/2022,96
+869867,10/6/2020,WCC-TC,washington_correction_center,MASON,4/18/2022,5/13/2022,25
+869935,9/3/2020,WCC-TC,washington_correction_center,PIERCE,7/10/2023,8/2/2023,23
+870546,2/15/2022,AHCC,airway_heights_corrections_center,SPOKANE,6/23/2023,7/24/2023,31
+871228,8/18/2022,AHCC,airway_heights_corrections_center,SPOKANE,12/14/2022,1/3/2023,20
+871752,4/14/2021,GRE,other_partial_confinement,BENTON,3/25/2022,4/12/2022,18
+872189,4/1/2022,WCC-RC,washington_correction_center,NV,4/16/2022,7/13/2022,88
+873012,5/30/2019,AHCC,airway_heights_corrections_center,CLARK,10/14/2022,12/29/2022,76
+873047,11/9/2021,WCC-TC,washington_correction_center,KING,4/3/2022,4/29/2022,26
+873855,12/10/2021,WCC-TC,washington_correction_center,KING,2/13/2022,4/6/2022,52
+874389,11/22/2004,MCC-TRU,monroe_correctional_complex,KING,3/3/2022,12/28/2022,300
+874408,6/4/2019,MCC-SOU,monroe_correctional_complex,KING,9/14/2021,3/16/2022,183
+874472,9/15/2022,CRCC,coyote_ridge_corrections_center,OK,4/15/2023,5/7/2023,22
+874693,5/10/2023,WCC-TC,washington_correction_center,KING,7/12/2023,7/28/2023,16
+874885,8/1/2018,WCC-TC,washington_correction_center,GRANT,4/20/2022,5/17/2022,27
+875271,10/1/2013,MCC-SOU,monroe_correctional_complex,SNOHOMISH,10/26/2021,3/2/2022,127
+875392,7/13/2020,MCC-TRU,monroe_correctional_complex,KING,3/26/2022,1/19/2023,299
+875955,3/4/2021,AHCC-MSU,airway_heights_corrections_center,SPOKANE,4/22/2022,10/10/2022,171
+876123,4/30/2021,SCCC,stafford_creek_corrections_center,THURSTON,1/7/2022,2/1/2022,25
+876155,9/22/2021,AHCC,airway_heights_corrections_center,CLARK,12/31/2022,3/6/2023,65
+876290,2/14/2012,WCC-TC,washington_correction_center,KING,3/26/2022,6/2/2022,68
+876716,12/21/2004,SCCC,stafford_creek_corrections_center,KING,9/12/2021,9/5/2022,358
+876783,12/17/2019,MCC-TRU,monroe_correctional_complex,ISLAND,11/1/2022,3/16/2023,135
+876816,1/19/2023,WCC-TC,washington_correction_center,PIERCE,1/31/2023,7/7/2023,157
+876899,2/4/2005,SCCC,stafford_creek_corrections_center,KING,4/29/2019,4/20/2022,1087
+876967,4/6/2023,AHCC,airway_heights_corrections_center,SPOKANE,4/6/2023,6/5/2023,60
+878470,2/10/2009,MCC-SOU,monroe_correctional_complex,KING,12/29/2021,3/3/2022,64
+878821,10/31/2019,AHTANUM VIEW REENTRY CENTER,work_release,YAKIMA,8/22/2022,9/19/2022,28
+879457,11/8/2021,WCC-RC,washington_correction_center,JEFFERSON,6/27/2021,1/19/2022,206
+879520,1/14/2011,REYNOLDS REENTRY CENTER,work_release,KING,3/14/2022,4/15/2022,32
+879801,11/8/2021,THURSTON CO. VIOLATOR FACILITY,county_jail,PIERCE,2/23/2021,11/2/2022,617
+880846,11/8/2016,MCC-TRU,monroe_correctional_complex,SNOHOMISH,11/23/2022,5/19/2023,177
+881057,2/2/2022,WSP-MSC,washington_state_penitentiary,BENTON,7/18/2022,8/4/2022,17
+881128,2/14/2022,MCC-IMU,monroe_correctional_complex,KING,1/24/2010,3/24/2022,4442
+881609,11/29/2018,AHTANUM VIEW REENTRY CENTER,work_release,YAKIMA,6/26/2023,8/17/2023,52
+881787,10/1/2020,WCC-TC,washington_correction_center,CHELAN,3/29/2023,4/28/2023,30
+882803,8/24/2018,CPA,other_partial_confinement,THURSTON,12/19/2021,3/21/2022,92
+882869,12/21/2010,AHCC,airway_heights_corrections_center,KING,7/23/2022,9/6/2022,45
+883205,1/6/2021,WSP-MSC,washington_state_penitentiary,SPOKANE,12/4/2021,1/5/2022,32
+883325,11/17/2020,GRE,other_partial_confinement,MASON,6/17/2022,7/15/2022,28
+883478,4/28/2020,WCC-TC,washington_correction_center,KING,5/31/2022,7/5/2022,35
+884541,4/24/2012,WCC-TC,washington_correction_center,KITSAP,10/12/2022,11/8/2022,27
+884786,7/15/2021,ELEANOR CHASE HOUSE R/C,work_release,ISLAND,7/11/2022,8/5/2022,25
+885384,5/13/2020,WSP-MAIN,washington_state_penitentiary,KING,1/28/2023,5/15/2023,107
+886230,7/10/2018,MCC-TRU,monroe_correctional_complex,KING,5/6/2023,5/22/2023,16
+886341,12/22/2020,MCC-TRU,monroe_correctional_complex,KING,10/11/2022,1/9/2023,90
+886769,10/1/2020,AHCC,airway_heights_corrections_center,SPOKANE,8/7/2022,9/26/2022,50
+886927,11/26/2013,SCCC,stafford_creek_corrections_center,KING,3/5/2023,6/5/2023,92
+887104,1/4/2021,SCCC,stafford_creek_corrections_center,MASON,7/6/2022,8/30/2022,55
+887182,3/3/2023,WCCW,washington_correction_center_for_women,KING,5/7/2023,6/26/2023,50
+887296,4/30/2020,AHCC,airway_heights_corrections_center,KING,3/7/2023,8/3/2023,149
+887518,3/4/2022,WCC-TC,washington_correction_center,KING,3/23/2022,8/22/2022,152
+887529,8/19/2022,WCC-RC,washington_correction_center,KING,10/24/2022,11/28/2022,35
+888160,10/27/2005,AHCC,airway_heights_corrections_center,PIERCE,4/21/2022,7/29/2022,99
+889074,5/12/2010,MCC-WSR,monroe_correctional_complex,KING,2/27/2023,5/31/2023,93
+889933,11/24/2009,WCC-TC,washington_correction_center,KING,6/30/2022,7/19/2022,19
+890203,1/21/2022,MCC-SOU,monroe_correctional_complex,KING,9/7/2022,10/17/2022,40
+890762,6/22/2021,WCC-TC,washington_correction_center,PIERCE,3/18/2022,5/11/2022,54
+890948,3/2/2022,WCC-RC,washington_correction_center,KING,3/11/2022,5/11/2022,61
+891981,2/28/2006,CRCC,coyote_ridge_corrections_center,PIERCE,2/14/2022,3/11/2022,25
+892138,1/20/2021,WCC-TC,washington_correction_center,SPOKANE,1/24/2023,4/6/2023,72
+892217,8/6/2021,MCC-TRU,monroe_correctional_complex,CLARK,3/15/2022,4/7/2022,23
+892484,11/10/2020,CCCC,cedar_creek_corrections_center,SKAGIT,12/7/2021,2/11/2022,66
+892628,8/2/2022,CRCC,coyote_ridge_corrections_center,KING,11/2/2022,11/18/2022,16
+892742,5/24/2022,WCC-RC,washington_correction_center,US IMMIGRATION,5/24/2022,8/24/2022,92
+892874,6/9/2022,WCC-RC,washington_correction_center,SPOKANE,7/5/2022,9/1/2022,58
+893430,11/18/2021,SPOKANE CO VIOLATOR FACILITY,county_jail,SPOKANE,6/6/2019,3/9/2022,1007
+894123,12/2/2020,WCC-RC,washington_correction_center,KING,2/8/2022,3/21/2022,41
+894329,7/26/2023,PUB SAFTY CMPLX NISQ,county_jail,COWLITZ,6/29/2023,8/5/2023,37
+894363,10/11/2021,WSP-MAIN,washington_state_penitentiary,GRAYS HARBOR,1/30/2023,2/25/2023,26
+894944,10/20/2022,WCCW-RECEIVING,washington_correction_center_for_women,SPOKANE,10/2/2019,11/30/2022,1155
+894991,2/19/2022,GEIGER CORRECTION CENTER,juvenile_detention,SPOKANE,5/3/2021,3/16/2022,317
+895177,8/10/2022,PACIFIC CO. VIOLATOR FACILITY,county_jail,PACIFIC,2/9/2020,9/30/2022,964
+895288,8/16/2020,REYNOLDS REENTRY CENTER,work_release,KING,3/7/2022,3/22/2022,15
+895768,12/31/2015,WCCW,washington_correction_center_for_women,SNOHOMISH,11/8/2022,1/9/2023,62
+895863,9/23/2021,SCCC,stafford_creek_corrections_center,SNOHOMISH,10/15/2022,11/28/2022,44
+896704,5/26/2022,AHTANUM VIEW REENTRY CENTER,work_release,KITTITAS,12/16/2022,12/31/2022,15
+897099,5/26/2022,WCC-TC,washington_correction_center,DOUGLAS,6/26/2023,8/17/2023,52
+897171,11/20/2018,WSP-MSU,washington_state_penitentiary,KING,2/25/2022,3/30/2022,33
+897441,11/25/2013,WSP-MAIN,washington_state_penitentiary,GRAYS HARBOR,2/10/2022,4/28/2022,77
+897648,7/10/2022,WCC-RC,washington_correction_center,PIERCE,10/2/2022,11/13/2022,42
+897787,3/7/2019,SCCC,stafford_creek_corrections_center,YAKIMA,2/25/2022,10/24/2022,241
+897886,11/18/2020,WCC-TC,washington_correction_center,KING,9/6/2022,10/10/2022,34
+898445,12/9/2019,AHCC,airway_heights_corrections_center,KING,2/1/2023,4/4/2023,62
+898676,1/21/2011,MCC-TRU,monroe_correctional_complex,GRAYS HARBOR,11/12/2021,2/21/2022,101
+899176,4/13/2021,SCCC,stafford_creek_corrections_center,KITSAP,2/7/2022,3/3/2022,24
+904044,9/14/2021,MCC-WSR-MSU,monroe_correctional_complex,SNOHOMISH,2/28/2022,3/21/2022,21
+905074,10/30/2009,CRCC,coyote_ridge_corrections_center,CLARK,3/16/2022,4/18/2022,33
+905179,7/10/2020,WCC-IMU,washington_correction_center,GRAYS HARBOR,11/5/2022,1/6/2023,62
+907475,2/7/2020,REYNOLDS REENTRY CENTER,work_release,KING,2/21/2022,4/14/2022,52
+908387,11/19/1994,MCC-TRU,monroe_correctional_complex,SNOHOMISH,1/12/2023,6/12/2023,151
+910149,4/10/2020,CRCC,coyote_ridge_corrections_center,KING,1/31/2022,3/29/2022,57
+913117,12/1/2016,CRCC,coyote_ridge_corrections_center,SPOKANE,4/17/2022,5/24/2022,37
+913499,3/31/2011,WCC-TC,washington_correction_center,PIERCE,6/5/2023,6/22/2023,17
+913768,2/14/2023,WCC-TC,washington_correction_center,WHATCOM,2/14/2023,7/6/2023,142
+917142,2/16/2022,WCC-TC,washington_correction_center,BENTON,5/2/2022,6/1/2022,30
+917811,4/27/2022,AHTANUM VIEW REENTRY CENTER,work_release,YAKIMA,5/5/2023,5/26/2023,21
+920410,2/6/2022,WCC-RC,washington_correction_center,THURSTON,3/20/2022,4/25/2022,36
+927872,4/23/2019,CRCC,coyote_ridge_corrections_center,KING,6/4/2022,7/1/2022,27
+928300,10/11/2017,AHCC,airway_heights_corrections_center,YAKIMA,6/6/2022,9/29/2022,115
+928439,8/28/2014,CRCC-MSU,coyote_ridge_corrections_center,WHITMAN,4/5/2022,8/23/2022,140
+929142,7/2/2014,AHCC,airway_heights_corrections_center,YAKIMA,12/26/2022,1/30/2023,35
+930668,11/24/2021,WCC-TC,washington_correction_center,SPOKANE,1/3/2022,7/7/2022,185
+931522,8/20/2013,AHCC,airway_heights_corrections_center,KING,8/18/2019,4/4/2022,960
+933005,1/26/2023,WCC-RC,washington_correction_center,SPOKANE,5/3/2023,7/20/2023,78
+933375,9/19/2019,CRCC,coyote_ridge_corrections_center,BENTON,8/21/2022,10/7/2022,47
+933850,6/19/2007,WCC-TC,washington_correction_center,KING,2/25/2022,3/15/2022,18
+937305,2/11/2020,AHCC,airway_heights_corrections_center,KING,3/19/2022,4/18/2022,30
+937380,5/14/1992,WSP-MAIN,washington_state_penitentiary,SPOKANE,11/17/2014,8/20/2022,2833
+939464,3/24/1988,CBCC-CLOSE CUST,clallam_bay_corrections_center,KING,7/16/2014,9/23/2022,2991
+940091,12/21/2021,MCC-SOU,monroe_correctional_complex,CLALLAM,6/26/2023,8/7/2023,42
+940660,3/1/2022,WSP-MSU,washington_state_penitentiary,PIERCE,6/13/2023,7/6/2023,23
+941016,10/12/2017,MCC-SOU,monroe_correctional_complex,KING,9/8/2022,10/4/2022,26
+941472,5/12/2021,WCC-TC,washington_correction_center,BENTON,7/22/2022,11/15/2022,116
+942481,9/29/2017,MCC-SOU,monroe_correctional_complex,KING,6/24/2022,8/21/2023,423
+943021,9/15/1988,CRCC-MSU,coyote_ridge_corrections_center,YAKIMA,4/16/2021,9/6/2022,508
+943857,2/28/1995,WSP-MAIN,washington_state_penitentiary,KING,7/27/2013,6/4/2022,3234
+945578,2/2/2022,WCC-TC,washington_correction_center,KING,2/17/2022,4/27/2022,69
+948029,2/14/2017,WSP-MAIN,washington_state_penitentiary,KING,1/3/2022,1/18/2022,15
+949882,3/17/2023,WCC-RC,washington_correction_center,CLARK,5/13/2023,6/28/2023,46
+952318,3/25/2011,MCC-SOU,monroe_correctional_complex,SNOHOMISH,7/14/2022,5/17/2023,307
+952938,9/15/2021,AHCC,airway_heights_corrections_center,MASON,12/22/2022,2/21/2023,61
+954498,7/10/1990,WCCW,washington_correction_center_for_women,PIERCE,10/3/2022,11/23/2022,51
+954941,3/5/2021,LCC,larch_corrections_center,COWLITZ,3/1/2023,4/5/2023,35
+955472,4/30/2019,AHCC-MSU,airway_heights_corrections_center,KING,12/7/2021,2/15/2022,70
+956427,2/19/2021,SCCC,stafford_creek_corrections_center,CLARK,4/29/2023,5/16/2023,17
+956796,4/20/2004,GRE,other_partial_confinement,PIERCE,12/16/2022,7/14/2023,210
+958710,11/10/2020,CRCC,coyote_ridge_corrections_center,LEWIS,2/27/2022,5/4/2022,66
+959056,8/16/2011,WSP-MSU,washington_state_penitentiary,PIERCE,2/26/2020,9/2/2022,919
+959332,1/25/2022,WCC-RC,washington_correction_center,PIERCE,5/25/2021,2/28/2022,279
+959384,11/9/2021,WCC-RC,washington_correction_center,CLARK,11/9/2021,3/16/2022,127
+960276,3/23/2007,OCC,olympic_corrections_center,CLARK,5/26/2021,10/4/2022,496
+960452,12/16/2021,SOUTH VIOLATOR FACILITY,county_jail,KING,3/5/2019,1/25/2022,1057
+961887,12/17/2019,MCC-TRU,monroe_correctional_complex,KING,3/17/2022,4/4/2022,18
+962128,8/16/2018,MCC-WSR,monroe_correctional_complex,KITSAP,8/17/2021,2/3/2022,170
+962551,3/15/2022,WCC-RC,washington_correction_center,SKAGIT,3/15/2022,5/31/2022,77
+962945,9/25/2022,KITTITAS VIOLATOR FACILITY,county_jail,YAKIMA,4/8/2021,10/11/2022,551
+963534,10/28/2022,SCCC,stafford_creek_corrections_center,SNOHOMISH,12/31/2022,6/11/2023,162
+964548,8/17/2021,CRCC,coyote_ridge_corrections_center,PIERCE,9/20/2022,11/4/2022,45
+966039,9/4/2020,WSP-MSU,washington_state_penitentiary,COWLITZ,3/12/2022,6/15/2022,95
+967659,2/2/2022,WCC-RC,washington_correction_center,KITSAP,2/2/2022,3/16/2022,42
+967970,3/30/2023,WCC-RC,washington_correction_center,KING,3/30/2023,7/25/2023,117
+968022,10/27/2022,CCCC,cedar_creek_corrections_center,CLARK,6/30/2023,7/31/2023,31
+968369,9/17/2021,MCC-TRU,monroe_correctional_complex,SPOKANE,1/11/2022,10/27/2022,289
+970823,12/20/2022,WCC-RC,washington_correction_center,WHATCOM,12/22/2022,3/2/2023,70
+972415,9/17/2020,AHCC,airway_heights_corrections_center,SPOKANE,12/19/2022,1/17/2023,29
+975240,7/26/2012,AHCC,airway_heights_corrections_center,KING,2/5/2023,5/2/2023,86
+975424,2/27/2018,WSP-MSU,washington_state_penitentiary,KING,4/2/2022,5/12/2022,40
+976655,8/3/2021,CRCC,coyote_ridge_corrections_center,PIERCE,6/21/2022,7/18/2022,27
+979395,9/24/1996,CCCC,cedar_creek_corrections_center,KING,3/16/2023,4/20/2023,35
+980797,7/20/2018,MCC-TRU,monroe_correctional_complex,CLARK,11/14/2022,11/28/2022,14
+981166,10/29/2020,WSP-MSU,washington_state_penitentiary,THURSTON,3/7/2023,4/15/2023,39
+981842,1/26/2021,WCC-TC,washington_correction_center,KITSAP,5/13/2023,6/14/2023,32
+982606,10/18/2020,AHCC,airway_heights_corrections_center,KING,2/5/2022,8/10/2022,186
+983285,5/3/2021,WSP-MSU,washington_state_penitentiary,SPOKANE,12/6/2021,9/9/2022,277
+984777,11/25/2008,SCCC,stafford_creek_corrections_center,PIERCE,7/20/2022,8/3/2022,14
+985069,12/9/2022,WCC-RC,washington_correction_center,KING,12/20/2022,1/25/2023,36
+985215,7/20/2022,CRCC,coyote_ridge_corrections_center,YAKIMA,3/21/2023,4/12/2023,22
+987011,7/24/2020,WCC-TC,washington_correction_center,PIERCE,4/14/2023,5/1/2023,17
+987392,7/7/2022,WCC-RC,washington_correction_center,THURSTON,12/14/2022,1/3/2023,20
+987615,5/14/1992,AHCC,airway_heights_corrections_center,SPOKANE,10/23/2021,3/3/2022,131
+987834,8/4/2022,WCC-TC,washington_correction_center,SPOKANE,1/4/2023,2/16/2023,43
+989227,12/9/2021,WCC-TC,washington_correction_center,BENTON,1/16/2022,3/14/2022,57
+992103,3/3/2021,MCC-SOU,monroe_correctional_complex,KING,11/14/2022,5/27/2023,194
+992209,6/1/2017,CRCC,coyote_ridge_corrections_center,KING,10/20/2021,4/20/2022,182
+993227,11/24/2020,MCC-SOU,monroe_correctional_complex,KITSAP,8/8/2022,11/30/2022,114
+993635,11/26/2019,CRCC,coyote_ridge_corrections_center,KING,11/23/2021,1/4/2022,42
+993798,10/8/2010,AHCC,airway_heights_corrections_center,KING,6/14/2022,8/16/2022,63
+996345,11/24/2020,WSP-MSU,washington_state_penitentiary,PIERCE,12/24/2021,2/2/2022,40
+996594,7/10/2018,AHCC,airway_heights_corrections_center,SNOHOMISH,10/26/2021,3/23/2022,148
+996779,12/13/2019,MCC-SOU,monroe_correctional_complex,LEWIS,7/6/2022,10/13/2022,99
