@@ -534,6 +534,46 @@ correlation_late_release_pct_releases_pc
 ```
 There is a very weak negative correlation, meaning counties with higher numbers of releases per capita are marginally less likely to be the release county for inmates held two or more weeks past their ERD.
 
+## Correlation between median rent and late releases as a percentage of total releases.
+
+Is there any correlation between median rent on a county level and the ratio of late releases to total releases in that county between January 2022 and August 2023?
+
+I first need to load my ACS variables. 
+
+```{r}
+#Load ACS5 variables
+acs5 <- load_variables(2021, "acs5", cache = TRUE)
+
+acs5
+```
+I can then create a dataset for median rents by Washington county in 2021.
+
+```{r}
+wa_county_median_rent <- get_acs(geography = "county",
+              variables = c(median_rent = "B25113_001"),
+              state = "WA",
+              year = 2021,
+              geometry = TRUE)
+```
+I then join the median rent dataset with my existing dataset of Washington counties with geometry and late releases as a percentage of all releases using GEOID.
+
+```{r}
+wa_release_county_pop_rent <- wa_all_release_county_pop |> left_join(wa_county_median_rent, join_by(GEOID)) |>
+  rename(median_rent = estimate)
+
+wa_release_county_pop_rent
+```
+I can use the same correlation function to calculate the relationship between a county's median rent and the percentage of all people released to that county between January 2022 and August 2023 who spent two or more weeks in custody past their ERD. 
+
+```{r}
+correlation_late_release_median_rent <- cor(wa_release_county_pop_rent$late_release_pct, 
+                   wa_release_county_pop_rent$median_rent)
+
+correlation_late_release_median_rent
+```
+There is a weak positive correlation between median rent and the ratio of late releases to total releases by county, meaning that counties with higher median rents have marginally higher ratios of late releases to total releases.
+
+
 
 ## Comparing total late releases and late releases per 1,000 inmates at WA DOC facilities/in WA DOC programs.
 
@@ -799,7 +839,6 @@ Between January 2022 and August 2023, one-fifth of all people released from Wash
 That is the core story of this dataset. The release planning process relies on an Earned Release Date -- a date assigned based on an inmate's "good time credits," which they earn through employment, coursework, certification programs or "good behavior" -- as an anchor. A person preparing for release may, for instance, line up a job; their soon-to-be boss will expect them to show up for work shortly after their ERD. A person preparing for release may apply for a reentry housing voucher; that voucher will become effective on their ERD. A person preparing for release may pay to reserve a bed in a recovery home; that bed will be ready for them on their ERD.If they are released after their ERD, release plans unravel. 
 
 The data does not indicate why such a large portion of Washington DOC inmates released from January 2022 to August 2023 spent weeks in custody past their ERD. 
-
 
 It does, however, suggest one place to look: The Washington Correction Center in Shelton. Despite making up roughly 12 percent of Washington's total incarcerated population, the WCC was the final stop for more than a third of people released two or more weeks after their ERD from January 2022 to August 2023. 
 
