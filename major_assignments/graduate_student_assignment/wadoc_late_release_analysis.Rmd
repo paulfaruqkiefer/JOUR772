@@ -445,7 +445,7 @@ total_release_fy23 = (sum(wadoc_all_release_late_release_fy23$total_late_release
 total_release_fy23
 ```
 
-20 percent of all people released from Washington DOC custody in FY 2023 were released more than two weeks after their earned release date. That statistic alone is the start of a story.
+20 percent of all people released from Washington DOC custody in FY 2023 were released more than two weeks after their earned release date.  
 
 
 Now that we have a corresponding percentage for each county, we can make a map.
@@ -467,7 +467,7 @@ wa_late_release_county <- as.data.frame(wa_late_release_county)
 
 head(wa_late_release_county)
 ```
-Now I have the geometry I need to make a basic map of late release percentages by county.
+Now I have the geometry I need to make a basic map of late release ratios by county.
 
 ```{r}
 county_centroids <- st_centroid(wa_counties)
@@ -548,7 +548,7 @@ With only a handful of datapoints for Lincoln and Whitman counties, I am not inc
 
 ## Correlation between median rent and late releases as a percentage of total releases.
 
-Is there any correlation between median rent on a county level and the ratio of late releases to total releases in that county between January 2022 and August 2023?
+Is there any correlation between median rent on a county level and the ratio of late releases to total releases in that county between January 2022 and August 2023? Does median rent data provide a viable stand-in to assess whether housing scarcity impacts whether a person is released from custody on time?
 
 I first need to load my ACS variables. 
 
@@ -575,7 +575,7 @@ wa_release_county_pop_rent <- wa_all_release_county_pop |> left_join(wa_county_m
 
 wa_release_county_pop_rent
 ```
-I can use the same correlation function to calculate the relationship between a county's median rent and the percentage of all people released to that county between January 2022 and August 2023 who spent two or more weeks in custody past their ERD. 
+I calculate the correlation between a county's median rent and the percentage of all people released to that county between January 2022 and August 2023 who spent two or more weeks in custody past their ERD. 
 
 ```{r}
 correlation_late_release_median_rent <- cor(wa_release_county_pop_rent$late_release_pct, 
@@ -585,7 +585,18 @@ correlation_late_release_median_rent
 ```
 There is a weak positive correlation between median rent and the ratio of late releases to total releases by county, meaning that counties with higher median rents have marginally higher ratios of late releases to total releases.
 
+And here is a scatterplot of those datapoints weighted by the number of late releases per county. I clearly need to weight the correlation by the number of releases to get a more accurate assessment of the relationship between late releases and median rent, but I ran into trouble trying to download the R packages needed to run the weighted.cor function.
 
+I imagine that if I weighted by the number of late releases, the correlation would be far more statistically significant.
+
+```{r}
+ggplot(wa_release_county_pop_rent, aes(x = late_release_pct, y = median_rent, label = NAME.y, size = total_late_release)) +
+  geom_point() +
+  geom_text_repel(box.padding = 0.2) +  # Adjust box.padding as needed for label positioning
+  labs(title = "Weak negative correlation between late releases and median rent on county level",
+       x = "Late release ratio",
+       y = "Median rent")
+```
 
 ## Comparing total late releases and late releases per 1,000 inmates at WA DOC facilities/in WA DOC programs.
 
@@ -856,9 +867,11 @@ It does, however, suggest one place to look: The Washington Correction Center in
 
 The data does not indicate how long those people had spent at the WCC, but if they were released from that facility, they were assigned a counselor -- responsible for approving their release plans -- at WCC. Could part of the problem lay in the release planners or administrators at WCC?
 
-Factors outside the control of the WA DOC may also play into the alarming number of late releases. Housing shortages -- both rural and urban -- could be a factor. That said, there is relatively little difference between the rate of late releases (as a percentage of all releases) in a wealthy county like King County and a poor county like Grey's Harbor County. If I could find people released late to each county, could I ascertain how/if barriers to timely release differ between wealthy and poor counties?
+Factors outside the control of the WA DOC may also play into the alarming number of late releases. Housing shortages -- both rural and urban -- could be a factor. That said, there is relatively little difference between the rate of late releases (as a percentage of all releases) in a wealthy county like King County and a poor county like Gray's Harbor County. If I could find people released late to each county, could I ascertain how/if barriers to timely release differ between wealthy and poor counties?
 
-That said, my comparisons are limited by mismatched timelines, mismatched categories and the absence of data about releases by facility.
+My initial calculation of the correlation between median rent and the ratio of late releases to total releases by county indicated a statistically insignificant relationship, but a scatterplot of the same data weighted by the number of late releases to each county suggested that there may be a much stronger correlation that I initially calculated. What role does housing scarcity play in late releases?
+
+Unfortunately, the scope of my comparisons are limited by mismatched timelines, mismatched categories and the absence of data about releases by facility. Calculating the mean populations for each DOC facility/program with data for the first six months of 2022 as a point of comparison for late releases was certainly not ideal.
 
 
 
