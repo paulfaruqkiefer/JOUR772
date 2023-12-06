@@ -585,9 +585,7 @@ correlation_late_release_median_rent
 ```
 There is a weak positive correlation between median rent and the ratio of late releases to total releases by county, meaning that counties with higher median rents have marginally higher ratios of late releases to total releases.
 
-And here is a scatterplot of those datapoints weighted by the number of late releases per county. I clearly need to weight the correlation by the number of releases to get a more accurate assessment of the relationship between late releases and median rent, but I ran into trouble trying to download the R packages needed to run the weighted.cor function.
-
-I imagine that if I weighted by the number of late releases, the correlation would be far more statistically significant.
+And here is a scatterplot of those datapoints weighted by the number of late releases per county. 
 
 ```{r}
 ggplot(wa_release_county_pop_rent, aes(x = late_release_pct, y = median_rent, label = NAME.y, size = total_late_release)) +
@@ -869,7 +867,6 @@ The data does not indicate how long those people had spent at the WCC, but if th
 
 Factors outside the control of the WA DOC may also play into the alarming number of late releases. Housing shortages -- both rural and urban -- could be a factor. That said, there is relatively little difference between the rate of late releases (as a percentage of all releases) in a wealthy county like King County and a poor county like Gray's Harbor County. If I could find people released late to each county, could I ascertain how/if barriers to timely release differ between wealthy and poor counties?
 
-My initial calculation of the correlation between median rent and the ratio of late releases to total releases by county indicated a statistically insignificant relationship, but a scatterplot of the same data weighted by the number of late releases to each county suggested that there may be a much stronger correlation that I initially calculated. What role does housing scarcity play in late releases?
 
 Unfortunately, the scope of my comparisons are limited by mismatched timelines, mismatched categories and the absence of data about releases by facility. Calculating the mean populations for each DOC facility/program with data for the first six months of 2022 as a point of comparison for late releases was certainly not ideal.
 
