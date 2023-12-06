@@ -593,7 +593,7 @@ I imagine that if I weighted by the number of late releases, the correlation wou
 ggplot(wa_release_county_pop_rent, aes(x = late_release_pct, y = median_rent, label = NAME.y, size = total_late_release)) +
   geom_point() +
   geom_text_repel(box.padding = 0.2) +  # Adjust box.padding as needed for label positioning
-  labs(title = "Weak negative correlation between late releases and median rent on county level",
+  labs(title = "Correlation between late releases and median rent on county level",
        x = "Late release ratio",
        y = "Median rent")
 ```
